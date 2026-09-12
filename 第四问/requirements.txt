@@ -1,4 +1,0 @@
-# Core policy, HTTP client, emulator and tests use the Python standard library.
-# Only experiment figures need these packages:
-numpy>=1.24
-matplotlib>=3.9

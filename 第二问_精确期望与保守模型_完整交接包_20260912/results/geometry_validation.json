@@ -1,0 +1,31 @@
+{
+  "case_count": 360,
+  "independent_reference": "Shapely, sector arcs 1024 subdivisions, near circle 4096 edges",
+  "max_errors": {
+    "area_error": 7.5754651334136724e-06,
+    "diameter_error": 1.4702986845804844e-06,
+    "near_area_error": 3.0801964427951134e-05,
+    "near_diameter_error": 4.0909004077605005e-06,
+    "mec_radius_error": 7.351495128204988e-07
+  },
+  "worst_diameter_case": {
+    "case": 76,
+    "a": 659.7954373694985,
+    "b": 7.8840002064445915,
+    "area_error": 2.249318640679121e-06,
+    "diameter_error": 1.4702986845804844e-06,
+    "mec_radius_error": 7.351495128204988e-07,
+    "near_area_error": 2.337388160356113e-05,
+    "near_diameter_error": 1.0658141036401503e-13
+  },
+  "worst_near_case": {
+    "case": 169,
+    "a": 196.40623445646062,
+    "b": 8.210530513378915,
+    "area_error": 2.282618538629322e-13,
+    "diameter_error": 1.7763568394002505e-15,
+    "mec_radius_error": 1.2878587085651816e-14,
+    "near_area_error": 2.9095251330990557e-06,
+    "near_diameter_error": 4.0909004077605005e-06
+  }
+}

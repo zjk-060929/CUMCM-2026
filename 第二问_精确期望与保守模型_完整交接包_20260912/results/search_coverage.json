@@ -1,0 +1,499 @@
+{
+  "grid_points": 3240,
+  "length_range_m": [
+    25,
+    1000
+  ],
+  "fractions_of_full_feasible_angle": 81,
+  "profiles": [
+    {
+      "length_m": 25.0,
+      "mean": 969.1006761475007,
+      "conservative": 1118.508721286774
+    },
+    {
+      "length_m": 50.0,
+      "mean": 731.1599259641494,
+      "conservative": 879.1776675203743
+    },
+    {
+      "length_m": 75.0,
+      "mean": 589.2503744868411,
+      "conservative": 717.4260856880107
+    },
+    {
+      "length_m": 100.0,
+      "mean": 493.9605070170581,
+      "conservative": 602.0281261025867
+    },
+    {
+      "length_m": 125.0,
+      "mean": 425.20966701684927,
+      "conservative": 515.9511521832164
+    },
+    {
+      "length_m": 150.0,
+      "mean": 373.11016297997014,
+      "conservative": 450.0114698649465
+    },
+    {
+      "length_m": 175.0,
+      "mean": 332.1795665189717,
+      "conservative": 397.64315940153347
+    },
+    {
+      "length_m": 200.0,
+      "mean": 299.12503945262193,
+      "conservative": 355.46487540588987
+    },
+    {
+      "length_m": 225.0,
+      "mean": 271.8268301259483,
+      "conservative": 320.47243300550997
+    },
+    {
+      "length_m": 250.0,
+      "mean": 248.88180937636386,
+      "conservative": 291.39501667235334
+    },
+    {
+      "length_m": 275.0,
+      "mean": 229.28358084725832,
+      "conservative": 266.5089172432587
+    },
+    {
+      "length_m": 300.0,
+      "mean": 212.34514528737077,
+      "conservative": 245.32193752259167
+    },
+    {
+      "length_m": 325.0,
+      "mean": 197.54467686270277,
+      "conservative": 226.74365130655502
+    },
+    {
+      "length_m": 350.0,
+      "mean": 184.48877561430248,
+      "conservative": 210.4837702392516
+    },
+    {
+      "length_m": 375.0,
+      "mean": 172.8729194242282,
+      "conservative": 196.1215210941488
+    },
+    {
+      "length_m": 400.0,
+      "mean": 162.46135215581754,
+      "conservative": 183.33083230219805
+    },
+    {
+      "length_m": 425.0,
+      "mean": 153.07606414128293,
+      "conservative": 171.87711794923382
+    },
+    {
+      "length_m": 450.0,
+      "mean": 144.5685858465618,
+      "conservative": 161.56124646618778
+    },
+    {
+      "length_m": 475.0,
+      "mean": 136.81866172306977,
+      "conservative": 152.22198732445304
+    },
+    {
+      "length_m": 500.0,
+      "mean": 129.7284104616505,
+      "conservative": 143.6937976176615
+    },
+    {
+      "length_m": 525.0,
+      "mean": 123.21052099020002,
+      "conservative": 135.9311790548259
+    },
+    {
+      "length_m": 550.0,
+      "mean": 117.20524204391458,
+      "conservative": 128.8103905286363
+    },
+    {
+      "length_m": 575.0,
+      "mean": 111.65798863373325,
+      "conservative": 122.21651343216351
+    },
+    {
+      "length_m": 600.0,
+      "mean": 106.51951078208968,
+      "conservative": 116.1493947486111
+    },
+    {
+      "length_m": 625.0,
+      "mean": 101.75354711133338,
+      "conservative": 110.57778577912322
+    },
+    {
+      "length_m": 650.0,
+      "mean": 97.3274537487992,
+      "conservative": 105.42026684701071
+    },
+    {
+      "length_m": 675.0,
+      "mean": 93.211233600169,
+      "conservative": 100.5873206796945
+    },
+    {
+      "length_m": 700.0,
+      "mean": 89.38423902179173,
+      "conservative": 96.17169275211239
+    },
+    {
+      "length_m": 725.0,
+      "mean": 85.82608531747228,
+      "conservative": 92.01955858175583
+    },
+    {
+      "length_m": 750.0,
+      "mean": 82.5215501859678,
+      "conservative": 88.22865621654202
+    },
+    {
+      "length_m": 775.0,
+      "mean": 79.456967456308,
+      "conservative": 84.67151571028921
+    },
+    {
+      "length_m": 800.0,
+      "mean": 76.61786266769903,
+      "conservative": 81.4035480718917
+    },
+    {
+      "length_m": 825.0,
+      "mean": 73.99496800891114,
+      "conservative": 78.39446687046653
+    },
+    {
+      "length_m": 850.0,
+      "mean": 71.58661309858897,
+      "conservative": 75.61652161212932
+    },
+    {
+      "length_m": 875.0,
+      "mean": 69.37752318829492,
+      "conservative": 73.06884070871861
+    },
+    {
+      "length_m": 900.0,
+      "mean": 67.3703995076675,
+      "conservative": 70.76964694258338
+    },
+    {
+      "length_m": 925.0,
+      "mean": 65.54968174742187,
+      "conservative": 68.67827707263855
+    },
+    {
+      "length_m": 950.0,
+      "mean": 63.918892378766756,
+      "conservative": 66.7918348162421
+    },
+    {
+      "length_m": 975.0,
+      "mean": 62.47066940070508,
+      "conservative": 65.1137712056773
+    },
+    {
+      "length_m": 1000.0,
+      "mean": 61.198431312205926,
+      "conservative": 63.64615976130409
+    }
+  ],
+  "grid_mean_best": {
+    "a_m": 863.9453910780791,
+    "b_m": 503.58550538607136,
+    "travel_m": 1000.0,
+    "heading_deg": 30.237500000000008,
+    "move_measure_time_s": 205.0,
+    "mean_diameter_m": 61.198431312205926,
+    "conservative_mean_m": 63.64615976130409,
+    "observation_mass": 0.9999999678714165,
+    "true_bearing_mass": 0.999992947048544,
+    "near_probability": 0.0,
+    "near_diameter_m": 0.0,
+    "n_true_grid": 2049,
+    "angle_step_deg": 0.055039595127497704
+  },
+  "grid_conservative_best": {
+    "a_m": 863.9453910780791,
+    "b_m": 503.58550538607136,
+    "travel_m": 1000.0,
+    "heading_deg": 30.237500000000008,
+    "move_measure_time_s": 205.0,
+    "mean_diameter_m": 61.198431312205926,
+    "conservative_mean_m": 63.64615976130409,
+    "observation_mass": 0.9999999678714165,
+    "true_bearing_mass": 0.999992947048544,
+    "near_probability": 0.0,
+    "near_diameter_m": 0.0,
+    "n_true_grid": 2049,
+    "angle_step_deg": 0.055039595127497704
+  },
+  "short_distance_checks": [
+    {
+      "a_m": 0.0,
+      "b_m": 0.0,
+      "travel_m": 0.0,
+      "heading_deg": 0.0,
+      "move_measure_time_s": 5.0,
+      "mean_diameter_m": 1495.0034439649448,
+      "conservative_mean_m": 1502.8503621289544,
+      "observation_mass": 1.0000012814998591,
+      "true_bearing_mass": 1.0052490234375009,
+      "near_probability": 0.0,
+      "near_diameter_m": 0.0,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.010986328125
+    },
+    {
+      "a_m": 0.0,
+      "b_m": 0.0,
+      "travel_m": 0.0,
+      "heading_deg": 0.0,
+      "move_measure_time_s": 5.0,
+      "mean_diameter_m": 1495.0034439649448,
+      "conservative_mean_m": 1502.8503621289544,
+      "observation_mass": 1.0000012814998591,
+      "true_bearing_mass": 1.0052490234375009,
+      "near_probability": 0.0,
+      "near_diameter_m": 0.0,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.010986328125
+    },
+    {
+      "a_m": 0.0,
+      "b_m": 0.0,
+      "travel_m": 0.0,
+      "heading_deg": 0.0,
+      "move_measure_time_s": 5.0,
+      "mean_diameter_m": 1495.0034439649448,
+      "conservative_mean_m": 1502.8503621289544,
+      "observation_mass": 1.0000012814998591,
+      "true_bearing_mass": 1.0052490234375009,
+      "near_probability": 0.0,
+      "near_diameter_m": 0.0,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.010986328125
+    },
+    {
+      "a_m": 1.0,
+      "b_m": 0.0,
+      "travel_m": 1.0,
+      "heading_deg": 0.0,
+      "move_measure_time_s": 5.2,
+      "mean_diameter_m": 1493.9954342421784,
+      "conservative_mean_m": 1499.9397433873999,
+      "observation_mass": 1.0000009713097548,
+      "true_bearing_mass": 1.0039784611782139,
+      "near_probability": 4.888618291915793e-06,
+      "near_diameter_m": 1.0179311232787553,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.010986328125
+    },
+    {
+      "a_m": 0.7134256541866542,
+      "b_m": 0.7007309297785739,
+      "travel_m": 1.0,
+      "heading_deg": 44.4856760545249,
+      "move_measure_time_s": 5.2,
+      "mean_diameter_m": 1473.1371411730206,
+      "conservative_mean_m": 1485.6733263889764,
+      "observation_mass": 0.9999999863014497,
+      "true_bearing_mass": 0.999943851789916,
+      "near_probability": 3.147346666688553e-06,
+      "near_diameter_m": 0.7030083717678192,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.010986328125
+    },
+    {
+      "a_m": 0.017952328103310797,
+      "b_m": 0.9998388439722029,
+      "travel_m": 1.0,
+      "heading_deg": 88.9713521090498,
+      "move_measure_time_s": 5.2,
+      "mean_diameter_m": 1462.6521074641478,
+      "conservative_mean_m": 1480.4140324959874,
+      "observation_mass": 0.9999999979570752,
+      "true_bearing_mass": 0.9999916227685188,
+      "near_probability": 0.0,
+      "near_diameter_m": 0.0,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.010986328125
+    },
+    {
+      "a_m": 5.0,
+      "b_m": 0.0,
+      "travel_m": 5.0,
+      "heading_deg": 0.0,
+      "move_measure_time_s": 6.0,
+      "mean_diameter_m": 1489.9273427756177,
+      "conservative_mean_m": 1490.3851250101916,
+      "observation_mass": 1.0000000707321286,
+      "true_bearing_mass": 1.0002891293520235,
+      "near_probability": 3.332919108194563e-05,
+      "near_diameter_m": 5.004565900795646,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.010986328125
+    },
+    {
+      "a_m": 3.570630145955191,
+      "b_m": 3.5000857647772015,
+      "travel_m": 5.0,
+      "heading_deg": 44.42838020100456,
+      "move_measure_time_s": 6.0,
+      "mean_diameter_m": 1379.4207494020038,
+      "conservative_mean_m": 1430.7531278693211,
+      "observation_mass": 0.9999999778263161,
+      "true_bearing_mass": 0.9999091895472506,
+      "near_probability": 1.1554526596321914e-05,
+      "near_diameter_m": 2.272098971048034,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.010986328125
+    },
+    {
+      "a_m": 0.09975985568159594,
+      "b_m": 4.999004698056843,
+      "travel_m": 5.0,
+      "heading_deg": 88.85676040200912,
+      "move_measure_time_s": 6.0,
+      "mean_diameter_m": 1338.7496197758492,
+      "conservative_mean_m": 1406.7316612272182,
+      "observation_mass": 0.9999999989351029,
+      "true_bearing_mass": 0.9999956377257532,
+      "near_probability": 0.0,
+      "near_diameter_m": 0.0,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.010986328125
+    },
+    {
+      "a_m": 10.0,
+      "b_m": 0.0,
+      "travel_m": 10.0,
+      "heading_deg": 0.0,
+      "move_measure_time_s": 7.0,
+      "mean_diameter_m": 1484.7618927414255,
+      "conservative_mean_m": 1483.1093885803962,
+      "observation_mass": 0.9999997119975423,
+      "true_bearing_mass": 0.9988120566882197,
+      "near_probability": 8.886731156822169e-05,
+      "near_diameter_m": 10.0,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.010986328125
+    },
+    {
+      "a_m": 7.150004988657775,
+      "b_m": 6.991239422460721,
+      "travel_m": 10.0,
+      "heading_deg": 44.35675995437954,
+      "move_measure_time_s": 7.0,
+      "mean_diameter_m": 1282.0649190888555,
+      "conservative_mean_m": 1366.7064215952605,
+      "observation_mass": 0.999999998009698,
+      "true_bearing_mass": 0.999994958066739,
+      "near_probability": 0.0,
+      "near_diameter_m": 0.0,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.0032971081733998452
+    },
+    {
+      "a_m": 0.22451426756621543,
+      "b_m": 9.997479349499013,
+      "travel_m": 10.0,
+      "heading_deg": 88.71351990875908,
+      "move_measure_time_s": 7.0,
+      "mean_diameter_m": 1217.6151047115752,
+      "conservative_mean_m": 1323.5597428631472,
+      "observation_mass": 1.0000000000006508,
+      "true_bearing_mass": 0.9999999389428245,
+      "near_probability": 0.0,
+      "near_diameter_m": 0.0,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.0019922650635284
+    }
+  ],
+  "radial_boundary_checks": [
+    {
+      "a_m": 821.6442760016579,
+      "b_m": 476.8654775864064,
+      "travel_m": 950.0,
+      "heading_deg": 30.130000000000003,
+      "move_measure_time_s": 195.0,
+      "mean_diameter_m": 63.93947174816975,
+      "conservative_mean_m": 66.8220341931314,
+      "observation_mass": 0.999999999982444,
+      "true_bearing_mass": 0.9999999583035561,
+      "near_probability": 0.0,
+      "near_diameter_m": 0.0,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.0035435275289147383
+    },
+    {
+      "a_m": 856.2398244648856,
+      "b_m": 496.9440240110972,
+      "travel_m": 990.0,
+      "heading_deg": 30.129999999999995,
+      "move_measure_time_s": 203.0,
+      "mean_diameter_m": 61.6866273262645,
+      "conservative_mean_m": 64.21494103815556,
+      "observation_mass": 1.0000000000070446,
+      "true_bearing_mass": 0.9999999690486452,
+      "near_probability": 0.0,
+      "near_diameter_m": 0.0,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.0034650197639631685
+    },
+    {
+      "a_m": 860.5642680227891,
+      "b_m": 499.4538423141836,
+      "travel_m": 995.0,
+      "heading_deg": 30.130000000000003,
+      "move_measure_time_s": 204.0,
+      "mean_diameter_m": 61.43879346313119,
+      "conservative_mean_m": 63.927635070935935,
+      "observation_mass": 0.9999999999926578,
+      "true_bearing_mass": 0.999999958559273,
+      "near_probability": 0.0,
+      "near_diameter_m": 0.0,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.003454975019860726
+    },
+    {
+      "a_m": 864.0238228691118,
+      "b_m": 501.46169695665264,
+      "travel_m": 999.0,
+      "heading_deg": 30.130000000000003,
+      "move_measure_time_s": 204.8,
+      "mean_diameter_m": 61.24569124394212,
+      "conservative_mean_m": 63.702790490175914,
+      "observation_mass": 0.9999999999918834,
+      "true_bearing_mass": 0.9999999710427527,
+      "near_probability": 0.0,
+      "near_diameter_m": 0.0,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.003446902839361056
+    },
+    {
+      "a_m": 864.8887115806924,
+      "b_m": 501.9636606172699,
+      "travel_m": 999.9999999999999,
+      "heading_deg": 30.130000000000003,
+      "move_measure_time_s": 204.99999999999997,
+      "mean_diameter_m": 61.19812647292842,
+      "conservative_mean_m": 63.647573823810305,
+      "observation_mass": 0.9999999999878162,
+      "true_bearing_mass": 0.9999999653143472,
+      "near_probability": 0.0,
+      "near_diameter_m": 0.0,
+      "n_true_grid": 32769,
+      "angle_step_deg": 0.0034448797609265857
+    }
+  ]
+}

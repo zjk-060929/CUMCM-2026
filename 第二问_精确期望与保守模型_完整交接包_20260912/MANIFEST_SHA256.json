@@ -1,0 +1,202 @@
+{
+  "created_local": "2026-09-12T22:56:23",
+  "scope": "Second observation point: exact expected diameter and per-source worst-error expectation",
+  "python_version_used": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 19,
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    {
+      "path": "00_先读我.md",
+      "bytes": 1968,
+      "sha256": "da0733091fc9a99d2fd6de901cbce0222017020040b868da74e84cd6e42a827f"
+    },
+    {
+      "path": "01_运行与文件说明.md",
+      "bytes": 5199,
+      "sha256": "804fe5df799581402916ae311ce92bfab91d3662836d6815fc6fa3478630eab0"
+    },
+    {
+      "path": "benchmark.py",
+      "bytes": 2226,
+      "sha256": "240b07abdd3ab4542d79ee01421d18680a1d7e219a96636471e715db45510402"
+    },
+    {
+      "path": "final_checks.py",
+      "bytes": 4510,
+      "sha256": "cc7d9f04d647989ebcae44b729cd2cf4df19cfa6f36b0632a03a88b75a441951"
+    },
+    {
+      "path": "geometry.py",
+      "bytes": 12411,
+      "sha256": "b2b1e68af705b6c72d0e5a948a5ff18693a19b36e65cc2b6cc6c001296baa44a"
+    },
+    {
+      "path": "make_report.py",
+      "bytes": 20029,
+      "sha256": "a14979cb95ce74d4d7f72f7e4501e6588ba8e300870b7f42b82b8bcbec93e049"
+    },
+    {
+      "path": "objectives.py",
+      "bytes": 6014,
+      "sha256": "76334985ff0cd69be88b5f6fd522e29111b3c2a7e6b9500865623a34c069525a"
+    },
+    {
+      "path": "README_结果与推导.md",
+      "bytes": 16009,
+      "sha256": "b36f08566c1ac8351f1643be91bc116faea4cd730265c66fe1e50a5a26e7efe6"
+    },
+    {
+      "path": "refine.py",
+      "bytes": 1332,
+      "sha256": "dd50823d5066d6b04e4637bb5e03a71b5a22bf58ab0033cec3ea917701c54711"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 75,
+      "sha256": "c79d1ca911a609b5741c1221935f7baa18ad3656defc69f95fc7ec48d61decc9"
+    },
+    {
+      "path": "results/45deg_1000m_angular_distribution.npz",
+      "bytes": 4798601,
+      "sha256": "c77f25594f23d7dac34d9e89a4da12cebe8aeaf1d4959a84563040afb429d979"
+    },
+    {
+      "path": "results/59deg_1000m_angular_distribution.npz",
+      "bytes": 4811442,
+      "sha256": "f39317bee6df4e40a48fcebeaf8fc3e628135dccc262a9117f193aafa1e47a37"
+    },
+    {
+      "path": "results/angle_profile.csv",
+      "bytes": 18363,
+      "sha256": "dd643fc189fece24c7f358a04561b4ac737b5b5bcb198802a4e58dd506d168b3"
+    },
+    {
+      "path": "results/chart_notes.json",
+      "bytes": 871,
+      "sha256": "aa6c0aa1faf15fb9f4a7a52a8d4d279031c8d8bb7c8ae2f0c09ef9d73ddfe5b3"
+    },
+    {
+      "path": "results/conservative_optimum_angular_distribution.npz",
+      "bytes": 4766973,
+      "sha256": "e1bc51f8bece971650b4b3ecbd59fd089aa39b9e1c78a2e5d16bb34c351936a5"
+    },
+    {
+      "path": "results/figures/angle_objectives.png",
+      "bytes": 151480,
+      "sha256": "49600b7ba04594c99218fd0ba2d372ad496143300ec4e79f87f81ea76daac177"
+    },
+    {
+      "path": "results/figures/diameter_cdf.png",
+      "bytes": 127294,
+      "sha256": "c82ca4cfc4087c55f3f37d558ff5119f5df0ee89bb40b40b62d4cae51db66876"
+    },
+    {
+      "path": "results/figures/policy_comparison.png",
+      "bytes": 101514,
+      "sha256": "c32dd2a8b20f4ad8094cb3b4974135ca8f2ff63cb9b0917141e1c2c622077d12"
+    },
+    {
+      "path": "results/geometry_validation.json",
+      "bytes": 1070,
+      "sha256": "1a7415ad6deb1f1f5fb4035d1eda01012d912f6591248dc347024cfceb829107"
+    },
+    {
+      "path": "results/mean_angle_750m_angular_distribution.npz",
+      "bytes": 4801469,
+      "sha256": "9f0ab2438a04bc6d3b6db71251cf62bf2db76780da6225e4d4d1edc8d74e66f1"
+    },
+    {
+      "path": "results/mean_optimum_angular_distribution.npz",
+      "bytes": 4778310,
+      "sha256": "4ee86c47e9c42c00e78f9f3dabd1bef94868591b0329b4ad03c5b152ee10a3e8"
+    },
+    {
+      "path": "results/optima_initial.json",
+      "bytes": 1202,
+      "sha256": "4d68ad5392a4faaf9744a12b87d7ec335fa5ec961e8e1ad5ed51faa3f5daea53"
+    },
+    {
+      "path": "results/optima_refined.json",
+      "bytes": 3399,
+      "sha256": "6b1de33b9b48c03d514219c006cefb948eb9d0f354a188cfbef949163d1b6d92"
+    },
+    {
+      "path": "results/optimization_history.csv",
+      "bytes": 296317,
+      "sha256": "383d3b0a868a01ee80bf23ac63d7e34fcf5ecfc664fb5af262247e6eecd69945"
+    },
+    {
+      "path": "results/original_35deg_1000m_angular_distribution.npz",
+      "bytes": 4786086,
+      "sha256": "5dd692709f6efc4c22decdcc202f2de073739e8734b8fee6bd322f232689297e"
+    },
+    {
+      "path": "results/original_35deg_750m_angular_distribution.npz",
+      "bytes": 4814606,
+      "sha256": "f9f3fbde3647254263b428cca5cdd8b5f13bb43d8031e2c124c8d8a4750821db"
+    },
+    {
+      "path": "results/paired_200000_scenes.npz",
+      "bytes": 25609985,
+      "sha256": "64d8dceb767e97a2e0a444448cdd53c4bb57a0491c42e7da6b62d535448a5a15"
+    },
+    {
+      "path": "results/paired_monte_carlo.json",
+      "bytes": 10052,
+      "sha256": "d1d308c05dbb3164d11ac90e1f1cbe6d615c2bcfc51cb52782b2b4a146123c64"
+    },
+    {
+      "path": "results/policy_comparison.csv",
+      "bytes": 9764,
+      "sha256": "58e3c0678fc2b3a5b45048bd0fa31d2dce9d30ef332395c5a836c07cfbe857d8"
+    },
+    {
+      "path": "results/policy_statistics.json",
+      "bytes": 42148,
+      "sha256": "1794bd719c559a9491048d668a9f764b8ca48f1b85cc12f9da96e349b0b5acf3"
+    },
+    {
+      "path": "results/quadrature_convergence.json",
+      "bytes": 4237,
+      "sha256": "a28fe526f511d4467392ab5ca35e1085a2757c902847f7c6ab5c33c178d75198"
+    },
+    {
+      "path": "results/rounded_reoptimization.json",
+      "bytes": 1918,
+      "sha256": "1db60939aed890fd2d530383cda7fd3a65d53251a47b2bbec189c7a93151e5b6"
+    },
+    {
+      "path": "results/rounding_validation.json",
+      "bytes": 5102,
+      "sha256": "9b235c392b94c3b322bb62b1d251e42a9551da45d73980bed10ed6f01f071289"
+    },
+    {
+      "path": "results/search_coverage.json",
+      "bytes": 14442,
+      "sha256": "cbf63d35ac8ef1e3f63281269dba7d9cf106a5f8832d4286519be4b8205a1cec"
+    },
+    {
+      "path": "run_reproduce.py",
+      "bytes": 1857,
+      "sha256": "4b52e41b78c41875897f92e08c2d85aa30fb844f2324d0ab04ddca8ee0b9c15f"
+    },
+    {
+      "path": "solve.py",
+      "bytes": 2246,
+      "sha256": "b5573c4a1dc04767054752db54e4793509f8c716fb3764f029a9f9c134979ae2"
+    },
+    {
+      "path": "statistics_run.py",
+      "bytes": 5556,
+      "sha256": "32e49d49b8dd2f7d608c28bca447fd7b87f6d69eae96963c2ab61834ef8d7ee0"
+    },
+    {
+      "path": "validate_geometry.py",
+      "bytes": 3280,
+      "sha256": "3c2b3b39ee072bc7058672245994f14cb040dc9ce8ac69ce872a40ff9bd30ed3"
+    }
+  ]
+}

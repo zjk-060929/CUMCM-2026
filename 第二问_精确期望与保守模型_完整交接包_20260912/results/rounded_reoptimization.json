@@ -1,0 +1,60 @@
+{
+  "optimized": [
+    {
+      "metric": "mean",
+      "heading_deg": 30.093842480659816,
+      "length_m": 1000.0,
+      "a_m": 865.2053124240434,
+      "b_m": 501.41775731740245,
+      "values_order5": {
+        "mean": 61.30372723060419,
+        "conservative": 63.75704516729735,
+        "observation_mass": 0.9999999999999781,
+        "source_mass": 1.0000000000036928
+      },
+      "values_order9": {
+        "mean": 61.30372723070553,
+        "conservative": 63.75704516729735,
+        "observation_mass": 0.9999999999999779,
+        "source_mass": 1.0000000000036928
+      },
+      "scope": "Local angle reoptimization near continuous optimum on L=1000; no global rounded optimum certificate."
+    },
+    {
+      "metric": "conservative",
+      "heading_deg": 29.941754524620354,
+      "length_m": 1000.0,
+      "a_m": 866.5332438704967,
+      "b_m": 499.11936174353553,
+      "values_order5": {
+        "mean": 61.30441928966037,
+        "conservative": 63.75629712068766,
+        "observation_mass": 0.9999999999999781,
+        "source_mass": 1.0000000000036326
+      },
+      "values_order9": {
+        "mean": 61.304419289830314,
+        "conservative": 63.75629712068766,
+        "observation_mass": 0.9999999999999779,
+        "source_mass": 1.0000000000036326
+      },
+      "scope": "Local angle reoptimization near continuous optimum on L=1000; no global rounded optimum certificate."
+    }
+  ],
+  "continuous_optima_rounded": [
+    {
+      "mean": 61.30375190328293,
+      "conservative": 63.75662995797071,
+      "observation_mass": 0.9999999999999779,
+      "source_mass": 1.0000000000035214
+    },
+    {
+      "mean": 61.303759986216505,
+      "conservative": 63.75661127287923,
+      "observation_mass": 0.9999999999999779,
+      "source_mass": 1.0000000000036207
+    }
+  ],
+  "rounding_deg": 0.01,
+  "posterior_half_angle_deg": 1.005
+}

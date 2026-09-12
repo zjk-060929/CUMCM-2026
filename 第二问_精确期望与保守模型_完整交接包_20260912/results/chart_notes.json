@@ -1,0 +1,23 @@
+[
+  {
+    "question": "两个目标随第二点角度如何变化？",
+    "family": "line",
+    "data": "241 angles, L=1000 m; exact circle geometry with 8193-node quadrature",
+    "palette": "blue mean / orange conservative, solid / dashed",
+    "path": "angle_objectives.png"
+  },
+  {
+    "question": "各方案的定位直径分布如何？",
+    "family": "ECDF line",
+    "data": "131073-angle quadrature weighted by observation probability; three selected policies",
+    "palette": "blue focal / dark gray old / orange 45-degree, differing line styles",
+    "path": "diameter_cdf.png"
+  },
+  {
+    "question": "各方案平均值和尾部如何比较？",
+    "family": "horizontal grouped bar",
+    "data": "7 policies, mean and q95 diameter",
+    "palette": "blue mean / orange q95; zero baseline",
+    "path": "policy_comparison.png"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "a_m": 864.874431821365,
+    "b_m": 501.98826398798525,
+    "travel_m": 1000.0,
+    "heading_deg": 30.131629898647184,
+    "move_measure_time_s": 205.0,
+    "mean_diameter_m": 61.19812640631096,
+    "conservative_mean_m": 63.647570811145386,
+    "observation_mass": 0.9999999999882105,
+    "true_bearing_mass": 0.9999999660992174,
+    "near_probability": 0.0,
+    "near_diameter_m": 0.0,
+    "n_true_grid": 32769,
+    "angle_step_deg": 0.0034448052852811203,
+    "objective": "mean_diameter_m",
+    "length_parameter": 1000.0,
+    "angle_fraction": 0.5107055915024945
+  },
+  {
+    "a_m": 864.5620604660974,
+    "b_m": 502.52606261030496,
+    "travel_m": 1000.0,
+    "heading_deg": 30.16726415342445,
+    "move_measure_time_s": 205.0,
+    "mean_diameter_m": 61.19816097868245,
+    "conservative_mean_m": 63.6476332943418,
+    "observation_mass": 0.9999999999937742,
+    "true_bearing_mass": 0.999999962690723,
+    "near_probability": 0.0,
+    "near_diameter_m": 0.0,
+    "n_true_grid": 32769,
+    "angle_step_deg": 0.0034431778492905107,
+    "objective": "conservative_mean_m",
+    "length_parameter": 1000.0,
+    "angle_fraction": 0.5113095619224483
+  }
+]
