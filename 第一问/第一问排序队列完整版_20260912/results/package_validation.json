@@ -1,0 +1,63 @@
+{
+  "cli_cases": [
+    {
+      "input": "example_input.json",
+      "status": "polygon",
+      "exit_code": 0,
+      "matches_saved_result": true
+    },
+    {
+      "input": "counterexample_input.json",
+      "status": "polygon",
+      "exit_code": 0,
+      "matches_saved_result": true
+    },
+    {
+      "input": "point_input.json",
+      "status": "point",
+      "exit_code": 0,
+      "matches_saved_result": true
+    },
+    {
+      "input": "segment_input.json",
+      "status": "segment",
+      "exit_code": 0,
+      "matches_saved_result": true
+    },
+    {
+      "input": "examples/empty_input.json",
+      "status": "empty",
+      "exit_code": 2,
+      "matches_saved_result": true
+    },
+    {
+      "input": "examples/unbounded_input.json",
+      "status": "unbounded",
+      "exit_code": 2,
+      "matches_saved_result": true
+    },
+    {
+      "input": "examples/parallel_strip_input.json",
+      "status": "unbounded",
+      "exit_code": 2,
+      "matches_saved_result": true
+    },
+    {
+      "input": "examples/thin_triangle_input.json",
+      "status": "polygon",
+      "exit_code": 0,
+      "matches_saved_result": true
+    }
+  ],
+  "cli_failure_count": 0,
+  "python_sources_parse": true,
+  "json_files_parse": true,
+  "png_verified_count": 19,
+  "svg_xml_verified_count": 19,
+  "markdown_image_links_valid": true,
+  "report_pages": 11,
+  "report_all_pages_rendered_and_visually_reviewed": true,
+  "pdf_render_tool": "Poppler pdftoppm, 120 dpi; latest modified page re-rendered",
+  "reference_source_copies_match": true,
+  "official_simulator_used": false
+}

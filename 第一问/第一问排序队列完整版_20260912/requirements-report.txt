@@ -1,0 +1,3 @@
+-r requirements.txt
+reportlab>=4.0
+pypdfium2>=4.0

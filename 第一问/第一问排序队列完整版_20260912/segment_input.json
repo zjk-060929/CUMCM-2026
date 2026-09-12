@@ -1,0 +1,25 @@
+{
+  "error_deg": 1.0,
+  "measurements": [
+    {
+      "x": -100,
+      "y": 0,
+      "bearing_deg": 1
+    },
+    {
+      "x": 100,
+      "y": 0,
+      "bearing_deg": 181
+    },
+    {
+      "x": 0,
+      "y": -100,
+      "bearing_deg": 90
+    },
+    {
+      "x": 0,
+      "y": 100,
+      "bearing_deg": 270
+    }
+  ]
+}

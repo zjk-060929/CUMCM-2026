@@ -1,0 +1,9 @@
+{
+  "test_count": 52,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "python": "3.12.14",
+  "scope": "21项旧版回归+31项新增检查；旧回归内部包含100组卡壳和300组测向独立对照，不另计测试项数。"
+}

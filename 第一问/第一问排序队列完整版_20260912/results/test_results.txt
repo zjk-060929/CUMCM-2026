@@ -1,0 +1,57 @@
+test_angle_wrap_and_negative_angles (test_legacy_regression.QuestionOneGeometryTests.test_angle_wrap_and_negative_angles) ... ok
+test_bearing_269_counterexample (test_legacy_regression.QuestionOneGeometryTests.test_bearing_269_counterexample) ... ok
+test_cli_json_statuses (test_legacy_regression.QuestionOneGeometryTests.test_cli_json_statuses) ... ok
+test_conflicting_nonparallel_halfplanes_are_empty (test_legacy_regression.QuestionOneGeometryTests.test_conflicting_nonparallel_halfplanes_are_empty) ... ok
+test_conflicting_parallel_halfplanes_are_empty (test_legacy_regression.QuestionOneGeometryTests.test_conflicting_parallel_halfplanes_are_empty) ... ok
+test_equilateral_triangle_is_not_covered (test_legacy_regression.QuestionOneGeometryTests.test_equilateral_triangle_is_not_covered) ... ok
+test_invalid_numeric_inputs (test_legacy_regression.QuestionOneGeometryTests.test_invalid_numeric_inputs) ... ok
+test_nearly_parallel_bounded_region (test_legacy_regression.QuestionOneGeometryTests.test_nearly_parallel_bounded_region) ... ok
+test_random_bearings_against_independent_vertex_enumeration (test_legacy_regression.QuestionOneGeometryTests.test_random_bearings_against_independent_vertex_enumeration) ... ok
+test_rectangle_diameter (test_legacy_regression.QuestionOneGeometryTests.test_rectangle_diameter) ... ok
+test_redundant_parallel_constraints (test_legacy_regression.QuestionOneGeometryTests.test_redundant_parallel_constraints) ... ok
+test_repeated_measurements_do_not_change_region (test_legacy_regression.QuestionOneGeometryTests.test_repeated_measurements_do_not_change_region) ... ok
+test_rotating_calipers_matches_brute_force (test_legacy_regression.QuestionOneGeometryTests.test_rotating_calipers_matches_brute_force) ... ok
+test_segment_from_valid_bearings (test_legacy_regression.QuestionOneGeometryTests.test_segment_from_valid_bearings) ... ok
+test_single_bearing_is_unbounded (test_legacy_regression.QuestionOneGeometryTests.test_single_bearing_is_unbounded) ... ok
+test_singleton_from_valid_bearings (test_legacy_regression.QuestionOneGeometryTests.test_singleton_from_valid_bearings) ... ok
+test_singleton_without_opposite_parallel_lines (test_legacy_regression.QuestionOneGeometryTests.test_singleton_without_opposite_parallel_lines) ... ok
+test_square_half_plane_intersection (test_legacy_regression.QuestionOneGeometryTests.test_square_half_plane_intersection) ... ok
+test_translation_and_rotation_preserve_diameter (test_legacy_regression.QuestionOneGeometryTests.test_translation_and_rotation_preserve_diameter) ... ok
+test_two_orthogonal_bearings (test_legacy_regression.QuestionOneGeometryTests.test_two_orthogonal_bearings) ... ok
+test_unbounded_strip_line_ray_and_plane (test_legacy_regression.QuestionOneGeometryTests.test_unbounded_strip_line_ray_and_plane) ... ok
+test_empty_triangle (test_q1_special_cases.SpecialCaseTests.test_empty_triangle) ... ok
+test_entire_plane (test_q1_special_cases.SpecialCaseTests.test_entire_plane) ... ok
+test_envelope_against_direct_max (test_q1_special_cases.SpecialCaseTests.test_envelope_against_direct_max) ... ok
+test_envelope_pops_redundant_middle (test_q1_special_cases.SpecialCaseTests.test_envelope_pops_redundant_middle) ... ok
+test_envelope_singleton_feasible_projection (test_q1_special_cases.SpecialCaseTests.test_envelope_singleton_feasible_projection) ... ok
+test_half_plane (test_q1_special_cases.SpecialCaseTests.test_half_plane) ... ok
+test_input_order_invariance (test_q1_special_cases.SpecialCaseTests.test_input_order_invariance) ... ok
+test_invalid_payload_and_directions (test_q1_special_cases.SpecialCaseTests.test_invalid_payload_and_directions) ... ok
+test_large_translation (test_q1_special_cases.SpecialCaseTests.test_large_translation) ... ok
+test_many_redundant_constraints (test_q1_special_cases.SpecialCaseTests.test_many_redundant_constraints) ... ok
+test_near_parallel_distinct_lines_not_dropped (test_q1_special_cases.SpecialCaseTests.test_near_parallel_distinct_lines_not_dropped) ... ok
+test_oblique_line (test_q1_special_cases.SpecialCaseTests.test_oblique_line) ... ok
+test_oblique_parallel_conflict (test_q1_special_cases.SpecialCaseTests.test_oblique_parallel_conflict) ... ok
+test_oblique_ray (test_q1_special_cases.SpecialCaseTests.test_oblique_ray) ... ok
+test_oblique_segment (test_q1_special_cases.SpecialCaseTests.test_oblique_segment) ... ok
+test_oblique_strip (test_q1_special_cases.SpecialCaseTests.test_oblique_strip) ... ok
+test_output_compatible_and_tagged (test_q1_special_cases.SpecialCaseTests.test_output_compatible_and_tagged) ... ok
+test_parallel_horizontal_conflict (test_q1_special_cases.SpecialCaseTests.test_parallel_horizontal_conflict) ... ok
+test_parallel_vertical_conflict (test_q1_special_cases.SpecialCaseTests.test_parallel_vertical_conflict) ... ok
+test_point_without_parallel_pairs (test_q1_special_cases.SpecialCaseTests.test_point_without_parallel_pairs) ... ok
+test_rotated_degenerate_segment (test_q1_special_cases.SpecialCaseTests.test_rotated_degenerate_segment) ... ok
+test_same_direction_stricter_lower (test_q1_special_cases.SpecialCaseTests.test_same_direction_stricter_lower) ... ok
+test_same_direction_stricter_upper (test_q1_special_cases.SpecialCaseTests.test_same_direction_stricter_upper) ... ok
+test_seam_direction_duplicates (test_q1_special_cases.SpecialCaseTests.test_seam_direction_duplicates) ... ok
+test_small_scale_calipers (test_q1_special_cases.SpecialCaseTests.test_small_scale_calipers) ... ok
+test_thin_triangle (test_q1_special_cases.SpecialCaseTests.test_thin_triangle) ... ok
+test_unbounded_quadrant_has_vertex (test_q1_special_cases.SpecialCaseTests.test_unbounded_quadrant_has_vertex) ... ok
+test_vertical_line (test_q1_special_cases.SpecialCaseTests.test_vertical_line) ... ok
+test_vertical_segment (test_q1_special_cases.SpecialCaseTests.test_vertical_segment) ... ok
+test_vertical_strip (test_q1_special_cases.SpecialCaseTests.test_vertical_strip) ... ok
+test_zero_normal_constraints (test_q1_special_cases.SpecialCaseTests.test_zero_normal_constraints) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 1.076s
+
+OK

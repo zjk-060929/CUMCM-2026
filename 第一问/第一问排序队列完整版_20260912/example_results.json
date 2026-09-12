@@ -1,0 +1,224 @@
+{
+  "example_input.json": {
+    "status": "polygon",
+    "backend": "direction_sorted_upper_lower_deques",
+    "vertices": [
+      [
+        982.245665158,
+        -17.145161861
+      ],
+      [
+        1017.765156895,
+        -17.765156895
+      ],
+      [
+        1017.145161861,
+        17.754334842
+      ],
+      [
+        982.844387404,
+        17.155612596
+      ]
+    ],
+    "diameter_m": 49.385425824,
+    "diameter_endpoints": {
+      "A": [
+        982.844387404,
+        17.155612596
+      ],
+      "B": [
+        1017.765156895,
+        -17.765156895
+      ]
+    },
+    "diameter_circle": {
+      "center": [
+        1000.304772149,
+        -0.304772149
+      ],
+      "radius_m": 24.692712912,
+      "covers_polygon": true
+    },
+    "vertex_distances_to_center_m": [
+      24.692712912,
+      24.692712912,
+      24.692712912,
+      24.692712912
+    ],
+    "coverage_excess_m": 0.0
+  },
+  "counterexample_input.json": {
+    "status": "polygon",
+    "backend": "direction_sorted_upper_lower_deques",
+    "vertices": [
+      [
+        964.491330317,
+        -16.835258793
+      ],
+      [
+        1000.0,
+        -17.455064928
+      ],
+      [
+        1000.0,
+        17.455064928
+      ],
+      [
+        965.667847839,
+        16.855794983
+      ]
+    ],
+    "diameter_m": 49.362859759,
+    "diameter_endpoints": {
+      "A": [
+        964.491330317,
+        -16.835258793
+      ],
+      "B": [
+        1000.0,
+        17.455064928
+      ]
+    },
+    "diameter_circle": {
+      "center": [
+        982.245665158,
+        0.309903067
+      ],
+      "radius_m": 24.68142988,
+      "covers_polygon": false
+    },
+    "vertex_distances_to_center_m": [
+      24.68142988,
+      25.115941025,
+      24.68142988,
+      23.422010297
+    ],
+    "coverage_excess_m": 0.434511145
+  },
+  "point_input.json": {
+    "status": "point",
+    "backend": "direction_sorted_upper_lower_deques",
+    "vertices": [
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "diameter_m": 0.0,
+    "diameter_endpoints": {
+      "A": [
+        0.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        0.0
+      ]
+    },
+    "diameter_circle": {
+      "center": [
+        0.0,
+        0.0
+      ],
+      "radius_m": 0.0,
+      "covers_polygon": true
+    },
+    "vertex_distances_to_center_m": [
+      0.0
+    ],
+    "coverage_excess_m": 0.0
+  },
+  "segment_input.json": {
+    "status": "segment",
+    "backend": "direction_sorted_upper_lower_deques",
+    "vertices": [
+      [
+        -1.745506493,
+        0.0
+      ],
+      [
+        1.745506493,
+        0.0
+      ]
+    ],
+    "diameter_m": 3.491012986,
+    "diameter_endpoints": {
+      "A": [
+        -1.745506493,
+        0.0
+      ],
+      "B": [
+        1.745506493,
+        0.0
+      ]
+    },
+    "diameter_circle": {
+      "center": [
+        -0.0,
+        0.0
+      ],
+      "radius_m": 1.745506493,
+      "covers_polygon": true
+    },
+    "vertex_distances_to_center_m": [
+      1.745506493,
+      1.745506493
+    ],
+    "coverage_excess_m": 0.0
+  },
+  "examples/empty_input.json": {
+    "status": "empty",
+    "message": "竖直平行约束相互矛盾"
+  },
+  "examples/unbounded_input.json": {
+    "status": "unbounded",
+    "message": "横坐标可行，且至少一个竖直方向可无限延伸"
+  },
+  "examples/parallel_strip_input.json": {
+    "status": "unbounded",
+    "message": "横坐标可行，且至少一个竖直方向可无限延伸"
+  },
+  "examples/thin_triangle_input.json": {
+    "status": "polygon",
+    "backend": "direction_sorted_upper_lower_deques",
+    "vertices": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1000.0,
+        0.0
+      ],
+      [
+        0.0,
+        1e-06
+      ]
+    ],
+    "diameter_m": 1000.0,
+    "diameter_endpoints": {
+      "A": [
+        1000.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        1e-06
+      ]
+    },
+    "diameter_circle": {
+      "center": [
+        500.0,
+        5e-07
+      ],
+      "radius_m": 500.0,
+      "covers_polygon": true
+    },
+    "vertex_distances_to_center_m": [
+      500.0,
+      500.0,
+      500.0
+    ],
+    "coverage_excess_m": 0.0
+  }
+}

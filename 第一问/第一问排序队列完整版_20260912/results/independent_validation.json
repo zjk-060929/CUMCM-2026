@@ -1,0 +1,14 @@
+{
+  "seed": 20260912,
+  "case_count": 1500,
+  "reference": "SciPy HiGHS LP classification + independent 2x2 vertex enumeration",
+  "class_counts": {
+    "bounded": 217,
+    "empty": 1030,
+    "unbounded": 253
+  },
+  "max_diameter_difference_m": 1.4210854715202004e-13,
+  "failure_count": 0,
+  "failures": [],
+  "scope": "整数一般半平面；不包含官方模拟器，不证明任意浮点输入的精确性"
+}

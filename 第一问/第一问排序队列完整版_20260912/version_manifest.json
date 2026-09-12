@@ -1,0 +1,71 @@
+{
+  "package": "第一问排序队列完整版_20260912",
+  "release_date": "2026-09-12",
+  "assembled_at": "2026-09-12T23:24:14.387370+08:00",
+  "repository": "https://github.com/zjk-060929/CUMCM-2026.git",
+  "base_commit": "a3a04050808d28e5585183c849e8f8bf07bcf1b5",
+  "backend": "direction_sorted_upper_lower_deques",
+  "main_solver_sha256": "b08ac9f791c742c78b8f5e96f06e0cdef86e6ac517ea72f3431b12d41ca8295e",
+  "arithmetic": "double precision with documented tolerances",
+  "time_complexity": "O(m log m), m=2n",
+  "space_complexity": "O(m)",
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.2",
+      "reportlab": "4.4.9",
+      "pypdf": "6.10.0",
+      "Pillow": "12.3.0"
+    }
+  },
+  "sources": [
+    {
+      "packaged_path": "reference/legacy_deque.py",
+      "repository_source": "第一问/B题第一问_队友分享包_20260911/q1_localization.py",
+      "sha256": "3a011b92ea7358b569d725f2af90624f02107d4cc40946766fb29764b7435699",
+      "copied_without_changes": true
+    },
+    {
+      "packaged_path": "reference/interval_reference.py",
+      "repository_source": "第一问/第一问改进版/第一问/q1_localization.py",
+      "sha256": "4ecc32f36d23d2f4af9ec99ab816a0ee67c8026d4cd22f5a00c07a86889bfe20",
+      "copied_without_changes": true
+    },
+    {
+      "packaged_path": "题目依据/B题.pdf",
+      "repository_source": "CUMCM2026Problems/B题/B题.pdf",
+      "sha256": "81c992a9bee5376308c4768b58719b177f17d6ee1f9861577a851924c5a838ca",
+      "copied_without_changes": true
+    }
+  ],
+  "tests": {
+    "unit_and_regression_methods": 52,
+    "independent_systems": 1500,
+    "independent_failures": 0
+  },
+  "materials": {
+    "report_pages": 11,
+    "scientific_figures": 9,
+    "formula_images": 10,
+    "figure_formats": [
+      "png",
+      "svg"
+    ],
+    "formula_sources": [
+      "tex",
+      "json",
+      "md"
+    ]
+  },
+  "scope": "Question 1 pure bearing halfplane intersection, diameter and diameter-circle coverage. No official simulator, no changes to Q2/Q3/Q4.",
+  "publication": {
+    "updated_at": "2026-09-12T23:35:37.278904+08:00",
+    "base_commit": "41925bb1c54964812aed8189dac04413b822b7e7",
+    "target_branch": "main",
+    "markdown_math_format": "GitHub dollar delimiters",
+    "scope": "Added repository and Q1 navigation; corrected Markdown delimiters and report Markdown writer. Algorithm, PDF, figures and experiment outputs unchanged."
+  }
+}

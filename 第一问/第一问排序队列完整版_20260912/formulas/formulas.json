@@ -1,0 +1,12 @@
+{
+  "eq01_angle": "|\\Delta_i(X)|\\leq\\alpha,\\qquad\\alpha=1^{\\circ}",
+  "eq02_halfplane": "H_j=\\{X:d_j\\times(X-p_j)\\geq0\\},\\qquad P=\\bigcap_{j=1}^{m}H_j",
+  "eq03_envelopes": "L(x)=\\max_i(l_i x+b_i),\\qquad U(x)=\\min_j(u_j x+c_j)",
+  "eq04_switch": "s=\\frac{b_{\\rm old}-b_{\\rm new}}{l_{\\rm new}-l_{\\rm old}}",
+  "eq05_feasibility": "I=[x_{\\min},x_{\\max}]\\cap\\{x:L(x)-U(x)\\leq0\\}",
+  "eq06_vertices": "P=\\operatorname{conv}\\{V_1,\\ldots,V_k\\}",
+  "eq07_diameter": "D(P)=\\max_{1\\leq i\\leq j\\leq k}\\|V_i-V_j\\|_2",
+  "eq08_circle": "C=\\frac{A+B}{2},\\qquad R=\\frac{D}{2},\\qquad \\max_i\\|V_i-C\\|_2\\leq R",
+  "eq09_complexity": "T(m)=O(m\\log m),\\qquad S(m)=O(m)",
+  "eq10_triangle": "D=40,\\qquad R_{\\min}=\\frac{40}{\\sqrt{3}}\\approx23.094>20"
+}
