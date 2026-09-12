@@ -1,0 +1,20 @@
+{
+  "test_kind": "SELF_BUILT_LOOPBACK_HTTP",
+  "matched_offline": true,
+  "http_runtime_s": 0.24348183400000004,
+  "http_virtual_time_s": 10209.799196,
+  "offline_virtual_time_s": 10209.799196,
+  "cleared_channels": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    9,
+    11,
+    12,
+    17,
+    18
+  ],
+  "http_requests": 410
+}

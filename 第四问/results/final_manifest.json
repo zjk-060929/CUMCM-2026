@@ -1,0 +1,34 @@
+{
+  "final_triangle_side_m": 905,
+  "python_executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+  "python_version": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "test_kind": "SELF_BUILT_OFFLINE_AND_LOCAL_HTTP",
+  "main_seeds": [
+    0,
+    499
+  ],
+  "spacing_seeds": [
+    5000,
+    5099
+  ],
+  "stress_seeds": [
+    10000,
+    10049
+  ],
+  "sha256": {
+    "第四问/test_q4.py": "30ec7e8a3312ea840f62168d9e4d51b1014dd65904a2503dfbb7030bb9791682",
+    "第四问/client.py": "b3150ba22314fb19bdf77fdcaedfb46a8b41016cb83fd17093764ea8c45ffa6e",
+    "第四问/verify_http.py": "fe472d33b45f7e3cf32a5da97b10d16da6a2b4bb0f2acf37a790ac51fbc5fae7",
+    "第四问/strategy.py": "f5a7183580bb3f837478ecce162fc81b78aec0c8d04a8a943135743ae6b859f3",
+    "第四问/experiments.py": "75bfa32a47680a18b4c400c63a1e9dd61afae3473464d0284efdeef3f5bf150e",
+    "第四问/geometry.py": "196d145bb7ccd077762fd09144fd3b7dcc453ee8259533633b1df0a7b18cde30",
+    "第四问/simulator.py": "61557ecb09606db47874e19426563e01f9866497fa512c3392d5f6057db101ca",
+    "第四问/run_q4.py": "d696379a8ec7dbe460e285c34b0abbb023f7867ccb1e3a177c29a0981281d3d3",
+    "第四问/plot_results.py": "9990bc064b5dfce6112e7d564408c7312b011bc4c211fd95f852ddad93f6a7a1",
+    "第四问/spacing_study.py": "ccc1d5e81bec7ade47a0278e41da88ec2c21db5738a5f6b88235cd6a9cb63e9b",
+    "第四问/requirements.txt": "55e425b66b6331585636b61a344b7f6a655c67e60ffffb61ee9efa468639c030",
+    "第四问/README.md": "aa8d61a570bd5491194db2ac7f4a63b237f6ba5b8519cc76069827e455ed620c",
+    "第四问建模算法与自建模拟结果.md": "5ec1cd9af1b2ba426e73b8afc42b6772cb74a77cb193df0c509a8eb4250f2036"
+  }
+}

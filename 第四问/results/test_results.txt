@@ -1,0 +1,29 @@
+test_all_orientations_via_angular_gap (test_q4.GeometryTests) ... ok
+test_domain_covered_by_retained_triangles (test_q4.GeometryTests) ... ok
+test_enclosing_circle_equilateral_diameter_is_not_enough (test_q4.GeometryTests) ... ok
+test_optical_rectangle_cover (test_q4.GeometryTests) ... ok
+test_point_segment_empty_clipping (test_q4.GeometryTests) ... ok
+test_triangle_sizes (test_q4.GeometryTests) ... ok
+test_true_source_never_excluded_with_extreme_rounded_errors (test_q4.GeometryTests) ... ok
+test_budget_stop_is_not_success (test_q4.IntegrationTests) ... ok
+test_complete_adversarial_cases_and_clock (test_q4.IntegrationTests) ... ok
+test_fallback_alone_clears (test_q4.IntegrationTests) ... ok
+test_generators_respect_mixed_case_definition (test_q4.IntegrationTests) ... ok
+test_http_retry_preserves_payload (test_q4.IntegrationTests) ... ok
+test_invalid_mesh_cannot_claim_coverage (test_q4.IntegrationTests) ... ok
+test_model_failure_exits_without_claiming_success (test_q4.IntegrationTests) ... ok
+test_bad_field_and_nan_do_not_move (test_q4.PhysicsTests) ... ok
+test_clear_other_channel_does_not_switch (test_q4.PhysicsTests) ... ok
+test_cleared_source_disappears (test_q4.PhysicsTests) ... ok
+test_closed_directional_boundary_and_backside_clear (test_q4.PhysicsTests) ... ok
+test_idempotent_and_conflict (test_q4.PhysicsTests) ... ok
+test_near_boundary_and_range (test_q4.PhysicsTests) ... ok
+test_rejected_clock_not_adopted (test_q4.PhysicsTests) ... ok
+test_same_location_same_error (test_q4.PhysicsTests) ... ok
+test_time_and_clear_does_not_switch (test_q4.PhysicsTests) ... ok
+test_truth_hidden_until_exit (test_q4.PhysicsTests) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.330s
+
+OK

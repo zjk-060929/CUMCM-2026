@@ -1,0 +1,910 @@
+{
+  "test_kind": "SELF_BUILT_OFFLINE",
+  "random_cases": 500,
+  "random_seed_range": [
+    0,
+    499
+  ],
+  "stress_seed_range": [
+    10000,
+    10049
+  ],
+  "variants": {
+    "square_optical": {
+      "runs": 500,
+      "all_cleared_runs": 500,
+      "total_sources": 6494,
+      "total_cleared": 6494,
+      "virtual_time_s": {
+        "mean": 18776.075988647928,
+        "median": 19029.5991281499,
+        "p90": 20643.993973325505,
+        "max": 22387.414571684483
+      },
+      "time_per_source_s": {
+        "mean": 1488.4616387905542,
+        "median": 1491.6442850314247,
+        "p90": 1872.6062732853006,
+        "max": 2170.8586749379892
+      },
+      "distance_m": {
+        "mean": 60351.28994323971,
+        "median": 61113.31891650142,
+        "p90": 67256.81016732298,
+        "max": 73071.59650166168
+      },
+      "measures": {
+        "mean": 734.084,
+        "median": 748.0,
+        "p90": 942.5000000000001,
+        "max": 1103
+      },
+      "switches": {
+        "mean": 658.484,
+        "median": 667.5,
+        "p90": 862.4000000000001,
+        "max": 1022
+      },
+      "clear_failures": {
+        "mean": 770.658,
+        "median": 763.5,
+        "p90": 1036.2,
+        "max": 1292
+      },
+      "runtime_s": {
+        "mean": 0.03908840558800003,
+        "median": 0.03875083349999908,
+        "p90": 0.04666662950000013,
+        "max": 0.05725200000000008
+      },
+      "fallback_channels": {
+        "mean": 12.988,
+        "median": 13.0,
+        "p90": 16.0,
+        "max": 16
+      },
+      "fallback_attempts": {
+        "mean": 783.646,
+        "median": 776.0,
+        "p90": 1052.2,
+        "max": 1308
+      },
+      "no_signal_localization": {
+        "mean": 0,
+        "median": 0.0,
+        "p90": 0.0,
+        "max": 0
+      },
+      "stations_visited": {
+        "mean": 76.584,
+        "median": 81.0,
+        "p90": 81.0,
+        "max": 81
+      }
+    },
+    "square_active": {
+      "runs": 500,
+      "all_cleared_runs": 500,
+      "total_sources": 6494,
+      "total_cleared": 6494,
+      "virtual_time_s": {
+        "mean": 14683.98648410179,
+        "median": 15218.03420868095,
+        "p90": 16199.245065370013,
+        "max": 17332.68532106046
+      },
+      "time_per_source_s": {
+        "mean": 1174.0325724716454,
+        "median": 1166.0268799293538,
+        "p90": 1564.4413228160354,
+        "max": 1733.268532106046
+      },
+      "distance_m": {
+        "mean": 48407.65242050895,
+        "median": 50038.67384927894,
+        "p90": 52165.75092577605,
+        "max": 54479.05853355099
+      },
+      "measures": {
+        "mean": 828.418,
+        "median": 847.5,
+        "p90": 1028.4,
+        "max": 1164
+      },
+      "switches": {
+        "mean": 793.584,
+        "median": 809.5,
+        "p90": 991.0,
+        "max": 1126
+      },
+      "clear_failures": {
+        "mean": 0.614,
+        "median": 0.0,
+        "p90": 0.0,
+        "max": 97
+      },
+      "runtime_s": {
+        "mean": 0.017185559323999962,
+        "median": 0.01737570800000121,
+        "p90": 0.019281675299998826,
+        "max": 0.03115283400000024
+      },
+      "fallback_channels": {
+        "mean": 0.02,
+        "median": 0.0,
+        "p90": 0.0,
+        "max": 1
+      },
+      "fallback_attempts": {
+        "mean": 0.496,
+        "median": 0.0,
+        "p90": 0.0,
+        "max": 96
+      },
+      "no_signal_localization": {
+        "mean": 48.542,
+        "median": 45.0,
+        "p90": 74.10000000000002,
+        "max": 115
+      },
+      "stations_visited": {
+        "mean": 76.584,
+        "median": 81.0,
+        "p90": 81.0,
+        "max": 81
+      }
+    },
+    "triangle_optical": {
+      "runs": 500,
+      "all_cleared_runs": 500,
+      "total_sources": 6494,
+      "total_cleared": 6494,
+      "virtual_time_s": {
+        "mean": 13640.684986381471,
+        "median": 13620.949517584857,
+        "p90": 15347.706256376272,
+        "max": 18421.119975298017
+      },
+      "time_per_source_s": {
+        "mean": 1073.3385336146378,
+        "median": 1085.8202643975546,
+        "p90": 1300.750291118629,
+        "max": 1536.3585292801818
+      },
+      "distance_m": {
+        "mean": 48254.2949319074,
+        "median": 48425.160903349926,
+        "p90": 54075.985141317884,
+        "max": 64255.59987649021
+      },
+      "measures": {
+        "mean": 303.938,
+        "median": 309.5,
+        "p90": 382.0,
+        "max": 436
+      },
+      "switches": {
+        "mean": 275.292,
+        "median": 279.0,
+        "p90": 351.1,
+        "max": 405
+      },
+      "clear_failures": {
+        "mean": 709.968,
+        "median": 691.5,
+        "p90": 961.4000000000001,
+        "max": 1481
+      },
+      "runtime_s": {
+        "mean": 0.032880271229999966,
+        "median": 0.032593625000000515,
+        "p90": 0.04038831189999997,
+        "max": 0.05365387500000196
+      },
+      "fallback_channels": {
+        "mean": 12.986,
+        "median": 13.0,
+        "p90": 16.0,
+        "max": 16
+      },
+      "fallback_attempts": {
+        "mean": 722.954,
+        "median": 703.5,
+        "p90": 977.3000000000001,
+        "max": 1496
+      },
+      "no_signal_localization": {
+        "mean": 0,
+        "median": 0.0,
+        "p90": 0.0,
+        "max": 0
+      },
+      "stations_visited": {
+        "mean": 29.588,
+        "median": 31.0,
+        "p90": 31.0,
+        "max": 31
+      }
+    },
+    "triangle_active": {
+      "runs": 500,
+      "all_cleared_runs": 500,
+      "total_sources": 6494,
+      "total_cleared": 6494,
+      "virtual_time_s": {
+        "mean": 9710.79827284946,
+        "median": 9925.16277306472,
+        "p90": 10392.571388010514,
+        "max": 11455.144891217838
+      },
+      "time_per_source_s": {
+        "mean": 771.0980510896584,
+        "median": 765.7089589152613,
+        "p90": 981.0602441538035,
+        "max": 1075.6106477297417
+      },
+      "distance_m": {
+        "mean": 37534.561364247296,
+        "median": 38279.997093001715,
+        "p90": 40602.62373851141,
+        "max": 43755.72445608918
+      },
+      "measures": {
+        "mean": 355.482,
+        "median": 364.0,
+        "p90": 426.1,
+        "max": 483
+      },
+      "switches": {
+        "mean": 345.78,
+        "median": 355.0,
+        "p90": 416.0,
+        "max": 475
+      },
+      "clear_failures": {
+        "mean": 5.252,
+        "median": 0.0,
+        "p90": 5.100000000000023,
+        "max": 218
+      },
+      "runtime_s": {
+        "mean": 0.008980180950000218,
+        "median": 0.008832874999999518,
+        "p90": 0.009995862500002062,
+        "max": 0.016196833000002187
+      },
+      "fallback_channels": {
+        "mean": 0.14,
+        "median": 0.0,
+        "p90": 1.0,
+        "max": 3
+      },
+      "fallback_attempts": {
+        "mean": 5.204,
+        "median": 0.0,
+        "p90": 5.0,
+        "max": 221
+      },
+      "no_signal_localization": {
+        "mean": 25.09,
+        "median": 24.0,
+        "p90": 39.0,
+        "max": 70
+      },
+      "stations_visited": {
+        "mean": 29.588,
+        "median": 31.0,
+        "p90": 31.0,
+        "max": 31
+      }
+    }
+  },
+  "stress": {
+    "edge_outward/plus_one": {
+      "runs": 50,
+      "all_cleared_runs": 50,
+      "total_sources": 800,
+      "total_cleared": 800,
+      "virtual_time_s": {
+        "mean": 13283.839388040422,
+        "median": 13202.837328468398,
+        "p90": 14487.060599693463,
+        "max": 15444.437180890294
+      },
+      "time_per_source_s": {
+        "mean": 830.2399617525264,
+        "median": 825.1773330292749,
+        "p90": 905.4412874808414,
+        "max": 965.2773238056434
+      },
+      "distance_m": {
+        "mean": 48283.39694020214,
+        "median": 48078.6329038291,
+        "p90": 52173.461083104114,
+        "max": 55167.18590445152
+      },
+      "measures": {
+        "mean": 457.84,
+        "median": 455.5,
+        "p90": 493.6,
+        "max": 526
+      },
+      "switches": {
+        "mean": 432.6,
+        "median": 431.5,
+        "p90": 464.5,
+        "max": 499
+      },
+      "clear_failures": {
+        "mean": 275.12,
+        "median": 275.5,
+        "p90": 384.3,
+        "max": 440
+      },
+      "runtime_s": {
+        "mean": 0.020373271699999834,
+        "median": 0.020408895999995735,
+        "p90": 0.024389153899999627,
+        "max": 0.026180374999995593
+      },
+      "fallback_channels": {
+        "mean": 7.38,
+        "median": 7.0,
+        "p90": 10.0,
+        "max": 12
+      },
+      "fallback_attempts": {
+        "mean": 280.2,
+        "median": 280.0,
+        "p90": 389.4,
+        "max": 447
+      },
+      "no_signal_localization": {
+        "mean": 59.18,
+        "median": 59.5,
+        "p90": 70.1,
+        "max": 76
+      },
+      "stations_visited": {
+        "mean": 30.22,
+        "median": 30.5,
+        "p90": 31.0,
+        "max": 31
+      }
+    },
+    "edge_outward/minus_one": {
+      "runs": 50,
+      "all_cleared_runs": 50,
+      "total_sources": 800,
+      "total_cleared": 800,
+      "virtual_time_s": {
+        "mean": 13207.72464448752,
+        "median": 13071.958531432927,
+        "p90": 14285.759247732594,
+        "max": 15308.648208842102
+      },
+      "time_per_source_s": {
+        "mean": 825.48279028047,
+        "median": 816.9974082145579,
+        "p90": 892.8599529832871,
+        "max": 956.7905130526314
+      },
+      "distance_m": {
+        "mean": 48075.52322243763,
+        "median": 47595.99355735816,
+        "p90": 51546.29623866301,
+        "max": 55178.241044210554
+      },
+      "measures": {
+        "mean": 457.2,
+        "median": 455.0,
+        "p90": 495.0,
+        "max": 523
+      },
+      "switches": {
+        "mean": 432.34,
+        "median": 430.5,
+        "p90": 467.2,
+        "max": 489
+      },
+      "clear_failures": {
+        "mean": 264.76,
+        "median": 256.0,
+        "p90": 357.40000000000003,
+        "max": 452
+      },
+      "runtime_s": {
+        "mean": 0.020055821599999746,
+        "median": 0.01982377100000221,
+        "p90": 0.02325559999999527,
+        "max": 0.026275624999996694
+      },
+      "fallback_channels": {
+        "mean": 7.48,
+        "median": 7.0,
+        "p90": 10.0,
+        "max": 12
+      },
+      "fallback_attempts": {
+        "mean": 270.02,
+        "median": 260.5,
+        "p90": 363.8,
+        "max": 460
+      },
+      "no_signal_localization": {
+        "mean": 58.8,
+        "median": 60.0,
+        "p90": 68.2,
+        "max": 73
+      },
+      "stations_visited": {
+        "mean": 30.22,
+        "median": 30.5,
+        "p90": 31.0,
+        "max": 31
+      }
+    },
+    "minimum_range/smooth": {
+      "runs": 50,
+      "all_cleared_runs": 50,
+      "total_sources": 651,
+      "total_cleared": 651,
+      "virtual_time_s": {
+        "mean": 10062.286890703686,
+        "median": 10210.237080537645,
+        "p90": 10970.879633880326,
+        "max": 11686.632102729805
+      },
+      "time_per_source_s": {
+        "mean": 796.0556806640814,
+        "median": 787.018176103699,
+        "p90": 1003.770163719112,
+        "max": 1125.1737000034109
+      },
+      "distance_m": {
+        "mean": 38546.534453518434,
+        "median": 38802.77702628865,
+        "p90": 41365.727254955455,
+        "max": 43578.63975100431
+      },
+      "measures": {
+        "mean": 371.38,
+        "median": 380.0,
+        "p90": 433.3,
+        "max": 455
+      },
+      "switches": {
+        "mean": 360.66,
+        "median": 373.0,
+        "p90": 421.2,
+        "max": 445
+      },
+      "clear_failures": {
+        "mean": 23.44,
+        "median": 0.0,
+        "p90": 102.0,
+        "max": 163
+      },
+      "runtime_s": {
+        "mean": 0.008696683340000106,
+        "median": 0.007984354000001304,
+        "p90": 0.011845274400002381,
+        "max": 0.013776083999999855
+      },
+      "fallback_channels": {
+        "mean": 0.36,
+        "median": 0.0,
+        "p90": 1.0,
+        "max": 2
+      },
+      "fallback_attempts": {
+        "mean": 23.68,
+        "median": 0.0,
+        "p90": 103.0,
+        "max": 165
+      },
+      "no_signal_localization": {
+        "mean": 28.06,
+        "median": 24.5,
+        "p90": 47.0,
+        "max": 67
+      },
+      "stations_visited": {
+        "mean": 29.94,
+        "median": 31.0,
+        "p90": 31.0,
+        "max": 31
+      }
+    },
+    "minimum_range/checker": {
+      "runs": 50,
+      "all_cleared_runs": 50,
+      "total_sources": 651,
+      "total_cleared": 651,
+      "virtual_time_s": {
+        "mean": 10044.469748124773,
+        "median": 10218.87614850828,
+        "p90": 10789.931779797002,
+        "max": 11348.544393768363
+      },
+      "time_per_source_s": {
+        "mean": 794.2767900084378,
+        "median": 790.2400920228542,
+        "p90": 1003.2276961602681,
+        "max": 1078.9076164876171
+      },
+      "distance_m": {
+        "mean": 38489.248740623865,
+        "median": 38878.294091348864,
+        "p90": 41273.553024281515,
+        "max": 42355.38240188213
+      },
+      "measures": {
+        "mean": 372.34,
+        "median": 380.0,
+        "p90": 433.4,
+        "max": 455
+      },
+      "switches": {
+        "mean": 361.2,
+        "median": 372.5,
+        "p90": 421.3,
+        "max": 444
+      },
+      "clear_failures": {
+        "mean": 19.54,
+        "median": 1.0,
+        "p90": 82.1,
+        "max": 162
+      },
+      "runtime_s": {
+        "mean": 0.008716764100000916,
+        "median": 0.008088957999998314,
+        "p90": 0.010920371400001728,
+        "max": 0.013639417000000265
+      },
+      "fallback_channels": {
+        "mean": 0.52,
+        "median": 0.0,
+        "p90": 1.1000000000000014,
+        "max": 3
+      },
+      "fallback_attempts": {
+        "mean": 19.32,
+        "median": 0.0,
+        "p90": 82.30000000000001,
+        "max": 163
+      },
+      "no_signal_localization": {
+        "mean": 28.54,
+        "median": 27.0,
+        "p90": 48.0,
+        "max": 67
+      },
+      "stations_visited": {
+        "mean": 29.94,
+        "median": 31.0,
+        "p90": 31.0,
+        "max": 31
+      }
+    },
+    "cluster/plus_one": {
+      "runs": 50,
+      "all_cleared_runs": 50,
+      "total_sources": 500,
+      "total_cleared": 500,
+      "virtual_time_s": {
+        "mean": 9150.533017811425,
+        "median": 9055.192783153272,
+        "p90": 9686.615366568245,
+        "max": 10151.696135111735
+      },
+      "time_per_source_s": {
+        "mean": 915.0533017811425,
+        "median": 905.5192783153273,
+        "p90": 968.6615366568245,
+        "max": 1015.1696135111736
+      },
+      "distance_m": {
+        "mean": 30245.56508905712,
+        "median": 29897.116732352246,
+        "p90": 31858.60728175329,
+        "max": 32668.480675558665
+      },
+      "measures": {
+        "mean": 508.24,
+        "median": 508.0,
+        "p90": 528.7,
+        "max": 552
+      },
+      "switches": {
+        "mean": 483.52,
+        "median": 484.0,
+        "p90": 504.8,
+        "max": 526
+      },
+      "clear_failures": {
+        "mean": 8.9,
+        "median": 0.0,
+        "p90": 57.1,
+        "max": 94
+      },
+      "runtime_s": {
+        "mean": 0.008422604960000087,
+        "median": 0.008082333499999095,
+        "p90": 0.01076031639999897,
+        "max": 0.012098208000004718
+      },
+      "fallback_channels": {
+        "mean": 0.22,
+        "median": 0.0,
+        "p90": 1.0,
+        "max": 1
+      },
+      "fallback_attempts": {
+        "mean": 9.12,
+        "median": 0.0,
+        "p90": 58.1,
+        "max": 95
+      },
+      "no_signal_localization": {
+        "mean": 13.38,
+        "median": 14.0,
+        "p90": 25.0,
+        "max": 39
+      },
+      "stations_visited": {
+        "mean": 31,
+        "median": 31.0,
+        "p90": 31.0,
+        "max": 31
+      }
+    },
+    "near_origin/fixed_hash": {
+      "runs": 50,
+      "all_cleared_runs": 50,
+      "total_sources": 651,
+      "total_cleared": 651,
+      "virtual_time_s": {
+        "mean": 9509.484619222238,
+        "median": 9793.388298752128,
+        "p90": 10128.78294018557,
+        "max": 10928.776120943628
+      },
+      "time_per_source_s": {
+        "mean": 753.4294293548891,
+        "median": 730.0606479836927,
+        "p90": 968.5916134087921,
+        "max": 1023.2308513506396
+      },
+      "distance_m": {
+        "mean": 37206.32309611119,
+        "median": 37790.7626656688,
+        "p90": 40415.285494651216,
+        "max": 42948.88060471816
+      },
+      "measures": {
+        "mean": 332.96,
+        "median": 341.5,
+        "p90": 398.0,
+        "max": 415
+      },
+      "switches": {
+        "mean": 321.82,
+        "median": 330.5,
+        "p90": 384.2,
+        "max": 406
+      },
+      "clear_failures": {
+        "mean": 5.5,
+        "median": 0.0,
+        "p90": 1.0,
+        "max": 149
+      },
+      "runtime_s": {
+        "mean": 0.008219552560000096,
+        "median": 0.008108958499999375,
+        "p90": 0.008788591599999052,
+        "max": 0.012812125000003505
+      },
+      "fallback_channels": {
+        "mean": 0.08,
+        "median": 0.0,
+        "p90": 0.0,
+        "max": 1
+      },
+      "fallback_attempts": {
+        "mean": 5.5,
+        "median": 0.0,
+        "p90": 0.0,
+        "max": 150
+      },
+      "no_signal_localization": {
+        "mean": 19.82,
+        "median": 18.5,
+        "p90": 32.0,
+        "max": 43
+      },
+      "stations_visited": {
+        "mean": 29.52,
+        "median": 31.0,
+        "p90": 31.0,
+        "max": 31
+      }
+    },
+    "all_directional/checker": {
+      "runs": 50,
+      "all_cleared_runs": 50,
+      "total_sources": 651,
+      "total_cleared": 651,
+      "virtual_time_s": {
+        "mean": 11198.343710383571,
+        "median": 11162.756804669367,
+        "p90": 11946.378509417733,
+        "max": 13131.123628570327
+      },
+      "time_per_source_s": {
+        "mean": 879.7996837951539,
+        "median": 874.8632526433382,
+        "p90": 1066.3539535330065,
+        "max": 1190.687688125909
+      },
+      "distance_m": {
+        "mean": 41015.71855191786,
+        "median": 40501.58424053044,
+        "p90": 43943.29333349928,
+        "max": 47044.01141001244
+      },
+      "measures": {
+        "mean": 446.1,
+        "median": 443.0,
+        "p90": 500.0,
+        "max": 557
+      },
+      "switches": {
+        "mean": 432.66,
+        "median": 430.0,
+        "p90": 483.1,
+        "max": 538
+      },
+      "clear_failures": {
+        "mean": 88.98,
+        "median": 72.0,
+        "p90": 209.20000000000002,
+        "max": 343
+      },
+      "runtime_s": {
+        "mean": 0.012469500000000409,
+        "median": 0.01219745850000109,
+        "p90": 0.016361533299999564,
+        "max": 0.022096917000006044
+      },
+      "fallback_channels": {
+        "mean": 2.06,
+        "median": 2.0,
+        "p90": 3.1000000000000014,
+        "max": 6
+      },
+      "fallback_attempts": {
+        "mean": 89.44,
+        "median": 71.5,
+        "p90": 210.50000000000003,
+        "max": 346
+      },
+      "no_signal_localization": {
+        "mean": 39.06,
+        "median": 39.5,
+        "p90": 53.1,
+        "max": 72
+      },
+      "stations_visited": {
+        "mean": 30.64,
+        "median": 31.0,
+        "p90": 31.0,
+        "max": 31
+      }
+    },
+    "all_omni/smooth": {
+      "runs": 50,
+      "all_cleared_runs": 50,
+      "total_sources": 651,
+      "total_cleared": 651,
+      "virtual_time_s": {
+        "mean": 9386.77567038538,
+        "median": 9810.770034291498,
+        "p90": 10147.097429463342,
+        "max": 10309.133682478438
+      },
+      "time_per_source_s": {
+        "mean": 746.3020742811451,
+        "median": 738.7522975414274,
+        "p90": 982.400579831876,
+        "max": 1026.175020004948
+      },
+      "distance_m": {
+        "mean": 37066.77835192689,
+        "median": 38257.24295328543,
+        "p90": 40463.788361814244,
+        "max": 41512.1252630265
+      },
+      "measures": {
+        "mean": 320.08,
+        "median": 322.5,
+        "p90": 400.1,
+        "max": 430
+      },
+      "switches": {
+        "mean": 307.2,
+        "median": 308.0,
+        "p90": 389.2,
+        "max": 416
+      },
+      "clear_failures": {
+        "mean": 0.24,
+        "median": 0.0,
+        "p90": 1.0,
+        "max": 3
+      },
+      "runtime_s": {
+        "mean": 0.008380494180000113,
+        "median": 0.008324500499998777,
+        "p90": 0.009200183299999765,
+        "max": 0.009954041000000302
+      },
+      "fallback_channels": {
+        "mean": 0,
+        "median": 0.0,
+        "p90": 0.0,
+        "max": 0
+      },
+      "fallback_attempts": {
+        "mean": 0,
+        "median": 0.0,
+        "p90": 0.0,
+        "max": 0
+      },
+      "no_signal_localization": {
+        "mean": 13.5,
+        "median": 13.0,
+        "p90": 20.1,
+        "max": 24
+      },
+      "stations_visited": {
+        "mean": 29.1,
+        "median": 31.0,
+        "p90": 31.0,
+        "max": 31
+      }
+    }
+  },
+  "paired_comparisons": {
+    "square_optical": {
+      "mean_saved_seconds": 9065.27771579847,
+      "normal_approx_95pct_CI": [
+        8942.660797049393,
+        9187.894634547545
+      ],
+      "mean_time_reduction_pct": 48.28100249103893,
+      "primary_faster_cases": 500
+    },
+    "square_active": {
+      "mean_saved_seconds": 4973.18821125233,
+      "normal_approx_95pct_CI": [
+        4865.20339621701,
+        5081.17302628765
+      ],
+      "mean_time_reduction_pct": 33.86810670683164,
+      "primary_faster_cases": 499
+    },
+    "triangle_optical": {
+      "mean_saved_seconds": 3929.886713532012,
+      "normal_approx_95pct_CI": [
+        3816.804141484083,
+        4042.969285579941
+      ],
+      "mean_time_reduction_pct": 28.810039359867304,
+      "primary_faster_cases": 500
+    }
+  },
+  "wall_runtime_s": 57.063018167
+}

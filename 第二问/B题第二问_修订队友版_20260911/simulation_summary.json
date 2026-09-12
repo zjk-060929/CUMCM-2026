@@ -1,0 +1,110 @@
+{
+  "purpose": "离线验证固定闭式解析点；随机样本不参与选点，确定性检验不等同于全局穷举",
+  "scenario_count": 20000,
+  "seed": 20260921,
+  "criterion": "解析充分安全域内，首次中心线名义源的一阶最坏径向定位直径最小",
+  "local_candidate": {
+    "a_m": 818.1818181818182,
+    "b_m": 574.959574576069,
+    "travel_m": 1000.0000000000001
+  },
+  "theoretical_nominal_worst_diameter_m": 122.18545449752305,
+  "exact_hpi_nominal_check": {
+    "source_distance_m": 1500.0,
+    "diameter_m": 122.4626359104027,
+    "mec_radius_m": 61.23131795520135,
+    "linearization_relative_error": 0.002263395776344683
+  },
+  "deterministic_checks": {
+    "nominal_r1500_zero_error": {
+      "exact_diameter_m": 122.4626359104027,
+      "first_order_diameter_m": 122.18545449752305,
+      "mec_radius_m": 61.23131795520135,
+      "vertex_count": 4,
+      "second_true_bearing_deg": 319.85993385121617,
+      "second_reading_deg": 319.85993385121617,
+      "linearization_relative_error": 0.002263395776344683
+    },
+    "full_precision_error_boundary_counterexample": {
+      "source_x_m": 1499.771542734587,
+      "source_y_m": 26.178609655925268,
+      "first_true_bearing_deg": 1.0,
+      "first_error_deg": -1.0,
+      "first_reading_deg": 0.0,
+      "second_distance_m": 875.057198173127,
+      "second_true_bearing_deg": 321.16077157119946,
+      "second_error_deg": 1.0,
+      "second_reading_deg": 322.16077157119946,
+      "exact_diameter_m": 135.18456012199132,
+      "mec_radius_m": 67.59228006099566,
+      "vertex_count": 4,
+      "interpretation": "合法边界场景值；证明名义一阶值不是全误差上界，但未证明这是全局最大值"
+    },
+    "near_source_triangle": {
+      "source_x_m": 10.0,
+      "source_y_m": 0.0,
+      "second_true_bearing_deg": 215.42894262815375,
+      "second_reading_deg": 215.42894262815375,
+      "exact_diameter_m": 40.10427010013676,
+      "first_order_diameter_m": 60.22177007645043,
+      "mec_radius_m": 20.05213505006838,
+      "vertex_count": 3
+    },
+    "same_nominal_scene_candidate_check": {
+      "source_x_m": 1500.0,
+      "source_y_m": 0.0,
+      "current_heading_offset_deg": 35.0968012275846,
+      "current_exact_diameter_m": 122.4626359104027,
+      "forty_five_heading_offset_deg": 45.0,
+      "forty_five_exact_diameter_m": 126.11640841800681,
+      "both_travel_m": 1000.0,
+      "both_move_and_measurement_time_s": 205.0,
+      "interpretation": "只支持当前35.10度方案在该名义场景下优于45度方案"
+    }
+  },
+  "move_and_second_measurement_time_s": 205.00000000000003,
+  "reception_retained_rate": 1.0,
+  "valid_localization_rate": 1.0,
+  "true_source_containment_rate": 1.0,
+  "diameter_m": {
+    "mean": 49.3937245903575,
+    "median": 43.51939984164461,
+    "p10": 35.30597638640171,
+    "p90": 73.73178833349938,
+    "p95": 86.39645970540037,
+    "p99": 104.79908670065345,
+    "max": 127.48734605715543
+  },
+  "mec_radius_m": {
+    "mean": 24.696926056145696,
+    "median": 21.759699920822307,
+    "p10": 17.652988193200855,
+    "p90": 36.86589416674969,
+    "p95": 43.19822985270019,
+    "p99": 52.399543350326724,
+    "max": 63.74367302857772
+  },
+  "mean_diameter_95ci_m": [
+    49.16583089439317,
+    49.621618286321834
+  ],
+  "crossing_angle_deg": {
+    "mean": 67.40677329720306,
+    "median": 68.1814309599111,
+    "p10": 48.26359213048307,
+    "p90": 85.55639175505539,
+    "p95": 87.76320707429852,
+    "p99": 89.54291541960137,
+    "max": 89.99965341258877
+  },
+  "diameter_circle_coverage_rate": 0.98025,
+  "diameter_at_most_40m_rate": 0.37905,
+  "diameter_endpoint_circle_within_20m_and_covers_rate": 0.3593,
+  "mec_within_20m_rate": 0.37905,
+  "observation_counts": {
+    "direction": 20000,
+    "near": 0,
+    "no_signal": 0,
+    "invalid_intersection": 0
+  }
+}
