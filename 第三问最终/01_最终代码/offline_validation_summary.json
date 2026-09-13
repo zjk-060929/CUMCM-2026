@@ -1,0 +1,63 @@
+{
+  "superseded": true,
+  "superseded_reason": "旧坐标哈希误差会把数米位移视作新误差抽样；当前结果改见空间相关误差调整_20260913",
+  "mode": "offline_only_no_network",
+  "result_status": "final_frozen_code_validation",
+  "strategy": "p3_origin_safe_piggyback_reactive_rolling_dp_v3",
+  "seeds": [20260911, 20260912, 20260913, 20260914],
+  "scenarios_per_seed": 250,
+  "scenarios": 1000,
+  "successful_scenarios": 1000,
+  "success_rate": 1.0,
+  "success_rate_exact_95ci": [0.9963179161031344, 1.0],
+  "source_hashes": {
+    "geometry.py": "39d1e44f991f62a837703ff1a6fcb349fd56ab3b5c841a9d1aa3f4d9e7d6e1ef",
+    "policy.py": "c567114f8792b64adaf8a096f5a1035408074d2ba1f143b9585641f773044e88",
+    "scheduler.py": "a93fb98c4b5688bb474c8f1764e085cfb4cee4b8c12239385cdffe230ff295d8",
+    "offline_validation.py": "ea3a479ef63245762377a838bf92879eef941ba7d8be9242be7ac2115ab9c366"
+  },
+  "source_hashes_unchanged_during_run": true,
+  "mean_virtual_time_s": 3300.6004913298802,
+  "mean_virtual_time_bootstrap_95ci": [3282.429513723356, 3318.8465848638048],
+  "median_virtual_time_s": 3290.332896769355,
+  "p90_virtual_time_s": 3692.1500912803035,
+  "p95_virtual_time_s": 3814.658639006797,
+  "max_virtual_time_s": 4364.683791408403,
+  "mean_time_per_source_s": 256.67375034001674,
+  "mean_time_per_source_bootstrap_95ci": [254.41105818522934, 258.9443827096521],
+  "mean_source_count": 13.091,
+  "mean_movement_m": 13020.3024566494,
+  "mean_measure_count": 104.594,
+  "mean_clear_attempt_count": 15.495,
+  "max_clear_attempt_count": 30,
+  "mean_shared_observation_count": 9.271,
+  "mean_piggyback_observation_count": 1.194,
+  "mean_reactive_refinement_count": 2.119,
+  "mean_no_signal_measure_count": 75.639,
+  "mean_time_components_s": {
+    "movement": 2604.0604913298803,
+    "measure": 522.97,
+    "switch": 100.90300000000003,
+    "clear": 72.667
+  },
+  "mean_time_components_percent": {
+    "movement": 78.89656740251682,
+    "measure": 15.844692545303614,
+    "switch": 3.057110373250418,
+    "clear": 2.2016296789291503
+  },
+  "extreme_cases": {
+    "scenarios": 20,
+    "successful_scenarios": 20,
+    "max_virtual_time_s": 4949.772896508668,
+    "max_clear_attempt_count": 40,
+    "source_hashes_unchanged_during_run": true
+  },
+  "unit_tests": {
+    "passed": 49,
+    "failed": 0
+  },
+  "official_simulator_connected": false,
+  "formal_test_performed": false,
+  "note": "这些结果来自本地离线假模拟器，不能作为官方演练或正式测试成绩。旧版策略曾进行一次问题3演练，当前冻结优化版尚未演练。"
+}

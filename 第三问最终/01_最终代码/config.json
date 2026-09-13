@@ -1,0 +1,12 @@
+{
+  "robot_id": "202617241078",
+  "port": 2026,
+  "timeout_s": 5.0,
+  "network_retries": 2,
+  "coverage_layout": "heptagon_minimax",
+  "shared_observations": true,
+  "origin_information_scan": true,
+  "opportunistic_during_search": true,
+  "strategy": "joint_scale125",
+  "log_directory": "logs"
+}

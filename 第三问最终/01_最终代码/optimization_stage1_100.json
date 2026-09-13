@@ -1,0 +1,23 @@
+{
+  "mode": "offline_no_network",
+  "strategy": "p3_channel_evidence_shared_observation_rolling_dp",
+  "opportunistic_during_search": true,
+  "coverage_layout": "heptagon_minimax",
+  "shared_observations": true,
+  "seed": 20260911,
+  "scenarios": 100,
+  "successful_scenarios": 100,
+  "failures": [],
+  "mean_virtual_time_s": 3930.3766248291686,
+  "median_virtual_time_s": 3992.9895717429026,
+  "p90_virtual_time_s": 4512.184307408127,
+  "max_virtual_time_s": 5549.345324825342,
+  "mean_time_per_source_s": 304.9758099953161,
+  "mean_source_count": 13.06,
+  "mean_measure_count": 103.94,
+  "mean_clear_attempt_count": 17.58,
+  "max_clear_attempt_count": 43,
+  "mean_no_signal_measure_count": 77.31,
+  "mean_shared_observation_count": 9.93,
+  "mean_certified_absent_channel_count": 6.46
+}
