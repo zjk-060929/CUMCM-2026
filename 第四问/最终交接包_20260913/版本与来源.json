@@ -1,0 +1,20 @@
+{
+  "version": "integrated_q4_20260913",
+  "algorithm_changed_for_delivery": false,
+  "comparison_base_commit": "ef407b7",
+  "learning_sources": [
+    "主线迭代2.md",
+    "主线迭代3.md",
+    "自主启发式算法.md"
+  ],
+  "source_trees": {
+    "fifth_eighth": "code/results/recourse_iteration8_20260913/frozen_source",
+    "boundary": "code/results/boundary_rescue_20260913/heldout/source_snapshot",
+    "reliable": "code/action_planner_20260913/results/reliable_frozen_source",
+    "integrated": "code/integrated_q4_20260913"
+  },
+  "hash_authority": "code/integrated_q4_20260913/results/heldout/manifest.json",
+  "research_complete_runs": 506,
+  "formal_simulator_runs_included": 0,
+  "note": "会话原文不属于交付材料；方法来源在论文与算法文档中说明。保留的历史入口用于源码哈希与追溯，运行统一使用包根入口。"
+}

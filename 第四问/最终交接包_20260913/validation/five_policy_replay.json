@@ -1,0 +1,56 @@
+{
+  "stage": "heldout",
+  "complete_missions": 5,
+  "comparisons": [
+    {
+      "variant": "fifth",
+      "case": [
+        1012000,
+        "mixed",
+        100.0
+      ],
+      "completed": true,
+      "matched_archived": true
+    },
+    {
+      "variant": "eighth",
+      "case": [
+        1012000,
+        "mixed",
+        100.0
+      ],
+      "completed": true,
+      "matched_archived": true
+    },
+    {
+      "variant": "boundary",
+      "case": [
+        1012000,
+        "mixed",
+        100.0
+      ],
+      "completed": true,
+      "matched_archived": true
+    },
+    {
+      "variant": "reliable",
+      "case": [
+        1012000,
+        "mixed",
+        100.0
+      ],
+      "completed": true,
+      "matched_archived": true
+    },
+    {
+      "variant": "integrated",
+      "case": [
+        1012000,
+        "mixed",
+        100.0
+      ],
+      "completed": true,
+      "matched_archived": true
+    }
+  ]
+}

@@ -1,0 +1,1332 @@
+{
+  "stages": {
+    "smoke": {
+      "runs": 6,
+      "complete": 6,
+      "source_sha256": {
+        "integrated": {
+          "action_strategy.py": "b18388995edbf5eabeadc7441efbccc43fdc5cc2ed2d8f0fff7ffe0009418a0d",
+          "bayesian_belief.py": "1d88da321d0fc54095546b8b69e86227823cd292e26af3e50b9fd51b7f2dc4a1",
+          "benchmark_action.py": "5ad0146433b1a69b7889aaf0f88e9661f572e74ec0321ab5d26eba7043548ddc",
+          "benchmark_metaheuristic_q4.py": "873fe4cab44324bbf68729a7e818b99a28c89fa0f3cf68b0dc19d9814aa4ba92",
+          "benchmark_predictive_q4.py": "76e7ecad5180fc67c1a838b74ceab6eaa518cbc6a49ba80bb28696b9e312a145",
+          "benchmark_reliable.py": "f54cd599140d4f7643571e4aa6c9927bac228f7285ab061c86b56c2b5b95e90d",
+          "boundary_geometry.py": "0e30d6efbbd5ba27048cc1e10710d6036eaa3079471bb87a33859a74978c1069",
+          "client.py": "088c1dc2f47621b1eac8142ea0ba6a307557697f35810bc6c43bc0126df22846",
+          "common_simulator.py": "b3895a1e0eebca2db89b9772059a3ebdd93427ea3d7a5fd079272c57d34f44f5",
+          "experiment.py": "cd2a7239d67c3b2c147f4a73f62ade40dacaf6413fc5b7e27919b5d695eac391",
+          "geometry.py": "7735c0f65f1214d1699dd68a33b89da1ab2215f9824d5ae427c63d350b191c36",
+          "heuristic_search.py": "50d5e83a6844aa6c2586ae9db6be1b81b667c10e880d0f303f51197e17cf9407",
+          "integrated_strategy.py": "387e1fb3a01fe8e663e6a48b4f1749685470b0c4426ac13478cfa584e267c303",
+          "metaheuristic_strategy.py": "f9ba837228ce5a6cf2e3c842796fc9d365c14a748b562052c454dd2f02c3d55c",
+          "optimized_geometry.py": "0f858dfb0eb55dcf4151fc9b752e18f3b2ef61855e988cfbf9fcdf28635be610",
+          "optimized_strategy.py": "6b67e80c8cf30130f2d3d0a244d23f654190eeabf843768e079c871869fd7000",
+          "planned_strategy.py": "45553f09e0cc5d3ec685c115de9ce3036de47dcbaab3677dd53bdd14069ae718",
+          "predictive_models_q4.py": "0b6d6f6e7265bd2fea8281e55d92791c1b968dfd3cf7db63302b6424a1d4cb23",
+          "predictive_strategy_q4.py": "53f922a45c38cc3eaa340bac1363b720c296d3076c0f2347c9a6739767ad8746",
+          "refined_geometry.py": "d765b78f0e4cbd46e7641272fbe423fb0cf847c5a678c8824a349d5fdace9a66",
+          "refined_strategy.py": "f46541a2886a6e07b00d23fe9e64c4659c6762d41687eb6558a03a508fe4394d",
+          "reliable_action_strategy.py": "76c570ed5bd117e6093cb0eadae89908f5d6f3da047019cbf8c592624eafa039",
+          "run_action.py": "2e22013a3b1a36b98e74da8eecd8f5a992f22dc3968243da6625cc0d8f6ca3e6",
+          "run_metaheuristic_q4.py": "93b648dea1dd1971e46ff5e34657e7ba529ebedc66882e0eca0455e1a9d44aa4",
+          "run_predictive_q4.py": "aa75ec144ee708b37d14508597ed60451464227b9af31c2cd50843839e2869a1",
+          "run_reliable.py": "2650e3026ca4b9d6c2ba60231ceaa1375e795f6ff8180f25bef247246a5ac406",
+          "simulator.py": "0087f7750c44548cecb91f5aa834cdee586a955da4ecb927b26604626f0de2be",
+          "spatial_error_q4.py": "df339c609dabcb0f4aad5dc247f7e8e6ef118388f8d00199de62bd05c0183d29",
+          "strategy.py": "79e383597f94b64f95ae671b3ff8a9b1f9f8721d9cb95fa7cfa2670bfa7366f4",
+          "test_action.py": "7753fd4b4e87528e99ef52731d825b5c10a2aeec3659e3b00d60aa4019d61c1e",
+          "test_reliable.py": "268e026972f397d11c5338c84bb224e2b2253b13d27bc6cc32a3b5e4cf74e571"
+        },
+        "eighth": {
+          "adaptive_service_strategy.py": "a9869e51930c5f96bb6a26319effbd2f537cee67218ef62ba7e52ad5a3720850",
+          "benchmark_adaptive_service_q4.py": "f69163d21b40b0b924ce9e1855daad471b344a02233b5b1f29eedb9f8631dc3a",
+          "benchmark_correlation_q4.py": "6a8c6452c9f4bb4f24df557739087973eaa96cb02a8a262bd928a86004806936",
+          "benchmark_efficiency_q4.py": "8b10e083ad04734d7dbdba1bced437e799b9ad01904a28bda47228b525db1249",
+          "benchmark_mission_cost_q4.py": "3292bd92950bad01b43b1a0e23a527357e0245dae825461c468ac326ff959fe0",
+          "benchmark_recourse_q4.py": "8686751be7935627f8cebbf4e6ba3b805b85b149228bef8f0cbee08302b9b9ff",
+          "benchmark_service_risk_q4.py": "d20a5a5bc4400384cdbfa53220d7fa047ec1cbc1c982e4b6811682cbda0c2d33",
+          "client.py": "088c1dc2f47621b1eac8142ea0ba6a307557697f35810bc6c43bc0126df22846",
+          "correlated_simulator.py": "b3895a1e0eebca2db89b9772059a3ebdd93427ea3d7a5fd079272c57d34f44f5",
+          "correlation_aware_strategy.py": "ae1c256c14f8fc401236533c054793546d4444b8ecb93f15242d3bb54088b801",
+          "efficient_strategy.py": "598076627b2aa30a95834f755f40f9d98b4e06f4ab86a5703d93490a569eae0c",
+          "geometry.py": "7735c0f65f1214d1699dd68a33b89da1ab2215f9824d5ae427c63d350b191c36",
+          "guarded_route_strategy.py": "200050ebc58e69f913791f7d8cfce9d9c7af2b6aee4ea2869b77ad6b5a53bc14",
+          "heuristic_search.py": "79a222c247312838e6cec2479df18778bb4247cdaf850781a43db2d22c0ab20a",
+          "metaheuristic_strategy.py": "f9ba837228ce5a6cf2e3c842796fc9d365c14a748b562052c454dd2f02c3d55c",
+          "mission_cost_strategy.py": "296eded7701c836fe4d376da67112413b6319b1e2d36d0dfe7cc8c937502a8e7",
+          "optimized_geometry.py": "0f858dfb0eb55dcf4151fc9b752e18f3b2ef61855e988cfbf9fcdf28635be610",
+          "optimized_strategy.py": "6b67e80c8cf30130f2d3d0a244d23f654190eeabf843768e079c871869fd7000",
+          "planned_strategy.py": "45553f09e0cc5d3ec685c115de9ce3036de47dcbaab3677dd53bdd14069ae718",
+          "recourse_strategy.py": "7b8dedd8112fa8e487e8803eb00974fc443e7de79b99b1847ab3adc2d1fadc78",
+          "refined_geometry.py": "384402fdc126d2937d26d8dbf114ebfec2df22623b7523f8e97b1e01272ef56f",
+          "refined_strategy.py": "5e035c98ce45c42807089b7d4575e3e5db9fd9c993c724005af492fe9723aa5f",
+          "run_mission_cost_q4.py": "84fb13910212aa8cc63cbb0889660c15fb5c44ba0b7f05e256728b237b353c76",
+          "run_recourse_q4.py": "4be69d4057f895a6703290c07b9361474619e5a07764496af9505b37ac56b67e",
+          "run_service_risk_q4.py": "fc03502b572be3caaaf11150dae23b1854854571546736e08c085836fc16385e",
+          "service_risk_strategy.py": "a6e7f7972debbec8d4f937d7088cc26cbb8df33f49bb8b036a5833ee98fc7fe6",
+          "simulator.py": "0087f7750c44548cecb91f5aa834cdee586a955da4ecb927b26604626f0de2be",
+          "strategy.py": "79e383597f94b64f95ae671b3ff8a9b1f9f8721d9cb95fa7cfa2670bfa7366f4",
+          "test_mission_cost_q4.py": "485c55f4fee522673d12ddf940d65856bb99e476455f59e603d289326108a419",
+          "test_recourse_q4.py": "9f7185f0c5794e45f0b61be2715693905ac0ea8f7555840a372ae1d6c809bcc9",
+          "test_service_risk_q4.py": "52722eabdcd32551528c3c6fae52b84a7108e5666a67cf9e7abcc517acd8e3af"
+        }
+      }
+    },
+    "development": {
+      "runs": 154,
+      "complete": 154,
+      "source_sha256": {
+        "eighth": {
+          "adaptive_service_strategy.py": "a9869e51930c5f96bb6a26319effbd2f537cee67218ef62ba7e52ad5a3720850",
+          "benchmark_adaptive_service_q4.py": "f69163d21b40b0b924ce9e1855daad471b344a02233b5b1f29eedb9f8631dc3a",
+          "benchmark_correlation_q4.py": "6a8c6452c9f4bb4f24df557739087973eaa96cb02a8a262bd928a86004806936",
+          "benchmark_efficiency_q4.py": "8b10e083ad04734d7dbdba1bced437e799b9ad01904a28bda47228b525db1249",
+          "benchmark_mission_cost_q4.py": "3292bd92950bad01b43b1a0e23a527357e0245dae825461c468ac326ff959fe0",
+          "benchmark_recourse_q4.py": "8686751be7935627f8cebbf4e6ba3b805b85b149228bef8f0cbee08302b9b9ff",
+          "benchmark_service_risk_q4.py": "d20a5a5bc4400384cdbfa53220d7fa047ec1cbc1c982e4b6811682cbda0c2d33",
+          "client.py": "088c1dc2f47621b1eac8142ea0ba6a307557697f35810bc6c43bc0126df22846",
+          "correlated_simulator.py": "b3895a1e0eebca2db89b9772059a3ebdd93427ea3d7a5fd079272c57d34f44f5",
+          "correlation_aware_strategy.py": "ae1c256c14f8fc401236533c054793546d4444b8ecb93f15242d3bb54088b801",
+          "efficient_strategy.py": "598076627b2aa30a95834f755f40f9d98b4e06f4ab86a5703d93490a569eae0c",
+          "geometry.py": "7735c0f65f1214d1699dd68a33b89da1ab2215f9824d5ae427c63d350b191c36",
+          "guarded_route_strategy.py": "200050ebc58e69f913791f7d8cfce9d9c7af2b6aee4ea2869b77ad6b5a53bc14",
+          "heuristic_search.py": "79a222c247312838e6cec2479df18778bb4247cdaf850781a43db2d22c0ab20a",
+          "metaheuristic_strategy.py": "f9ba837228ce5a6cf2e3c842796fc9d365c14a748b562052c454dd2f02c3d55c",
+          "mission_cost_strategy.py": "296eded7701c836fe4d376da67112413b6319b1e2d36d0dfe7cc8c937502a8e7",
+          "optimized_geometry.py": "0f858dfb0eb55dcf4151fc9b752e18f3b2ef61855e988cfbf9fcdf28635be610",
+          "optimized_strategy.py": "6b67e80c8cf30130f2d3d0a244d23f654190eeabf843768e079c871869fd7000",
+          "planned_strategy.py": "45553f09e0cc5d3ec685c115de9ce3036de47dcbaab3677dd53bdd14069ae718",
+          "recourse_strategy.py": "7b8dedd8112fa8e487e8803eb00974fc443e7de79b99b1847ab3adc2d1fadc78",
+          "refined_geometry.py": "384402fdc126d2937d26d8dbf114ebfec2df22623b7523f8e97b1e01272ef56f",
+          "refined_strategy.py": "5e035c98ce45c42807089b7d4575e3e5db9fd9c993c724005af492fe9723aa5f",
+          "run_mission_cost_q4.py": "84fb13910212aa8cc63cbb0889660c15fb5c44ba0b7f05e256728b237b353c76",
+          "run_recourse_q4.py": "4be69d4057f895a6703290c07b9361474619e5a07764496af9505b37ac56b67e",
+          "run_service_risk_q4.py": "fc03502b572be3caaaf11150dae23b1854854571546736e08c085836fc16385e",
+          "service_risk_strategy.py": "a6e7f7972debbec8d4f937d7088cc26cbb8df33f49bb8b036a5833ee98fc7fe6",
+          "simulator.py": "0087f7750c44548cecb91f5aa834cdee586a955da4ecb927b26604626f0de2be",
+          "strategy.py": "79e383597f94b64f95ae671b3ff8a9b1f9f8721d9cb95fa7cfa2670bfa7366f4",
+          "test_mission_cost_q4.py": "485c55f4fee522673d12ddf940d65856bb99e476455f59e603d289326108a419",
+          "test_recourse_q4.py": "9f7185f0c5794e45f0b61be2715693905ac0ea8f7555840a372ae1d6c809bcc9",
+          "test_service_risk_q4.py": "52722eabdcd32551528c3c6fae52b84a7108e5666a67cf9e7abcc517acd8e3af"
+        },
+        "boundary": {
+          "adaptive_service_strategy.py": "a9869e51930c5f96bb6a26319effbd2f537cee67218ef62ba7e52ad5a3720850",
+          "benchmark_adaptive_service_q4.py": "f69163d21b40b0b924ce9e1855daad471b344a02233b5b1f29eedb9f8631dc3a",
+          "benchmark_boundary_rescue_q4.py": "358029c13c89f1e7712dd6884a1de0cbe37425841b9c0f2104f99e568b1d1987",
+          "benchmark_correlation_q4.py": "6a8c6452c9f4bb4f24df557739087973eaa96cb02a8a262bd928a86004806936",
+          "benchmark_efficiency_q4.py": "8b10e083ad04734d7dbdba1bced437e799b9ad01904a28bda47228b525db1249",
+          "benchmark_precision_search_q4.py": "3c0839fed1b6d3792d38a9562e5a39d4abfc23624fdcd1556b3a96c9fe033ff8",
+          "boundary_rescue_strategy.py": "f3f2953775239c184088d24f46b1d7f9dc0ff58a2513f22f9f1d48bc1c666b36",
+          "client.py": "088c1dc2f47621b1eac8142ea0ba6a307557697f35810bc6c43bc0126df22846",
+          "correlated_simulator.py": "b3895a1e0eebca2db89b9772059a3ebdd93427ea3d7a5fd079272c57d34f44f5",
+          "correlation_aware_strategy.py": "ae1c256c14f8fc401236533c054793546d4444b8ecb93f15242d3bb54088b801",
+          "efficient_strategy.py": "598076627b2aa30a95834f755f40f9d98b4e06f4ab86a5703d93490a569eae0c",
+          "geometry.py": "7735c0f65f1214d1699dd68a33b89da1ab2215f9824d5ae427c63d350b191c36",
+          "guarded_route_strategy.py": "200050ebc58e69f913791f7d8cfce9d9c7af2b6aee4ea2869b77ad6b5a53bc14",
+          "heuristic_search.py": "79a222c247312838e6cec2479df18778bb4247cdaf850781a43db2d22c0ab20a",
+          "metaheuristic_strategy.py": "f9ba837228ce5a6cf2e3c842796fc9d365c14a748b562052c454dd2f02c3d55c",
+          "mission_cost_strategy.py": "296eded7701c836fe4d376da67112413b6319b1e2d36d0dfe7cc8c937502a8e7",
+          "optimized_geometry.py": "0f858dfb0eb55dcf4151fc9b752e18f3b2ef61855e988cfbf9fcdf28635be610",
+          "optimized_strategy.py": "6b67e80c8cf30130f2d3d0a244d23f654190eeabf843768e079c871869fd7000",
+          "planned_strategy.py": "45553f09e0cc5d3ec685c115de9ce3036de47dcbaab3677dd53bdd14069ae718",
+          "precision_search_strategy.py": "615c0a3b0202dc52c1305e071c7ba0cf95c72bd4489bdd40393ff278cf08af68",
+          "refined_geometry.py": "384402fdc126d2937d26d8dbf114ebfec2df22623b7523f8e97b1e01272ef56f",
+          "refined_strategy.py": "5e035c98ce45c42807089b7d4575e3e5db9fd9c993c724005af492fe9723aa5f",
+          "service_risk_strategy.py": "a6e7f7972debbec8d4f937d7088cc26cbb8df33f49bb8b036a5833ee98fc7fe6",
+          "simulator.py": "0087f7750c44548cecb91f5aa834cdee586a955da4ecb927b26604626f0de2be",
+          "strategy.py": "79e383597f94b64f95ae671b3ff8a9b1f9f8721d9cb95fa7cfa2670bfa7366f4"
+        },
+        "reliable": {
+          "action_strategy.py": "ba14e8889ad67ec618927dd4b3cc79050b120c3d50e6e4866bc779f3f5c2d992",
+          "bayesian_belief.py": "1d88da321d0fc54095546b8b69e86227823cd292e26af3e50b9fd51b7f2dc4a1",
+          "benchmark_action.py": "5ad0146433b1a69b7889aaf0f88e9661f572e74ec0321ab5d26eba7043548ddc",
+          "benchmark_metaheuristic_q4.py": "873fe4cab44324bbf68729a7e818b99a28c89fa0f3cf68b0dc19d9814aa4ba92",
+          "benchmark_predictive_q4.py": "76e7ecad5180fc67c1a838b74ceab6eaa518cbc6a49ba80bb28696b9e312a145",
+          "benchmark_reliable.py": "f54cd599140d4f7643571e4aa6c9927bac228f7285ab061c86b56c2b5b95e90d",
+          "client.py": "088c1dc2f47621b1eac8142ea0ba6a307557697f35810bc6c43bc0126df22846",
+          "geometry.py": "7735c0f65f1214d1699dd68a33b89da1ab2215f9824d5ae427c63d350b191c36",
+          "heuristic_search.py": "50d5e83a6844aa6c2586ae9db6be1b81b667c10e880d0f303f51197e17cf9407",
+          "metaheuristic_strategy.py": "f9ba837228ce5a6cf2e3c842796fc9d365c14a748b562052c454dd2f02c3d55c",
+          "optimized_geometry.py": "0f858dfb0eb55dcf4151fc9b752e18f3b2ef61855e988cfbf9fcdf28635be610",
+          "optimized_strategy.py": "6b67e80c8cf30130f2d3d0a244d23f654190eeabf843768e079c871869fd7000",
+          "planned_strategy.py": "45553f09e0cc5d3ec685c115de9ce3036de47dcbaab3677dd53bdd14069ae718",
+          "predictive_models_q4.py": "0b6d6f6e7265bd2fea8281e55d92791c1b968dfd3cf7db63302b6424a1d4cb23",
+          "predictive_strategy_q4.py": "53f922a45c38cc3eaa340bac1363b720c296d3076c0f2347c9a6739767ad8746",
+          "refined_geometry.py": "384402fdc126d2937d26d8dbf114ebfec2df22623b7523f8e97b1e01272ef56f",
+          "refined_strategy.py": "f46541a2886a6e07b00d23fe9e64c4659c6762d41687eb6558a03a508fe4394d",
+          "reliable_action_strategy.py": "76c570ed5bd117e6093cb0eadae89908f5d6f3da047019cbf8c592624eafa039",
+          "run_action.py": "2e22013a3b1a36b98e74da8eecd8f5a992f22dc3968243da6625cc0d8f6ca3e6",
+          "run_metaheuristic_q4.py": "93b648dea1dd1971e46ff5e34657e7ba529ebedc66882e0eca0455e1a9d44aa4",
+          "run_predictive_q4.py": "aa75ec144ee708b37d14508597ed60451464227b9af31c2cd50843839e2869a1",
+          "run_reliable.py": "2650e3026ca4b9d6c2ba60231ceaa1375e795f6ff8180f25bef247246a5ac406",
+          "simulator.py": "0087f7750c44548cecb91f5aa834cdee586a955da4ecb927b26604626f0de2be",
+          "spatial_error_q4.py": "df339c609dabcb0f4aad5dc247f7e8e6ef118388f8d00199de62bd05c0183d29",
+          "strategy.py": "79e383597f94b64f95ae671b3ff8a9b1f9f8721d9cb95fa7cfa2670bfa7366f4",
+          "test_action.py": "7753fd4b4e87528e99ef52731d825b5c10a2aeec3659e3b00d60aa4019d61c1e",
+          "test_reliable.py": "268e026972f397d11c5338c84bb224e2b2253b13d27bc6cc32a3b5e4cf74e571"
+        },
+        "integrated": {
+          "action_strategy.py": "b18388995edbf5eabeadc7441efbccc43fdc5cc2ed2d8f0fff7ffe0009418a0d",
+          "bayesian_belief.py": "1d88da321d0fc54095546b8b69e86227823cd292e26af3e50b9fd51b7f2dc4a1",
+          "benchmark_action.py": "5ad0146433b1a69b7889aaf0f88e9661f572e74ec0321ab5d26eba7043548ddc",
+          "benchmark_metaheuristic_q4.py": "873fe4cab44324bbf68729a7e818b99a28c89fa0f3cf68b0dc19d9814aa4ba92",
+          "benchmark_predictive_q4.py": "76e7ecad5180fc67c1a838b74ceab6eaa518cbc6a49ba80bb28696b9e312a145",
+          "benchmark_reliable.py": "f54cd599140d4f7643571e4aa6c9927bac228f7285ab061c86b56c2b5b95e90d",
+          "boundary_geometry.py": "0e30d6efbbd5ba27048cc1e10710d6036eaa3079471bb87a33859a74978c1069",
+          "client.py": "088c1dc2f47621b1eac8142ea0ba6a307557697f35810bc6c43bc0126df22846",
+          "common_simulator.py": "b3895a1e0eebca2db89b9772059a3ebdd93427ea3d7a5fd079272c57d34f44f5",
+          "experiment.py": "cd2a7239d67c3b2c147f4a73f62ade40dacaf6413fc5b7e27919b5d695eac391",
+          "geometry.py": "7735c0f65f1214d1699dd68a33b89da1ab2215f9824d5ae427c63d350b191c36",
+          "heuristic_search.py": "50d5e83a6844aa6c2586ae9db6be1b81b667c10e880d0f303f51197e17cf9407",
+          "integrated_strategy.py": "387e1fb3a01fe8e663e6a48b4f1749685470b0c4426ac13478cfa584e267c303",
+          "metaheuristic_strategy.py": "f9ba837228ce5a6cf2e3c842796fc9d365c14a748b562052c454dd2f02c3d55c",
+          "optimized_geometry.py": "0f858dfb0eb55dcf4151fc9b752e18f3b2ef61855e988cfbf9fcdf28635be610",
+          "optimized_strategy.py": "6b67e80c8cf30130f2d3d0a244d23f654190eeabf843768e079c871869fd7000",
+          "planned_strategy.py": "45553f09e0cc5d3ec685c115de9ce3036de47dcbaab3677dd53bdd14069ae718",
+          "predictive_models_q4.py": "0b6d6f6e7265bd2fea8281e55d92791c1b968dfd3cf7db63302b6424a1d4cb23",
+          "predictive_strategy_q4.py": "53f922a45c38cc3eaa340bac1363b720c296d3076c0f2347c9a6739767ad8746",
+          "refined_geometry.py": "d765b78f0e4cbd46e7641272fbe423fb0cf847c5a678c8824a349d5fdace9a66",
+          "refined_strategy.py": "f46541a2886a6e07b00d23fe9e64c4659c6762d41687eb6558a03a508fe4394d",
+          "reliable_action_strategy.py": "76c570ed5bd117e6093cb0eadae89908f5d6f3da047019cbf8c592624eafa039",
+          "run_action.py": "2e22013a3b1a36b98e74da8eecd8f5a992f22dc3968243da6625cc0d8f6ca3e6",
+          "run_metaheuristic_q4.py": "93b648dea1dd1971e46ff5e34657e7ba529ebedc66882e0eca0455e1a9d44aa4",
+          "run_predictive_q4.py": "aa75ec144ee708b37d14508597ed60451464227b9af31c2cd50843839e2869a1",
+          "run_reliable.py": "2650e3026ca4b9d6c2ba60231ceaa1375e795f6ff8180f25bef247246a5ac406",
+          "simulator.py": "0087f7750c44548cecb91f5aa834cdee586a955da4ecb927b26604626f0de2be",
+          "spatial_error_q4.py": "df339c609dabcb0f4aad5dc247f7e8e6ef118388f8d00199de62bd05c0183d29",
+          "strategy.py": "79e383597f94b64f95ae671b3ff8a9b1f9f8721d9cb95fa7cfa2670bfa7366f4",
+          "test_action.py": "7753fd4b4e87528e99ef52731d825b5c10a2aeec3659e3b00d60aa4019d61c1e",
+          "test_integration.py": "4b6c0a2ab7ac02baeeadbe3d99bab8ea6ff3150da043c623fd4073262cdbf1df",
+          "test_reliable.py": "268e026972f397d11c5338c84bb224e2b2253b13d27bc6cc32a3b5e4cf74e571"
+        },
+        "expanded": {
+          "action_strategy.py": "b18388995edbf5eabeadc7441efbccc43fdc5cc2ed2d8f0fff7ffe0009418a0d",
+          "bayesian_belief.py": "1d88da321d0fc54095546b8b69e86227823cd292e26af3e50b9fd51b7f2dc4a1",
+          "benchmark_action.py": "5ad0146433b1a69b7889aaf0f88e9661f572e74ec0321ab5d26eba7043548ddc",
+          "benchmark_metaheuristic_q4.py": "873fe4cab44324bbf68729a7e818b99a28c89fa0f3cf68b0dc19d9814aa4ba92",
+          "benchmark_predictive_q4.py": "76e7ecad5180fc67c1a838b74ceab6eaa518cbc6a49ba80bb28696b9e312a145",
+          "benchmark_reliable.py": "f54cd599140d4f7643571e4aa6c9927bac228f7285ab061c86b56c2b5b95e90d",
+          "boundary_geometry.py": "0e30d6efbbd5ba27048cc1e10710d6036eaa3079471bb87a33859a74978c1069",
+          "client.py": "088c1dc2f47621b1eac8142ea0ba6a307557697f35810bc6c43bc0126df22846",
+          "common_simulator.py": "b3895a1e0eebca2db89b9772059a3ebdd93427ea3d7a5fd079272c57d34f44f5",
+          "experiment.py": "cd2a7239d67c3b2c147f4a73f62ade40dacaf6413fc5b7e27919b5d695eac391",
+          "geometry.py": "7735c0f65f1214d1699dd68a33b89da1ab2215f9824d5ae427c63d350b191c36",
+          "heuristic_search.py": "50d5e83a6844aa6c2586ae9db6be1b81b667c10e880d0f303f51197e17cf9407",
+          "integrated_strategy.py": "387e1fb3a01fe8e663e6a48b4f1749685470b0c4426ac13478cfa584e267c303",
+          "metaheuristic_strategy.py": "f9ba837228ce5a6cf2e3c842796fc9d365c14a748b562052c454dd2f02c3d55c",
+          "optimized_geometry.py": "0f858dfb0eb55dcf4151fc9b752e18f3b2ef61855e988cfbf9fcdf28635be610",
+          "optimized_strategy.py": "6b67e80c8cf30130f2d3d0a244d23f654190eeabf843768e079c871869fd7000",
+          "planned_strategy.py": "45553f09e0cc5d3ec685c115de9ce3036de47dcbaab3677dd53bdd14069ae718",
+          "predictive_models_q4.py": "0b6d6f6e7265bd2fea8281e55d92791c1b968dfd3cf7db63302b6424a1d4cb23",
+          "predictive_strategy_q4.py": "53f922a45c38cc3eaa340bac1363b720c296d3076c0f2347c9a6739767ad8746",
+          "refined_geometry.py": "d765b78f0e4cbd46e7641272fbe423fb0cf847c5a678c8824a349d5fdace9a66",
+          "refined_strategy.py": "f46541a2886a6e07b00d23fe9e64c4659c6762d41687eb6558a03a508fe4394d",
+          "reliable_action_strategy.py": "76c570ed5bd117e6093cb0eadae89908f5d6f3da047019cbf8c592624eafa039",
+          "run_action.py": "2e22013a3b1a36b98e74da8eecd8f5a992f22dc3968243da6625cc0d8f6ca3e6",
+          "run_metaheuristic_q4.py": "93b648dea1dd1971e46ff5e34657e7ba529ebedc66882e0eca0455e1a9d44aa4",
+          "run_predictive_q4.py": "aa75ec144ee708b37d14508597ed60451464227b9af31c2cd50843839e2869a1",
+          "run_reliable.py": "2650e3026ca4b9d6c2ba60231ceaa1375e795f6ff8180f25bef247246a5ac406",
+          "simulator.py": "0087f7750c44548cecb91f5aa834cdee586a955da4ecb927b26604626f0de2be",
+          "spatial_error_q4.py": "df339c609dabcb0f4aad5dc247f7e8e6ef118388f8d00199de62bd05c0183d29",
+          "strategy.py": "79e383597f94b64f95ae671b3ff8a9b1f9f8721d9cb95fa7cfa2670bfa7366f4",
+          "test_action.py": "7753fd4b4e87528e99ef52731d825b5c10a2aeec3659e3b00d60aa4019d61c1e",
+          "test_integration.py": "4b6c0a2ab7ac02baeeadbe3d99bab8ea6ff3150da043c623fd4073262cdbf1df",
+          "test_reliable.py": "268e026972f397d11c5338c84bb224e2b2253b13d27bc6cc32a3b5e4cf74e571"
+        },
+        "free": {
+          "action_strategy.py": "b18388995edbf5eabeadc7441efbccc43fdc5cc2ed2d8f0fff7ffe0009418a0d",
+          "bayesian_belief.py": "1d88da321d0fc54095546b8b69e86227823cd292e26af3e50b9fd51b7f2dc4a1",
+          "benchmark_action.py": "5ad0146433b1a69b7889aaf0f88e9661f572e74ec0321ab5d26eba7043548ddc",
+          "benchmark_metaheuristic_q4.py": "873fe4cab44324bbf68729a7e818b99a28c89fa0f3cf68b0dc19d9814aa4ba92",
+          "benchmark_predictive_q4.py": "76e7ecad5180fc67c1a838b74ceab6eaa518cbc6a49ba80bb28696b9e312a145",
+          "benchmark_reliable.py": "f54cd599140d4f7643571e4aa6c9927bac228f7285ab061c86b56c2b5b95e90d",
+          "boundary_geometry.py": "0e30d6efbbd5ba27048cc1e10710d6036eaa3079471bb87a33859a74978c1069",
+          "client.py": "088c1dc2f47621b1eac8142ea0ba6a307557697f35810bc6c43bc0126df22846",
+          "common_simulator.py": "b3895a1e0eebca2db89b9772059a3ebdd93427ea3d7a5fd079272c57d34f44f5",
+          "experiment.py": "cd2a7239d67c3b2c147f4a73f62ade40dacaf6413fc5b7e27919b5d695eac391",
+          "geometry.py": "7735c0f65f1214d1699dd68a33b89da1ab2215f9824d5ae427c63d350b191c36",
+          "heuristic_search.py": "50d5e83a6844aa6c2586ae9db6be1b81b667c10e880d0f303f51197e17cf9407",
+          "integrated_strategy.py": "387e1fb3a01fe8e663e6a48b4f1749685470b0c4426ac13478cfa584e267c303",
+          "metaheuristic_strategy.py": "f9ba837228ce5a6cf2e3c842796fc9d365c14a748b562052c454dd2f02c3d55c",
+          "optimized_geometry.py": "0f858dfb0eb55dcf4151fc9b752e18f3b2ef61855e988cfbf9fcdf28635be610",
+          "optimized_strategy.py": "6b67e80c8cf30130f2d3d0a244d23f654190eeabf843768e079c871869fd7000",
+          "planned_strategy.py": "45553f09e0cc5d3ec685c115de9ce3036de47dcbaab3677dd53bdd14069ae718",
+          "predictive_models_q4.py": "0b6d6f6e7265bd2fea8281e55d92791c1b968dfd3cf7db63302b6424a1d4cb23",
+          "predictive_strategy_q4.py": "53f922a45c38cc3eaa340bac1363b720c296d3076c0f2347c9a6739767ad8746",
+          "refined_geometry.py": "d765b78f0e4cbd46e7641272fbe423fb0cf847c5a678c8824a349d5fdace9a66",
+          "refined_strategy.py": "f46541a2886a6e07b00d23fe9e64c4659c6762d41687eb6558a03a508fe4394d",
+          "reliable_action_strategy.py": "76c570ed5bd117e6093cb0eadae89908f5d6f3da047019cbf8c592624eafa039",
+          "run_action.py": "2e22013a3b1a36b98e74da8eecd8f5a992f22dc3968243da6625cc0d8f6ca3e6",
+          "run_metaheuristic_q4.py": "93b648dea1dd1971e46ff5e34657e7ba529ebedc66882e0eca0455e1a9d44aa4",
+          "run_predictive_q4.py": "aa75ec144ee708b37d14508597ed60451464227b9af31c2cd50843839e2869a1",
+          "run_reliable.py": "2650e3026ca4b9d6c2ba60231ceaa1375e795f6ff8180f25bef247246a5ac406",
+          "simulator.py": "0087f7750c44548cecb91f5aa834cdee586a955da4ecb927b26604626f0de2be",
+          "spatial_error_q4.py": "df339c609dabcb0f4aad5dc247f7e8e6ef118388f8d00199de62bd05c0183d29",
+          "strategy.py": "79e383597f94b64f95ae671b3ff8a9b1f9f8721d9cb95fa7cfa2670bfa7366f4",
+          "test_action.py": "7753fd4b4e87528e99ef52731d825b5c10a2aeec3659e3b00d60aa4019d61c1e",
+          "test_integration.py": "4b6c0a2ab7ac02baeeadbe3d99bab8ea6ff3150da043c623fd4073262cdbf1df",
+          "test_reliable.py": "268e026972f397d11c5338c84bb224e2b2253b13d27bc6cc32a3b5e4cf74e571"
+        },
+        "no_sensing": {
+          "action_strategy.py": "b18388995edbf5eabeadc7441efbccc43fdc5cc2ed2d8f0fff7ffe0009418a0d",
+          "bayesian_belief.py": "1d88da321d0fc54095546b8b69e86227823cd292e26af3e50b9fd51b7f2dc4a1",
+          "benchmark_action.py": "5ad0146433b1a69b7889aaf0f88e9661f572e74ec0321ab5d26eba7043548ddc",
+          "benchmark_metaheuristic_q4.py": "873fe4cab44324bbf68729a7e818b99a28c89fa0f3cf68b0dc19d9814aa4ba92",
+          "benchmark_predictive_q4.py": "76e7ecad5180fc67c1a838b74ceab6eaa518cbc6a49ba80bb28696b9e312a145",
+          "benchmark_reliable.py": "f54cd599140d4f7643571e4aa6c9927bac228f7285ab061c86b56c2b5b95e90d",
+          "boundary_geometry.py": "0e30d6efbbd5ba27048cc1e10710d6036eaa3079471bb87a33859a74978c1069",
+          "client.py": "088c1dc2f47621b1eac8142ea0ba6a307557697f35810bc6c43bc0126df22846",
+          "common_simulator.py": "b3895a1e0eebca2db89b9772059a3ebdd93427ea3d7a5fd079272c57d34f44f5",
+          "experiment.py": "cd2a7239d67c3b2c147f4a73f62ade40dacaf6413fc5b7e27919b5d695eac391",
+          "geometry.py": "7735c0f65f1214d1699dd68a33b89da1ab2215f9824d5ae427c63d350b191c36",
+          "heuristic_search.py": "50d5e83a6844aa6c2586ae9db6be1b81b667c10e880d0f303f51197e17cf9407",
+          "integrated_strategy.py": "387e1fb3a01fe8e663e6a48b4f1749685470b0c4426ac13478cfa584e267c303",
+          "metaheuristic_strategy.py": "f9ba837228ce5a6cf2e3c842796fc9d365c14a748b562052c454dd2f02c3d55c",
+          "optimized_geometry.py": "0f858dfb0eb55dcf4151fc9b752e18f3b2ef61855e988cfbf9fcdf28635be610",
+          "optimized_strategy.py": "6b67e80c8cf30130f2d3d0a244d23f654190eeabf843768e079c871869fd7000",
+          "planned_strategy.py": "45553f09e0cc5d3ec685c115de9ce3036de47dcbaab3677dd53bdd14069ae718",
+          "predictive_models_q4.py": "0b6d6f6e7265bd2fea8281e55d92791c1b968dfd3cf7db63302b6424a1d4cb23",
+          "predictive_strategy_q4.py": "53f922a45c38cc3eaa340bac1363b720c296d3076c0f2347c9a6739767ad8746",
+          "refined_geometry.py": "d765b78f0e4cbd46e7641272fbe423fb0cf847c5a678c8824a349d5fdace9a66",
+          "refined_strategy.py": "f46541a2886a6e07b00d23fe9e64c4659c6762d41687eb6558a03a508fe4394d",
+          "reliable_action_strategy.py": "76c570ed5bd117e6093cb0eadae89908f5d6f3da047019cbf8c592624eafa039",
+          "run_action.py": "2e22013a3b1a36b98e74da8eecd8f5a992f22dc3968243da6625cc0d8f6ca3e6",
+          "run_metaheuristic_q4.py": "93b648dea1dd1971e46ff5e34657e7ba529ebedc66882e0eca0455e1a9d44aa4",
+          "run_predictive_q4.py": "aa75ec144ee708b37d14508597ed60451464227b9af31c2cd50843839e2869a1",
+          "run_reliable.py": "2650e3026ca4b9d6c2ba60231ceaa1375e795f6ff8180f25bef247246a5ac406",
+          "simulator.py": "0087f7750c44548cecb91f5aa834cdee586a955da4ecb927b26604626f0de2be",
+          "spatial_error_q4.py": "df339c609dabcb0f4aad5dc247f7e8e6ef118388f8d00199de62bd05c0183d29",
+          "strategy.py": "79e383597f94b64f95ae671b3ff8a9b1f9f8721d9cb95fa7cfa2670bfa7366f4",
+          "test_action.py": "7753fd4b4e87528e99ef52731d825b5c10a2aeec3659e3b00d60aa4019d61c1e",
+          "test_integration.py": "4b6c0a2ab7ac02baeeadbe3d99bab8ea6ff3150da043c623fd4073262cdbf1df",
+          "test_reliable.py": "268e026972f397d11c5338c84bb224e2b2253b13d27bc6cc32a3b5e4cf74e571"
+        }
+      }
+    },
+    "heldout": {
+      "runs": 345,
+      "complete": 345,
+      "source_sha256": {
+        "fifth": {
+          "adaptive_service_strategy.py": "a9869e51930c5f96bb6a26319effbd2f537cee67218ef62ba7e52ad5a3720850",
+          "benchmark_adaptive_service_q4.py": "f69163d21b40b0b924ce9e1855daad471b344a02233b5b1f29eedb9f8631dc3a",
+          "benchmark_correlation_q4.py": "6a8c6452c9f4bb4f24df557739087973eaa96cb02a8a262bd928a86004806936",
+          "benchmark_efficiency_q4.py": "8b10e083ad04734d7dbdba1bced437e799b9ad01904a28bda47228b525db1249",
+          "benchmark_mission_cost_q4.py": "3292bd92950bad01b43b1a0e23a527357e0245dae825461c468ac326ff959fe0",
+          "benchmark_recourse_q4.py": "8686751be7935627f8cebbf4e6ba3b805b85b149228bef8f0cbee08302b9b9ff",
+          "benchmark_service_risk_q4.py": "d20a5a5bc4400384cdbfa53220d7fa047ec1cbc1c982e4b6811682cbda0c2d33",
+          "client.py": "088c1dc2f47621b1eac8142ea0ba6a307557697f35810bc6c43bc0126df22846",
+          "correlated_simulator.py": "b3895a1e0eebca2db89b9772059a3ebdd93427ea3d7a5fd079272c57d34f44f5",
+          "correlation_aware_strategy.py": "ae1c256c14f8fc401236533c054793546d4444b8ecb93f15242d3bb54088b801",
+          "efficient_strategy.py": "598076627b2aa30a95834f755f40f9d98b4e06f4ab86a5703d93490a569eae0c",
+          "geometry.py": "7735c0f65f1214d1699dd68a33b89da1ab2215f9824d5ae427c63d350b191c36",
+          "guarded_route_strategy.py": "200050ebc58e69f913791f7d8cfce9d9c7af2b6aee4ea2869b77ad6b5a53bc14",
+          "heuristic_search.py": "79a222c247312838e6cec2479df18778bb4247cdaf850781a43db2d22c0ab20a",
+          "metaheuristic_strategy.py": "f9ba837228ce5a6cf2e3c842796fc9d365c14a748b562052c454dd2f02c3d55c",
+          "mission_cost_strategy.py": "296eded7701c836fe4d376da67112413b6319b1e2d36d0dfe7cc8c937502a8e7",
+          "optimized_geometry.py": "0f858dfb0eb55dcf4151fc9b752e18f3b2ef61855e988cfbf9fcdf28635be610",
+          "optimized_strategy.py": "6b67e80c8cf30130f2d3d0a244d23f654190eeabf843768e079c871869fd7000",
+          "planned_strategy.py": "45553f09e0cc5d3ec685c115de9ce3036de47dcbaab3677dd53bdd14069ae718",
+          "recourse_strategy.py": "7b8dedd8112fa8e487e8803eb00974fc443e7de79b99b1847ab3adc2d1fadc78",
+          "refined_geometry.py": "384402fdc126d2937d26d8dbf114ebfec2df22623b7523f8e97b1e01272ef56f",
+          "refined_strategy.py": "5e035c98ce45c42807089b7d4575e3e5db9fd9c993c724005af492fe9723aa5f",
+          "run_mission_cost_q4.py": "84fb13910212aa8cc63cbb0889660c15fb5c44ba0b7f05e256728b237b353c76",
+          "run_recourse_q4.py": "4be69d4057f895a6703290c07b9361474619e5a07764496af9505b37ac56b67e",
+          "run_service_risk_q4.py": "fc03502b572be3caaaf11150dae23b1854854571546736e08c085836fc16385e",
+          "service_risk_strategy.py": "a6e7f7972debbec8d4f937d7088cc26cbb8df33f49bb8b036a5833ee98fc7fe6",
+          "simulator.py": "0087f7750c44548cecb91f5aa834cdee586a955da4ecb927b26604626f0de2be",
+          "strategy.py": "79e383597f94b64f95ae671b3ff8a9b1f9f8721d9cb95fa7cfa2670bfa7366f4",
+          "test_mission_cost_q4.py": "485c55f4fee522673d12ddf940d65856bb99e476455f59e603d289326108a419",
+          "test_recourse_q4.py": "9f7185f0c5794e45f0b61be2715693905ac0ea8f7555840a372ae1d6c809bcc9",
+          "test_service_risk_q4.py": "52722eabdcd32551528c3c6fae52b84a7108e5666a67cf9e7abcc517acd8e3af"
+        },
+        "eighth": {
+          "adaptive_service_strategy.py": "a9869e51930c5f96bb6a26319effbd2f537cee67218ef62ba7e52ad5a3720850",
+          "benchmark_adaptive_service_q4.py": "f69163d21b40b0b924ce9e1855daad471b344a02233b5b1f29eedb9f8631dc3a",
+          "benchmark_correlation_q4.py": "6a8c6452c9f4bb4f24df557739087973eaa96cb02a8a262bd928a86004806936",
+          "benchmark_efficiency_q4.py": "8b10e083ad04734d7dbdba1bced437e799b9ad01904a28bda47228b525db1249",
+          "benchmark_mission_cost_q4.py": "3292bd92950bad01b43b1a0e23a527357e0245dae825461c468ac326ff959fe0",
+          "benchmark_recourse_q4.py": "8686751be7935627f8cebbf4e6ba3b805b85b149228bef8f0cbee08302b9b9ff",
+          "benchmark_service_risk_q4.py": "d20a5a5bc4400384cdbfa53220d7fa047ec1cbc1c982e4b6811682cbda0c2d33",
+          "client.py": "088c1dc2f47621b1eac8142ea0ba6a307557697f35810bc6c43bc0126df22846",
+          "correlated_simulator.py": "b3895a1e0eebca2db89b9772059a3ebdd93427ea3d7a5fd079272c57d34f44f5",
+          "correlation_aware_strategy.py": "ae1c256c14f8fc401236533c054793546d4444b8ecb93f15242d3bb54088b801",
+          "efficient_strategy.py": "598076627b2aa30a95834f755f40f9d98b4e06f4ab86a5703d93490a569eae0c",
+          "geometry.py": "7735c0f65f1214d1699dd68a33b89da1ab2215f9824d5ae427c63d350b191c36",
+          "guarded_route_strategy.py": "200050ebc58e69f913791f7d8cfce9d9c7af2b6aee4ea2869b77ad6b5a53bc14",
+          "heuristic_search.py": "79a222c247312838e6cec2479df18778bb4247cdaf850781a43db2d22c0ab20a",
+          "metaheuristic_strategy.py": "f9ba837228ce5a6cf2e3c842796fc9d365c14a748b562052c454dd2f02c3d55c",
+          "mission_cost_strategy.py": "296eded7701c836fe4d376da67112413b6319b1e2d36d0dfe7cc8c937502a8e7",
+          "optimized_geometry.py": "0f858dfb0eb55dcf4151fc9b752e18f3b2ef61855e988cfbf9fcdf28635be610",
+          "optimized_strategy.py": "6b67e80c8cf30130f2d3d0a244d23f654190eeabf843768e079c871869fd7000",
+          "planned_strategy.py": "45553f09e0cc5d3ec685c115de9ce3036de47dcbaab3677dd53bdd14069ae718",
+          "recourse_strategy.py": "7b8dedd8112fa8e487e8803eb00974fc443e7de79b99b1847ab3adc2d1fadc78",
+          "refined_geometry.py": "384402fdc126d2937d26d8dbf114ebfec2df22623b7523f8e97b1e01272ef56f",
+          "refined_strategy.py": "5e035c98ce45c42807089b7d4575e3e5db9fd9c993c724005af492fe9723aa5f",
+          "run_mission_cost_q4.py": "84fb13910212aa8cc63cbb0889660c15fb5c44ba0b7f05e256728b237b353c76",
+          "run_recourse_q4.py": "4be69d4057f895a6703290c07b9361474619e5a07764496af9505b37ac56b67e",
+          "run_service_risk_q4.py": "fc03502b572be3caaaf11150dae23b1854854571546736e08c085836fc16385e",
+          "service_risk_strategy.py": "a6e7f7972debbec8d4f937d7088cc26cbb8df33f49bb8b036a5833ee98fc7fe6",
+          "simulator.py": "0087f7750c44548cecb91f5aa834cdee586a955da4ecb927b26604626f0de2be",
+          "strategy.py": "79e383597f94b64f95ae671b3ff8a9b1f9f8721d9cb95fa7cfa2670bfa7366f4",
+          "test_mission_cost_q4.py": "485c55f4fee522673d12ddf940d65856bb99e476455f59e603d289326108a419",
+          "test_recourse_q4.py": "9f7185f0c5794e45f0b61be2715693905ac0ea8f7555840a372ae1d6c809bcc9",
+          "test_service_risk_q4.py": "52722eabdcd32551528c3c6fae52b84a7108e5666a67cf9e7abcc517acd8e3af"
+        },
+        "boundary": {
+          "adaptive_service_strategy.py": "a9869e51930c5f96bb6a26319effbd2f537cee67218ef62ba7e52ad5a3720850",
+          "benchmark_adaptive_service_q4.py": "f69163d21b40b0b924ce9e1855daad471b344a02233b5b1f29eedb9f8631dc3a",
+          "benchmark_boundary_rescue_q4.py": "358029c13c89f1e7712dd6884a1de0cbe37425841b9c0f2104f99e568b1d1987",
+          "benchmark_correlation_q4.py": "6a8c6452c9f4bb4f24df557739087973eaa96cb02a8a262bd928a86004806936",
+          "benchmark_efficiency_q4.py": "8b10e083ad04734d7dbdba1bced437e799b9ad01904a28bda47228b525db1249",
+          "benchmark_precision_search_q4.py": "3c0839fed1b6d3792d38a9562e5a39d4abfc23624fdcd1556b3a96c9fe033ff8",
+          "boundary_rescue_strategy.py": "f3f2953775239c184088d24f46b1d7f9dc0ff58a2513f22f9f1d48bc1c666b36",
+          "client.py": "088c1dc2f47621b1eac8142ea0ba6a307557697f35810bc6c43bc0126df22846",
+          "correlated_simulator.py": "b3895a1e0eebca2db89b9772059a3ebdd93427ea3d7a5fd079272c57d34f44f5",
+          "correlation_aware_strategy.py": "ae1c256c14f8fc401236533c054793546d4444b8ecb93f15242d3bb54088b801",
+          "efficient_strategy.py": "598076627b2aa30a95834f755f40f9d98b4e06f4ab86a5703d93490a569eae0c",
+          "geometry.py": "7735c0f65f1214d1699dd68a33b89da1ab2215f9824d5ae427c63d350b191c36",
+          "guarded_route_strategy.py": "200050ebc58e69f913791f7d8cfce9d9c7af2b6aee4ea2869b77ad6b5a53bc14",
+          "heuristic_search.py": "79a222c247312838e6cec2479df18778bb4247cdaf850781a43db2d22c0ab20a",
+          "metaheuristic_strategy.py": "f9ba837228ce5a6cf2e3c842796fc9d365c14a748b562052c454dd2f02c3d55c",
+          "mission_cost_strategy.py": "296eded7701c836fe4d376da67112413b6319b1e2d36d0dfe7cc8c937502a8e7",
+          "optimized_geometry.py": "0f858dfb0eb55dcf4151fc9b752e18f3b2ef61855e988cfbf9fcdf28635be610",
+          "optimized_strategy.py": "6b67e80c8cf30130f2d3d0a244d23f654190eeabf843768e079c871869fd7000",
+          "planned_strategy.py": "45553f09e0cc5d3ec685c115de9ce3036de47dcbaab3677dd53bdd14069ae718",
+          "precision_search_strategy.py": "615c0a3b0202dc52c1305e071c7ba0cf95c72bd4489bdd40393ff278cf08af68",
+          "refined_geometry.py": "384402fdc126d2937d26d8dbf114ebfec2df22623b7523f8e97b1e01272ef56f",
+          "refined_strategy.py": "5e035c98ce45c42807089b7d4575e3e5db9fd9c993c724005af492fe9723aa5f",
+          "service_risk_strategy.py": "a6e7f7972debbec8d4f937d7088cc26cbb8df33f49bb8b036a5833ee98fc7fe6",
+          "simulator.py": "0087f7750c44548cecb91f5aa834cdee586a955da4ecb927b26604626f0de2be",
+          "strategy.py": "79e383597f94b64f95ae671b3ff8a9b1f9f8721d9cb95fa7cfa2670bfa7366f4"
+        },
+        "reliable": {
+          "action_strategy.py": "ba14e8889ad67ec618927dd4b3cc79050b120c3d50e6e4866bc779f3f5c2d992",
+          "bayesian_belief.py": "1d88da321d0fc54095546b8b69e86227823cd292e26af3e50b9fd51b7f2dc4a1",
+          "benchmark_action.py": "5ad0146433b1a69b7889aaf0f88e9661f572e74ec0321ab5d26eba7043548ddc",
+          "benchmark_metaheuristic_q4.py": "873fe4cab44324bbf68729a7e818b99a28c89fa0f3cf68b0dc19d9814aa4ba92",
+          "benchmark_predictive_q4.py": "76e7ecad5180fc67c1a838b74ceab6eaa518cbc6a49ba80bb28696b9e312a145",
+          "benchmark_reliable.py": "f54cd599140d4f7643571e4aa6c9927bac228f7285ab061c86b56c2b5b95e90d",
+          "client.py": "088c1dc2f47621b1eac8142ea0ba6a307557697f35810bc6c43bc0126df22846",
+          "geometry.py": "7735c0f65f1214d1699dd68a33b89da1ab2215f9824d5ae427c63d350b191c36",
+          "heuristic_search.py": "50d5e83a6844aa6c2586ae9db6be1b81b667c10e880d0f303f51197e17cf9407",
+          "metaheuristic_strategy.py": "f9ba837228ce5a6cf2e3c842796fc9d365c14a748b562052c454dd2f02c3d55c",
+          "optimized_geometry.py": "0f858dfb0eb55dcf4151fc9b752e18f3b2ef61855e988cfbf9fcdf28635be610",
+          "optimized_strategy.py": "6b67e80c8cf30130f2d3d0a244d23f654190eeabf843768e079c871869fd7000",
+          "planned_strategy.py": "45553f09e0cc5d3ec685c115de9ce3036de47dcbaab3677dd53bdd14069ae718",
+          "predictive_models_q4.py": "0b6d6f6e7265bd2fea8281e55d92791c1b968dfd3cf7db63302b6424a1d4cb23",
+          "predictive_strategy_q4.py": "53f922a45c38cc3eaa340bac1363b720c296d3076c0f2347c9a6739767ad8746",
+          "refined_geometry.py": "384402fdc126d2937d26d8dbf114ebfec2df22623b7523f8e97b1e01272ef56f",
+          "refined_strategy.py": "f46541a2886a6e07b00d23fe9e64c4659c6762d41687eb6558a03a508fe4394d",
+          "reliable_action_strategy.py": "76c570ed5bd117e6093cb0eadae89908f5d6f3da047019cbf8c592624eafa039",
+          "run_action.py": "2e22013a3b1a36b98e74da8eecd8f5a992f22dc3968243da6625cc0d8f6ca3e6",
+          "run_metaheuristic_q4.py": "93b648dea1dd1971e46ff5e34657e7ba529ebedc66882e0eca0455e1a9d44aa4",
+          "run_predictive_q4.py": "aa75ec144ee708b37d14508597ed60451464227b9af31c2cd50843839e2869a1",
+          "run_reliable.py": "2650e3026ca4b9d6c2ba60231ceaa1375e795f6ff8180f25bef247246a5ac406",
+          "simulator.py": "0087f7750c44548cecb91f5aa834cdee586a955da4ecb927b26604626f0de2be",
+          "spatial_error_q4.py": "df339c609dabcb0f4aad5dc247f7e8e6ef118388f8d00199de62bd05c0183d29",
+          "strategy.py": "79e383597f94b64f95ae671b3ff8a9b1f9f8721d9cb95fa7cfa2670bfa7366f4",
+          "test_action.py": "7753fd4b4e87528e99ef52731d825b5c10a2aeec3659e3b00d60aa4019d61c1e",
+          "test_reliable.py": "268e026972f397d11c5338c84bb224e2b2253b13d27bc6cc32a3b5e4cf74e571"
+        },
+        "integrated": {
+          "action_strategy.py": "b18388995edbf5eabeadc7441efbccc43fdc5cc2ed2d8f0fff7ffe0009418a0d",
+          "bayesian_belief.py": "1d88da321d0fc54095546b8b69e86227823cd292e26af3e50b9fd51b7f2dc4a1",
+          "benchmark_action.py": "5ad0146433b1a69b7889aaf0f88e9661f572e74ec0321ab5d26eba7043548ddc",
+          "benchmark_metaheuristic_q4.py": "873fe4cab44324bbf68729a7e818b99a28c89fa0f3cf68b0dc19d9814aa4ba92",
+          "benchmark_predictive_q4.py": "76e7ecad5180fc67c1a838b74ceab6eaa518cbc6a49ba80bb28696b9e312a145",
+          "benchmark_reliable.py": "f54cd599140d4f7643571e4aa6c9927bac228f7285ab061c86b56c2b5b95e90d",
+          "boundary_geometry.py": "0e30d6efbbd5ba27048cc1e10710d6036eaa3079471bb87a33859a74978c1069",
+          "client.py": "088c1dc2f47621b1eac8142ea0ba6a307557697f35810bc6c43bc0126df22846",
+          "common_simulator.py": "b3895a1e0eebca2db89b9772059a3ebdd93427ea3d7a5fd079272c57d34f44f5",
+          "experiment.py": "cd2a7239d67c3b2c147f4a73f62ade40dacaf6413fc5b7e27919b5d695eac391",
+          "geometry.py": "7735c0f65f1214d1699dd68a33b89da1ab2215f9824d5ae427c63d350b191c36",
+          "heuristic_search.py": "50d5e83a6844aa6c2586ae9db6be1b81b667c10e880d0f303f51197e17cf9407",
+          "integrated_strategy.py": "387e1fb3a01fe8e663e6a48b4f1749685470b0c4426ac13478cfa584e267c303",
+          "metaheuristic_strategy.py": "f9ba837228ce5a6cf2e3c842796fc9d365c14a748b562052c454dd2f02c3d55c",
+          "optimized_geometry.py": "0f858dfb0eb55dcf4151fc9b752e18f3b2ef61855e988cfbf9fcdf28635be610",
+          "optimized_strategy.py": "6b67e80c8cf30130f2d3d0a244d23f654190eeabf843768e079c871869fd7000",
+          "planned_strategy.py": "45553f09e0cc5d3ec685c115de9ce3036de47dcbaab3677dd53bdd14069ae718",
+          "predictive_models_q4.py": "0b6d6f6e7265bd2fea8281e55d92791c1b968dfd3cf7db63302b6424a1d4cb23",
+          "predictive_strategy_q4.py": "53f922a45c38cc3eaa340bac1363b720c296d3076c0f2347c9a6739767ad8746",
+          "refined_geometry.py": "d765b78f0e4cbd46e7641272fbe423fb0cf847c5a678c8824a349d5fdace9a66",
+          "refined_strategy.py": "f46541a2886a6e07b00d23fe9e64c4659c6762d41687eb6558a03a508fe4394d",
+          "reliable_action_strategy.py": "76c570ed5bd117e6093cb0eadae89908f5d6f3da047019cbf8c592624eafa039",
+          "run_action.py": "2e22013a3b1a36b98e74da8eecd8f5a992f22dc3968243da6625cc0d8f6ca3e6",
+          "run_metaheuristic_q4.py": "93b648dea1dd1971e46ff5e34657e7ba529ebedc66882e0eca0455e1a9d44aa4",
+          "run_predictive_q4.py": "aa75ec144ee708b37d14508597ed60451464227b9af31c2cd50843839e2869a1",
+          "run_reliable.py": "2650e3026ca4b9d6c2ba60231ceaa1375e795f6ff8180f25bef247246a5ac406",
+          "simulator.py": "0087f7750c44548cecb91f5aa834cdee586a955da4ecb927b26604626f0de2be",
+          "spatial_error_q4.py": "df339c609dabcb0f4aad5dc247f7e8e6ef118388f8d00199de62bd05c0183d29",
+          "strategy.py": "79e383597f94b64f95ae671b3ff8a9b1f9f8721d9cb95fa7cfa2670bfa7366f4",
+          "test_action.py": "7753fd4b4e87528e99ef52731d825b5c10a2aeec3659e3b00d60aa4019d61c1e",
+          "test_integration.py": "4b6c0a2ab7ac02baeeadbe3d99bab8ea6ff3150da043c623fd4073262cdbf1df",
+          "test_reliable.py": "268e026972f397d11c5338c84bb224e2b2253b13d27bc6cc32a3b5e4cf74e571"
+        }
+      }
+    }
+  },
+  "complete_simulations": 506,
+  "entry_runs": 1,
+  "focused_tests_passed": 14,
+  "new_validation_layouts": 23,
+  "validation_cases_per_policy": 69,
+  "validation_runs": 345,
+  "containment_violations": 0,
+  "nearby_effective_bearings": 0,
+  "selected": "integrated",
+  "selected_single_action_decisions": 18678,
+  "selected_single_action_replans": 18678,
+  "comparisons": {
+    "edge_inset": {
+      "fifth": {
+        "mean_saved_s": 125.97152819446353,
+        "reduction_pct": 23.60033246340482,
+        "layout_bootstrap_95ci": [
+          115.5813732803441,
+          136.36168310858298
+        ],
+        "layouts": 2,
+        "cases": 6,
+        "faster": 6,
+        "slower": 0,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012401,
+            "scale": 900.0,
+            "extra_total_s": -1486.091220954303,
+            "before_s": 495.85944045788807,
+            "after_s": 402.97873914824413,
+            "before_stations": 19,
+            "after_stations": 20
+          },
+          {
+            "seed": 1012401,
+            "scale": 300.0,
+            "extra_total_s": -1635.7807374391432,
+            "before_s": 494.95114386109213,
+            "after_s": 392.7148477711457,
+            "before_stations": 19,
+            "after_stations": 20
+          },
+          {
+            "seed": 1012400,
+            "scale": 100.0,
+            "extra_total_s": -1779.89955774804,
+            "before_s": 520.7308830371284,
+            "after_s": 409.48716067787586,
+            "before_stations": 18,
+            "after_stations": 21
+          }
+        ]
+      },
+      "eighth": {
+        "mean_saved_s": 117.54009378691525,
+        "reduction_pct": 22.37415442663499,
+        "layout_bootstrap_95ci": [
+          86.92061596467623,
+          148.15957160915428
+        ],
+        "layouts": 2,
+        "cases": 6,
+        "faster": 6,
+        "slower": 0,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012401,
+            "scale": 900.0,
+            "extra_total_s": -886.2582817954963,
+            "before_s": 458.36988176046265,
+            "after_s": 402.97873914824413,
+            "before_stations": 21,
+            "after_stations": 20
+          },
+          {
+            "seed": 1012401,
+            "scale": 300.0,
+            "extra_total_s": -1041.2317309134178,
+            "before_s": 457.7918309532343,
+            "after_s": 392.7148477711457,
+            "before_stations": 21,
+            "after_stations": 20
+          },
+          {
+            "seed": 1012400,
+            "scale": 100.0,
+            "extra_total_s": -1779.89955774804,
+            "before_s": 520.7308830371284,
+            "after_s": 409.48716067787586,
+            "before_stations": 18,
+            "after_stations": 21
+          }
+        ]
+      },
+      "boundary": {
+        "mean_saved_s": 65.56243220653884,
+        "reduction_pct": 13.850407147957348,
+        "layout_bootstrap_95ci": [
+          57.23014940417869,
+          73.89471500889901
+        ],
+        "layouts": 2,
+        "cases": 6,
+        "faster": 6,
+        "slower": 0,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012400,
+            "scale": 900.0,
+            "extra_total_s": -290.14380130800964,
+            "before_s": 464.63372666003187,
+            "after_s": 446.49973907828127,
+            "before_stations": 18,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012401,
+            "scale": 300.0,
+            "extra_total_s": -970.8504039089376,
+            "before_s": 453.3929980154543,
+            "after_s": 392.7148477711457,
+            "before_stations": 19,
+            "after_stations": 20
+          },
+          {
+            "seed": 1012400,
+            "scale": 100.0,
+            "extra_total_s": -1092.063432997822,
+            "before_s": 477.74112524023974,
+            "after_s": 409.48716067787586,
+            "before_stations": 18,
+            "after_stations": 21
+          }
+        ]
+      },
+      "reliable": {
+        "mean_saved_s": 71.32924121776493,
+        "reduction_pct": 14.88730834825161,
+        "layout_bootstrap_95ci": [
+          60.71999969047183,
+          81.93848274505804
+        ],
+        "layouts": 2,
+        "cases": 6,
+        "faster": 6,
+        "slower": 0,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012401,
+            "scale": 900.0,
+            "extra_total_s": -747.3743323634089,
+            "before_s": 449.6896349209572,
+            "after_s": 402.97873914824413,
+            "before_stations": 20,
+            "after_stations": 20
+          },
+          {
+            "seed": 1012401,
+            "scale": 100.0,
+            "extra_total_s": -1043.0282513077036,
+            "before_s": 454.04400387697285,
+            "after_s": 388.8547381702414,
+            "before_stations": 20,
+            "after_stations": 18
+          },
+          {
+            "seed": 1012401,
+            "scale": 300.0,
+            "extra_total_s": -1124.1574014715352,
+            "before_s": 462.97468536311663,
+            "after_s": 392.7148477711457,
+            "before_stations": 20,
+            "after_stations": 20
+          }
+        ]
+      }
+    },
+    "edge_outward": {
+      "fifth": {
+        "mean_saved_s": 78.47619333188335,
+        "reduction_pct": 16.482595856111416,
+        "layout_bootstrap_95ci": [
+          31.113331313841552,
+          118.95764690052998
+        ],
+        "layouts": 3,
+        "cases": 9,
+        "faster": 9,
+        "slower": 0,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012100,
+            "scale": 300.0,
+            "extra_total_s": -372.2406315866583,
+            "before_s": 426.28921962456997,
+            "after_s": 403.0241801504038,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012100,
+            "scale": 100.0,
+            "extra_total_s": -555.3786358329244,
+            "before_s": 427.5203422149287,
+            "after_s": 392.8091774753709,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012100,
+            "scale": 900.0,
+            "extra_total_s": -565.8206356448118,
+            "before_s": 427.6874688862309,
+            "after_s": 392.32367915843014,
+            "before_stations": 21,
+            "after_stations": 20
+          }
+        ]
+      },
+      "eighth": {
+        "mean_saved_s": 91.31303899452656,
+        "reduction_pct": 18.675243137982225,
+        "layout_bootstrap_95ci": [
+          76.46710740320869,
+          108.82837715806573
+        ],
+        "layouts": 3,
+        "cases": 9,
+        "faster": 9,
+        "slower": 0,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012102,
+            "scale": 300.0,
+            "extra_total_s": -997.9963589030804,
+            "before_s": 462.0486475569885,
+            "after_s": 399.673875125546,
+            "before_stations": 21,
+            "after_stations": 20
+          },
+          {
+            "seed": 1012100,
+            "scale": 300.0,
+            "extra_total_s": -1104.0876225937527,
+            "before_s": 472.02965656251337,
+            "after_s": 403.0241801504038,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012100,
+            "scale": 100.0,
+            "extra_total_s": -1279.9799320698512,
+            "before_s": 472.8079232297366,
+            "after_s": 392.8091774753709,
+            "before_stations": 21,
+            "after_stations": 21
+          }
+        ]
+      },
+      "boundary": {
+        "mean_saved_s": 31.269536444281755,
+        "reduction_pct": 7.2904854020700665,
+        "layout_bootstrap_95ci": [
+          19.49784416075776,
+          39.233408325751306
+        ],
+        "layouts": 3,
+        "cases": 9,
+        "faster": 9,
+        "slower": 0,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012100,
+            "scale": 300.0,
+            "extra_total_s": -230.95899265106982,
+            "before_s": 417.4591171910957,
+            "after_s": 403.0241801504038,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012100,
+            "scale": 100.0,
+            "extra_total_s": -273.9100889699539,
+            "before_s": 409.92855803599303,
+            "after_s": 392.8091774753709,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012102,
+            "scale": 300.0,
+            "extra_total_s": -328.2360968913317,
+            "before_s": 420.1886311812542,
+            "after_s": 399.673875125546,
+            "before_stations": 21,
+            "after_stations": 20
+          }
+        ]
+      },
+      "reliable": {
+        "mean_saved_s": 107.0097293590962,
+        "reduction_pct": 21.20478236533519,
+        "layout_bootstrap_95ci": [
+          98.36149803770104,
+          114.75222723251427
+        ],
+        "layouts": 3,
+        "cases": 9,
+        "faster": 9,
+        "slower": 0,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012102,
+            "scale": 300.0,
+            "extra_total_s": -1068.859021904691,
+            "before_s": 466.47756399458916,
+            "after_s": 399.673875125546,
+            "before_stations": 20,
+            "after_stations": 20
+          },
+          {
+            "seed": 1012101,
+            "scale": 100.0,
+            "extra_total_s": -1156.5904037006621,
+            "before_s": 480.94732172934556,
+            "after_s": 408.6604214980542,
+            "before_stations": 20,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012102,
+            "scale": 900.0,
+            "extra_total_s": -1713.8838273844895,
+            "before_s": 480.1345545902853,
+            "after_s": 373.0168153787547,
+            "before_stations": 20,
+            "after_stations": 20
+          }
+        ]
+      }
+    },
+    "minimum_range": {
+      "fifth": {
+        "mean_saved_s": 5.311628603071587,
+        "reduction_pct": 1.1835570072088568,
+        "layout_bootstrap_95ci": [
+          -4.8468931935478095,
+          15.470150399690985
+        ],
+        "layouts": 2,
+        "cases": 6,
+        "faster": 3,
+        "slower": 3,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012300,
+            "scale": 900.0,
+            "extra_total_s": 60.45849317329248,
+            "before_s": 467.14467507316334,
+            "after_s": 472.1828828376044,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012300,
+            "scale": 300.0,
+            "extra_total_s": 58.89550125267124,
+            "before_s": 467.12077897797855,
+            "after_s": 472.0287374157012,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012300,
+            "scale": 100.0,
+            "extra_total_s": 55.1341605417565,
+            "before_s": 466.79805765147836,
+            "after_s": 471.3925710299581,
+            "before_stations": 21,
+            "after_stations": 21
+          }
+        ]
+      },
+      "eighth": {
+        "mean_saved_s": 32.61668046740107,
+        "reduction_pct": 6.850944919805524,
+        "layout_bootstrap_95ci": [
+          26.17756754675304,
+          39.055793388049096
+        ],
+        "layouts": 2,
+        "cases": 6,
+        "faster": 6,
+        "slower": 0,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012300,
+            "scale": 900.0,
+            "extra_total_s": -266.11860518983394,
+            "before_s": 494.3594332700905,
+            "after_s": 472.1828828376044,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012301,
+            "scale": 300.0,
+            "extra_total_s": -330.6814590573931,
+            "before_s": 441.5424545208765,
+            "after_s": 416.1054192087694,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012301,
+            "scale": 900.0,
+            "extra_total_s": -332.6129053372815,
+            "before_s": 441.1891413624548,
+            "after_s": 415.603533259587,
+            "before_stations": 21,
+            "after_stations": 21
+          }
+        ]
+      },
+      "boundary": {
+        "mean_saved_s": 5.311616931367894,
+        "reduction_pct": 1.1835544372571523,
+        "layout_bootstrap_95ci": [
+          -4.846893193547828,
+          15.470127056283616
+        ],
+        "layouts": 2,
+        "cases": 6,
+        "faster": 3,
+        "slower": 3,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012300,
+            "scale": 900.0,
+            "extra_total_s": 60.45849317329248,
+            "before_s": 467.14467507316334,
+            "after_s": 472.1828828376044,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012300,
+            "scale": 300.0,
+            "extra_total_s": 58.89550125267124,
+            "before_s": 467.12077897797855,
+            "after_s": 472.0287374157012,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012300,
+            "scale": 100.0,
+            "extra_total_s": 55.13416054175741,
+            "before_s": 466.7980576514783,
+            "after_s": 471.3925710299581,
+            "before_stations": 21,
+            "after_stations": 21
+          }
+        ]
+      },
+      "reliable": {
+        "mean_saved_s": 20.848530559674128,
+        "reduction_pct": 4.4901008956792134,
+        "layout_bootstrap_95ci": [
+          19.676628552642644,
+          22.02043256670561
+        ],
+        "layouts": 2,
+        "cases": 6,
+        "faster": 6,
+        "slower": 0,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012301,
+            "scale": 300.0,
+            "extra_total_s": -115.76776389156294,
+            "before_s": 425.01063181581264,
+            "after_s": 416.1054192087694,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012301,
+            "scale": 900.0,
+            "extra_total_s": -116.93522455975744,
+            "before_s": 424.5985505334145,
+            "after_s": 415.603533259587,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012300,
+            "scale": 100.0,
+            "extra_total_s": -251.9612107590674,
+            "before_s": 492.3893385932137,
+            "after_s": 471.3925710299581,
+            "before_stations": 21,
+            "after_stations": 21
+          }
+        ]
+      }
+    },
+    "mixed": {
+      "fifth": {
+        "mean_saved_s": 21.173699191768478,
+        "reduction_pct": 4.584830617992493,
+        "layout_bootstrap_95ci": [
+          2.185688428346828,
+          44.06914884776263
+        ],
+        "layouts": 14,
+        "cases": 42,
+        "faster": 30,
+        "slower": 12,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012005,
+            "scale": 100.0,
+            "extra_total_s": 668.4584931796016,
+            "before_s": 492.22833408902056,
+            "after_s": 552.9972880144388,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012007,
+            "scale": 300.0,
+            "extra_total_s": 560.0618307605164,
+            "before_s": 469.0280192494954,
+            "after_s": 512.1096985387659,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012006,
+            "scale": 900.0,
+            "extra_total_s": 340.0867080139151,
+            "before_s": 458.18798473062037,
+            "after_s": 486.52854373177996,
+            "before_stations": 21,
+            "after_stations": 21
+          }
+        ]
+      },
+      "eighth": {
+        "mean_saved_s": 23.761254951428672,
+        "reduction_pct": 5.116457782070925,
+        "layout_bootstrap_95ci": [
+          6.921230887495087,
+          41.95662583476454
+        ],
+        "layouts": 14,
+        "cases": 42,
+        "faster": 33,
+        "slower": 9,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012005,
+            "scale": 100.0,
+            "extra_total_s": 668.4584931796016,
+            "before_s": 492.22833408902056,
+            "after_s": 552.9972880144388,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012010,
+            "scale": 900.0,
+            "extra_total_s": 452.80678203508796,
+            "before_s": 336.07265650224394,
+            "after_s": 364.37308037943694,
+            "before_stations": 10,
+            "after_stations": 19
+          },
+          {
+            "seed": 1012006,
+            "scale": 900.0,
+            "extra_total_s": 336.0202481083843,
+            "before_s": 458.5268563894146,
+            "after_s": 486.52854373177996,
+            "before_stations": 21,
+            "after_stations": 21
+          }
+        ]
+      },
+      "boundary": {
+        "mean_saved_s": 11.524740862920089,
+        "reduction_pct": 2.5487527196285864,
+        "layout_bootstrap_95ci": [
+          -0.17908740216293925,
+          23.66611764537219
+        ],
+        "layouts": 14,
+        "cases": 42,
+        "faster": 32,
+        "slower": 10,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012005,
+            "scale": 100.0,
+            "extra_total_s": 668.4584931796016,
+            "before_s": 492.22833408902056,
+            "after_s": 552.9972880144388,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012007,
+            "scale": 300.0,
+            "extra_total_s": 560.7879002348773,
+            "before_s": 468.9721677514677,
+            "after_s": 512.1096985387659,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012000,
+            "scale": 300.0,
+            "extra_total_s": 318.29798541126456,
+            "before_s": 451.83917011156547,
+            "after_s": 476.3236305278166,
+            "before_stations": 21,
+            "after_stations": 21
+          }
+        ]
+      },
+      "reliable": {
+        "mean_saved_s": 14.341693509066856,
+        "reduction_pct": 3.152098520434158,
+        "layout_bootstrap_95ci": [
+          -3.160553314565046,
+          37.1608766594739
+        ],
+        "layouts": 14,
+        "cases": 42,
+        "faster": 30,
+        "slower": 12,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012010,
+            "scale": 100.0,
+            "extra_total_s": 983.1317156876785,
+            "before_s": 312.68252770299546,
+            "after_s": 374.12825993347536,
+            "before_stations": 13,
+            "after_stations": 19
+          },
+          {
+            "seed": 1012010,
+            "scale": 900.0,
+            "extra_total_s": 836.09912120627,
+            "before_s": 312.11688530404507,
+            "after_s": 364.37308037943694,
+            "before_stations": 13,
+            "after_stations": 19
+          },
+          {
+            "seed": 1012007,
+            "scale": 300.0,
+            "extra_total_s": 602.1809868590817,
+            "before_s": 465.7880841649904,
+            "after_s": 512.1096985387659,
+            "before_stations": 21,
+            "after_stations": 21
+          }
+        ]
+      }
+    },
+    "rotated_cluster": {
+      "fifth": {
+        "mean_saved_s": 6.830631126767078,
+        "reduction_pct": 1.2338334897683676,
+        "layout_bootstrap_95ci": [
+          4.175094323883816,
+          9.48616792965034
+        ],
+        "layouts": 2,
+        "cases": 6,
+        "faster": 5,
+        "slower": 1,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012201,
+            "scale": 100.0,
+            "extra_total_s": 64.54287334492255,
+            "before_s": 572.266287468718,
+            "after_s": 578.7205748032103,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012201,
+            "scale": 900.0,
+            "extra_total_s": -45.85529357135238,
+            "before_s": 571.9699680621814,
+            "after_s": 567.384438705046,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012200,
+            "scale": 100.0,
+            "extra_total_s": -89.88349640692286,
+            "before_s": 530.8912643578767,
+            "after_s": 521.9029147171843,
+            "before_stations": 21,
+            "after_stations": 21
+          }
+        ]
+      },
+      "eighth": {
+        "mean_saved_s": 0.24769917455544524,
+        "reduction_pct": 0.04528093499573905,
+        "layout_bootstrap_95ci": [
+          -8.99076958053945,
+          9.48616792965034
+        ],
+        "layouts": 2,
+        "cases": 6,
+        "faster": 3,
+        "slower": 3,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012201,
+            "scale": 100.0,
+            "extra_total_s": 229.18598166528136,
+            "before_s": 555.8019766366822,
+            "after_s": 578.7205748032103,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012201,
+            "scale": 300.0,
+            "extra_total_s": 26.076093548665085,
+            "before_s": 565.047278895757,
+            "after_s": 567.6548882506235,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012201,
+            "scale": 900.0,
+            "extra_total_s": 14.461012202238635,
+            "before_s": 565.9383374848222,
+            "after_s": 567.384438705046,
+            "before_stations": 21,
+            "after_stations": 21
+          }
+        ]
+      },
+      "boundary": {
+        "mean_saved_s": 6.830631126767078,
+        "reduction_pct": 1.2338334897683676,
+        "layout_bootstrap_95ci": [
+          4.175094323883816,
+          9.48616792965034
+        ],
+        "layouts": 2,
+        "cases": 6,
+        "faster": 5,
+        "slower": 1,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012201,
+            "scale": 100.0,
+            "extra_total_s": 64.54287334492255,
+            "before_s": 572.266287468718,
+            "after_s": 578.7205748032103,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012201,
+            "scale": 900.0,
+            "extra_total_s": -45.85529357135238,
+            "before_s": 571.9699680621814,
+            "after_s": 567.384438705046,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012200,
+            "scale": 100.0,
+            "extra_total_s": -89.88349640692286,
+            "before_s": 530.8912643578767,
+            "after_s": 521.9029147171843,
+            "before_stations": 21,
+            "after_stations": 21
+          }
+        ]
+      },
+      "reliable": {
+        "mean_saved_s": -0.53542426267749,
+        "reduction_pct": -0.09801917760819855,
+        "layout_bootstrap_95ci": [
+          -0.7002835342810082,
+          -0.37056499107397184
+        ],
+        "layouts": 2,
+        "cases": 6,
+        "faster": 1,
+        "slower": 5,
+        "ties": 0,
+        "worst_regressions": [
+          {
+            "seed": 1012201,
+            "scale": 100.0,
+            "extra_total_s": 115.21520759668056,
+            "before_s": 567.1990540435422,
+            "after_s": 578.7205748032103,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012200,
+            "scale": 300.0,
+            "extra_total_s": 11.78346385286568,
+            "before_s": 521.8725324069267,
+            "after_s": 523.0508787922133,
+            "before_stations": 21,
+            "after_stations": 21
+          },
+          {
+            "seed": 1012201,
+            "scale": 900.0,
+            "extra_total_s": 8.997220214012486,
+            "before_s": 566.4847166836448,
+            "after_s": 567.384438705046,
+            "before_stations": 21,
+            "after_stations": 21
+          }
+        ]
+      }
+    }
+  }
+}

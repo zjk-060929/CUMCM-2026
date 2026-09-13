@@ -1,0 +1,97 @@
+{
+  "runs": 6,
+  "groups": {
+    "edge_outward": {
+      "eighth": {
+        "runs": 1,
+        "complete": 1,
+        "median": 611.5626743639249,
+        "p90": 611.5626743639249,
+        "maximum": 611.5626743639249,
+        "le400": 0,
+        "fallback_runs": 1,
+        "time_per_source_s": 611.5626743639249,
+        "virtual_time_s": 9785.002789822798,
+        "distance_m": 35005.01394911398,
+        "measures": 341,
+        "switches": 309,
+        "clear_failures": 230,
+        "fallback_attempts": 226,
+        "stations_visited": 21,
+        "runtime_s": 0.2761869999994815,
+        "mean_first_discovery_s": 3777.3874038125,
+        "last_first_discovery_s": 6094.930138,
+        "integration_totals": {}
+      },
+      "integrated": {
+        "runs": 1,
+        "complete": 1,
+        "median": 394.34503171311,
+        "p90": 394.34503171311,
+        "maximum": 394.34503171311,
+        "le400": 1,
+        "fallback_runs": 0,
+        "time_per_source_s": 394.34503171311,
+        "virtual_time_s": 6309.52050740976,
+        "distance_m": 21702.602537048806,
+        "measures": 316,
+        "switches": 300,
+        "clear_failures": 3,
+        "fallback_attempts": 0,
+        "stations_visited": 20,
+        "runtime_s": 9.923135699998966,
+        "mean_first_discovery_s": 3802.20474525,
+        "last_first_discovery_s": 5821.191477,
+        "integration_totals": {
+          "boundary_episodes": 8,
+          "boundary_success": 8
+        }
+      }
+    },
+    "mixed": {
+      "eighth": {
+        "runs": 2,
+        "complete": 2,
+        "median": 463.0003853858454,
+        "p90": 323.45452989832836,
+        "maximum": 602.5462408733624,
+        "le400": 1,
+        "fallback_runs": 0,
+        "time_per_source_s": 463.0003853858454,
+        "virtual_time_s": 5600.367443553439,
+        "distance_m": 21401.83721776719,
+        "measures": 211.5,
+        "switches": 197.5,
+        "clear_failures": 0,
+        "fallback_attempts": 0,
+        "stations_visited": 19,
+        "runtime_s": 0.3981970500008174,
+        "mean_first_discovery_s": 796.010030725,
+        "last_first_discovery_s": 4584.948079,
+        "integration_totals": {}
+      },
+      "integrated": {
+        "runs": 2,
+        "complete": 2,
+        "median": 389.43960631135496,
+        "p90": 211.1633212019581,
+        "maximum": 567.7158914207519,
+        "le400": 1,
+        "fallback_runs": 0,
+        "time_per_source_s": 389.43960631135496,
+        "virtual_time_s": 4527.886026719424,
+        "distance_m": 17151.930133597125,
+        "measures": 173,
+        "switches": 164.5,
+        "clear_failures": 1,
+        "fallback_attempts": 0,
+        "stations_visited": 13,
+        "runtime_s": 7.307394050001676,
+        "mean_first_discovery_s": 694.40978824375,
+        "last_first_discovery_s": 2565.222888,
+        "integration_totals": {}
+      }
+    }
+  },
+  "wall_s": 24.77798999999868
+}

@@ -1,0 +1,27 @@
+{
+  "delivery_date": "2026-09-13",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "algorithm_changed": false,
+  "frozen_five_policy_hashes_match": true,
+  "focused_tests_passed": 14,
+  "archived_validation_rows_recomputed": 345,
+  "research_complete_missions": 506,
+  "packaging_complete_missions": 6,
+  "packaging_use": "5个对照各复算1场＋独立目录最终入口1场；不用于调参，不并入论文比较样本",
+  "replay_five_policies_match": true,
+  "standalone_seed42_matches": true,
+  "standalone_source_isolated": true,
+  "official_missions_run": 0,
+  "official_logs_included": 0,
+  "publication_figures_inspected": 3,
+  "certificate": {
+    "certified": true,
+    "cells": 1027,
+    "distance_bound_m": 999.890386570573,
+    "hull_margin_m": 0.0037076254684931466
+  },
+  "unit_test_log": "focused_tests.txt",
+  "replay_evidence": "five_policy_replay.json",
+  "standalone_evidence": "standalone_demo_summary.json",
+  "artifact_policy": "原始研究数据保留；包根脚本新增运行均使用独立输出目录。ZIP字节及SHA256由构建核对。"
+}

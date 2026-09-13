@@ -1,0 +1,19 @@
+test_1024_circles_contain_their_disks (test_integration.IntegrationTests.test_1024_circles_contain_their_disks) ... ok
+test_boundary_candidate_preserves_input (test_integration.IntegrationTests.test_boundary_candidate_preserves_input) ... ok
+test_last_discovery_risk_cannot_cancel_late_completion (test_integration.IntegrationTests.test_last_discovery_risk_cannot_cancel_late_completion) ... ok
+test_no_sensing_disables_its_route_value (test_integration.IntegrationTests.test_no_sensing_disables_its_route_value) ... ok
+test_planning_does_not_consume_or_activate_optical_cover (test_integration.IntegrationTests.test_planning_does_not_consume_or_activate_optical_cover) ... ok
+test_continuous_cover_contains_long_thin_and_rotated_regions (test_action.Contracts.test_continuous_cover_contains_long_thin_and_rotated_regions) ... ok
+test_near_requires_separate_decision (test_action.Contracts.test_near_requires_separate_decision) ... ok
+test_no_small_step_bearing_candidate (test_action.Contracts.test_no_small_step_bearing_candidate) ... ok
+test_partial_station_is_not_coverage (test_action.Contracts.test_partial_station_is_not_coverage) ... ok
+test_tail_risk_does_not_collapse_to_24_samples (test_action.Contracts.test_tail_risk_does_not_collapse_to_24_samples) ... ok
+test_unknown_channel_can_compete_at_a_clear_point (test_action.Contracts.test_unknown_channel_can_compete_at_a_clear_point) ... ok
+test_empty_feasible_bank_is_not_information_gain (test_reliable.ReliableContracts.test_empty_feasible_bank_is_not_information_gain) ... ok
+test_optical_recovery_does_not_recommend_optional_probe (test_reliable.ReliableContracts.test_optical_recovery_does_not_recommend_optional_probe) ... ok
+test_three_low_gain_probes_suspend_optional_forecasts (test_reliable.ReliableContracts.test_three_low_gain_probes_suspend_optional_forecasts) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.215s
+
+OK

@@ -1,0 +1,214 @@
+{
+  "seed": 42,
+  "mode": "mixed",
+  "length_scale_m": 300.0,
+  "variant": "integrated",
+  "completed": true,
+  "stop_reason": "all_sources_cleared_with_certificate",
+  "virtual_time_s": 5677.158914207519,
+  "runtime_s": 9.641805899998872,
+  "policy_version": "integrated_q4_20260913",
+  "stations_visited": 21,
+  "visited_station_ids": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    1,
+    20,
+    19,
+    18,
+    17,
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9
+  ],
+  "discovery_certificate": "convex_cell_cover",
+  "discovered_channels": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    9,
+    11,
+    12,
+    17,
+    18
+  ],
+  "cleared_channels": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    9,
+    11,
+    12,
+    17,
+    18
+  ],
+  "schedule_replans": 270,
+  "decisions": 270,
+  "schedule_planning_s": 8.09981949991925,
+  "meta_evaluations": 95178,
+  "action_kinds": {
+    "station_unknown": 244,
+    "enroute_probe": 5,
+    "local_service": 8,
+    "at_point_probe": 5,
+    "station_probe": 5,
+    "safe_clear": 3
+  },
+  "interrupted_stations": 0,
+  "fallback_channels": 0,
+  "budget_counts": {
+    "3x4": 270
+  },
+  "action_cost_parts": {
+    "station_unknown": {
+      "actions": 244,
+      "move_s": 2422.789186626433,
+      "operation_s": 1451.0000003735663
+    },
+    "enroute_probe": {
+      "actions": 5,
+      "move_s": 248.02185916802327,
+      "operation_s": 30.00000083197675
+    },
+    "local_service": {
+      "actions": 8,
+      "move_s": 565.084689853015,
+      "operation_s": 37.99999914698538
+    },
+    "at_point_probe": {
+      "actions": 5,
+      "move_s": 0.0,
+      "operation_s": 30.0
+    },
+    "station_probe": {
+      "actions": 5,
+      "move_s": 595.6744007306359,
+      "operation_s": 29.99999926936384
+    },
+    "safe_clear": {
+      "actions": 3,
+      "move_s": 251.58877782941337,
+      "operation_s": 15.000000170586894
+    }
+  },
+  "failure_recovery_samples": [
+    {
+      "channel": 3,
+      "predicted_recovery_s": 17.942370752474655,
+      "actual_elapsed_to_success_s": 10.300024000000008
+    }
+  ],
+  "fallback_attempts": 0,
+  "prediction_metrics": {
+    "unknown_reception_probability": {
+      "n": 244,
+      "predicted_sum": 13.38202304346123,
+      "actual_sum": 10.0,
+      "squared_error": 8.65386606218704,
+      "absolute_error": 20.286545815864407
+    },
+    "known_reception_probability": {
+      "n": 15,
+      "predicted_sum": 12.234127139634387,
+      "actual_sum": 13.0,
+      "squared_error": 0.9470951639482473,
+      "absolute_error": 2.690872860365614
+    },
+    "remaining_radius_fraction": {
+      "n": 15,
+      "predicted_sum": 5.028815768779398,
+      "actual_sum": 3.49540040624855,
+      "squared_error": 0.7193879442706202,
+      "absolute_error": 2.829720743765364
+    },
+    "clear_success_probability": {
+      "n": 8,
+      "predicted_sum": 5.555,
+      "actual_sum": 7.0,
+      "squared_error": 0.8289138888888888,
+      "absolute_error": 2.1950000000000003
+    }
+  },
+  "depleted_target_banks": 0,
+  "depth": 3,
+  "width": 4,
+  "branch": 6,
+  "optional_probe_vetoes": {},
+  "optional_probe_weak_limit": 3,
+  "circle_sides": 1024,
+  "search": "standard",
+  "patrol": "gated",
+  "integration_counts": {},
+  "guard_records": [],
+  "optional_count": 15,
+  "station_prefix_m": 17900.34384319591,
+  "base_cap_m": 18329.861886622315,
+  "final_cap_m": 18329.861886622315,
+  "source_count": 10,
+  "directional_count": 2,
+  "cleared": 10,
+  "clear_ratio": 1.0,
+  "time_per_source_s": 567.7158914207519,
+  "distance_m": 20415.794571037608,
+  "measures": 259,
+  "switches": 246,
+  "clear_failures": 1,
+  "containment_violations": 0,
+  "nearby_effective_bearings": 0,
+  "mean_first_discovery_s": 787.1340273,
+  "last_first_discovery_s": 3438.412958,
+  "paid_parts": {
+    "station_unknown": {
+      "movement_s": 2422.789186626433,
+      "operation_s": 1451.0000003735663,
+      "actions": 244
+    },
+    "enroute_probe": {
+      "movement_s": 248.02185916802327,
+      "operation_s": 30.00000083197675,
+      "actions": 5
+    },
+    "local_service": {
+      "movement_s": 565.084689853015,
+      "operation_s": 37.99999914698538,
+      "actions": 8
+    },
+    "at_point_probe": {
+      "movement_s": 0.0,
+      "operation_s": 30.0,
+      "actions": 5
+    },
+    "station_probe": {
+      "movement_s": 595.6744007306359,
+      "operation_s": 29.99999926936384,
+      "actions": 5
+    },
+    "safe_clear": {
+      "movement_s": 251.58877782941337,
+      "operation_s": 15.000000170586894,
+      "actions": 3
+    }
+  },
+  "case_sha256": "fe95a29f6c172b3df32273bb0f3614dfb61ecf58084beec74f36c2f17e7bc13d",
+  "error_samples": [
+    -0.13633552055803802,
+    -0.11609271031354086,
+    0.026873234057594897,
+    -0.16775058006606547
+  ]
+}
