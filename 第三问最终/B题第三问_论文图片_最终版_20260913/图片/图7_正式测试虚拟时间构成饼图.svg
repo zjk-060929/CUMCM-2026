@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="661.965176pt" height="352.656pt" viewBox="0 0 661.965176 352.656" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-13T17:30:06.311875</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 352.656 
+L 661.965176 352.656 
+L 661.965176 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 36.867642 192.413065 
+C 36.337627 204.223358 37.582546 216.046607 40.560763 227.487504 
+C 43.53898 238.928401 48.216954 249.858012 54.438238 259.910851 
+C 60.659521 269.963689 68.354023 279.026482 77.264447 286.796182 
+C 86.174871 294.565883 96.200791 300.954935 107.006995 305.749715 
+C 117.813199 310.544496 129.277884 313.690961 141.017716 315.083902 
+C 152.757548 316.476843 164.640215 316.100571 176.268395 313.967646 
+C 187.896576 311.834728 199.13921 307.969209 209.620401 302.500337 
+C 220.101596 297.031465 229.703217 290.020875 238.104204 281.702984 
+C 246.505191 273.385092 253.610888 263.853625 259.183674 253.427311 
+C 264.756459 243.000997 268.733535 231.797343 270.981935 220.190939 
+C 273.230334 208.584535 273.724709 196.706211 272.448538 184.953112 
+C 271.172361 173.200014 268.14001 161.704599 263.452884 150.851271 
+C 258.765758 139.997943 252.47666 129.908985 244.795909 120.921771 
+C 237.115159 111.934557 228.129333 104.150386 218.138835 97.829479 
+C 208.148334 91.508573 197.265773 86.722197 185.855046 83.630394 
+C 174.444319 80.53859 162.634029 79.176217 150.819051 79.5888 
+L 152.799027 136.287936 
+C 158.942815 136.073393 165.084166 136.781827 171.017744 138.389565 
+C 176.951322 139.997303 182.610254 142.486218 187.805314 145.773089 
+C 193.000373 149.059961 197.673003 153.107729 201.666993 157.781081 
+C 205.660983 162.454432 208.931314 167.70069 211.36862 173.344421 
+C 213.805925 178.988152 215.382747 184.965767 216.04636 191.077378 
+C 216.709968 197.18899 216.452894 203.365718 215.283726 209.401049 
+C 214.114558 215.436378 212.046479 221.262278 209.14863 226.683962 
+C 206.250782 232.105645 202.555819 237.062008 198.187306 241.387312 
+C 193.818793 245.712615 188.82595 249.358122 183.375729 252.201935 
+C 177.925509 255.045749 172.07934 257.055818 166.032686 258.164936 
+C 159.986032 259.274057 153.807045 259.469718 147.702333 258.745389 
+C 141.59762 258.02106 135.635984 256.384898 130.016757 253.891612 
+C 124.397531 251.398326 119.184053 248.076019 114.550633 244.035775 
+C 109.917212 239.995531 105.916071 235.282878 102.681004 230.055402 
+C 99.445936 224.827926 97.01339 219.144529 95.464717 213.195262 
+C 93.916044 207.245996 93.268686 201.097906 93.544294 194.956554 
+z
+" style="fill: #3f7cac; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 40.8789 166.740113 
+C 39.741488 170.929044 38.835693 175.177435 38.165624 179.466009 
+C 37.495554 183.754582 37.062238 188.076825 36.867642 192.413065 
+L 93.544294 194.956554 
+C 93.645484 192.701709 93.870808 190.454143 94.219244 188.224084 
+C 94.56768 185.994026 95.038694 183.784863 95.630148 181.606619 
+z
+" style="fill: #72b7a8; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 150.819015 79.5888 
+C 125.592974 80.469718 101.300467 89.408696 81.520145 105.088876 
+C 61.73982 120.769057 47.493167 142.380708 40.8789 166.740113 
+L 95.630148 181.606619 
+C 99.069567 168.939728 106.477826 157.701669 116.763596 149.547976 
+C 127.049363 141.394282 139.681466 136.746014 152.799008 136.287936 
+z
+" style="fill: #e6b566; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 21px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #243746" x="154.944" y="196.994467" transform="rotate(-0 154.944 196.994467)">3451.2</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #60717d" x="154.944" y="214.787026" transform="rotate(-0 154.944 214.787026)">总虚拟时间 / s</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="line2d_1">
+    <path d="M 364.449882 234.648 
+L 570.962824 234.648 
+" clip-path="url(#pdcea3be61a)" style="fill: none; stroke: #dce4e8; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 364.449882 259.173504 
+L 570.962824 259.173504 
+" clip-path="url(#pdcea3be61a)" style="fill: none; stroke: #dce4e8; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 364.449882 283.699008 
+L 570.962824 283.699008 
+" clip-path="url(#pdcea3be61a)" style="fill: none; stroke: #dce4e8; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 364.449882 308.224512 
+L 570.962824 308.224512 
+" clip-path="url(#pdcea3be61a)" style="fill: none; stroke: #dce4e8; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 364.449882 332.750016 
+L 570.962824 332.750016 
+" clip-path="url(#pdcea3be61a)" style="fill: none; stroke: #dce4e8; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #243746" x="364.449882" y="203.62176" transform="rotate(-0 364.449882 203.62176)">运行统计</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #60717d" x="364.449882" y="227.2608" transform="rotate(-0 364.449882 227.2608)">移动距离</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #243746" x="570.962824" y="227.2608" transform="rotate(-0 570.962824 227.2608)">13161.1 m</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #60717d" x="364.449882" y="251.786304" transform="rotate(-0 364.449882 251.786304)">测量次数</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #243746" x="570.962824" y="251.786304" transform="rotate(-0 570.962824 251.786304)">122</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #60717d" x="364.449882" y="276.311808" transform="rotate(-0 364.449882 276.311808)">无信号测量</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #243746" x="570.962824" y="276.311808" transform="rotate(-0 570.962824 276.311808)">97</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #60717d" x="364.449882" y="300.837312" transform="rotate(-0 364.449882 300.837312)">清除成功</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #243746" x="570.962824" y="300.837312" transform="rotate(-0 570.962824 300.837312)">10</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #60717d" x="364.449882" y="325.362816" transform="rotate(-0 364.449882 325.362816)">清除失败</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #243746" x="570.962824" y="325.362816" transform="rotate(-0 570.962824 325.362816)">14</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_5">
+     <path d="M 371.806941 93.149852 
+L 386.756941 93.149852 
+L 386.756941 85.099852 
+L 371.806941 85.099852 
+z
+" style="fill: #3f7cac; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; text-anchor: start" x="395.956941" y="93.149852" transform="rotate(-0 395.956941 93.149852)">移动    2632.2 s（76.3%）</text>
+    </g>
+    <g id="patch_6">
+     <path d="M 371.806941 118.426493 
+L 386.756941 118.426493 
+L 386.756941 110.376493 
+L 371.806941 110.376493 
+z
+" style="fill: #72b7a8; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; text-anchor: start" x="395.956941" y="118.426493" transform="rotate(-0 395.956941 118.426493)">换频    121.0 s（3.5%）</text>
+    </g>
+    <g id="patch_7">
+     <path d="M 371.806941 143.703134 
+L 386.756941 143.703134 
+L 386.756941 135.653134 
+L 371.806941 135.653134 
+z
+" style="fill: #e6b566; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; text-anchor: start" x="395.956941" y="143.703134" transform="rotate(-0 395.956941 143.703134)">测量与清除    698.0 s（20.2%）</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_17">
+   <text style="font-weight: 700; font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="303.693176" y="19.99" transform="rotate(-0 303.693176 19.99)">正式测试第1次虚拟时间构成</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pdcea3be61a">
+   <rect x="355.471059" y="49.968" width="299.294118" height="295.488"/>
+  </clipPath>
+ </defs>
+</svg>
