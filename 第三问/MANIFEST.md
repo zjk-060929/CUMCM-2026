@@ -1,0 +1,41 @@
+# 文件清单与复现状态
+
+整理日期：2026-09-13  
+方案：第9轮 `joint_scale125`  
+性质：历史离线方案，不是空间相关误差修正版
+
+## 复现状态
+
+- 原始开发集：500/500完成，250.858594 s/源；
+- 独立保留集：500/500完成，254.758735 s/源；
+- 已使用本包代码重新运行种子20260913的前3个场景；
+- 三个场景的总时间和移动距离与原始500场数据逐项完全一致；
+- 本包没有实时模拟器入口，没有执行演练或正式测试。
+
+## 核心文件SHA-256
+
+|文件|SHA-256|
+|---|---|
+|代码/geometry.py|39d1e44f991f62a837703ff1a6fcb349fd56ab3b5c841a9d1aa3f4d9e7d6e1ef|
+|代码/policy.py|c567114f8792b64adaf8a096f5a1035408074d2ba1f143b9585641f773044e88|
+|代码/scheduler.py|a93fb98c4b5688bb474c8f1764e085cfb4cee4b8c12239385cdffe230ff295d8|
+|代码/offline_validation.py|ea3a479ef63245762377a838bf92879eef941ba7d8be9242be7ac2115ab9c366|
+|代码/protocol.py|b0d13ddf9a1827bdc81483837643be7ae8c8ecac0890396f8f0339ecdaaa8744|
+|代码/q3_iteration_runner.py|43eee3791511ca5319ce0089ee54f8d1cba8558ce05466aed05a1418593efcee|
+|代码/q3_orienteering_candidate.py|81cf330eb8adece54ebc8d83f0bb19e8c3cc0756eb496a31ee9688f5057d50b9|
+|代码/q3_fast_scheduler.py|2f63e37f6c09d204d00e90fa167f57cad358fdb192734561600b7f2a665b3b15|
+|代码/scratch_q3_global_rolling.py|8c97b731a506a250027688c659241260338dc1efcbd08d8f150392951005156f|
+|数据/round09_joint_scale125_500.json|ce7e2f9c8794815544aafb8f50946d6040b8a3aaf3ecd4f85db8bd59d9bd88c0|
+|数据/round01_baseline_500.json|67401e393a91658f1034bc08c7592532c713bf1c704b93e75219baef7ae8651d|
+|数据/holdout_joint_scale125_seed20260914_500.json|a6eb04f35e84e613c3c11fe7f01abb123534173c05be19b1aa40b6a9971ba8ed|
+|数据/holdout_baseline_seed20260914_500.json|03ef2042e7a5210c548f5fa2eeefd09d871e572d84623da223d3d945621ba6a4|
+|数据/第九轮配对统计.json|128667a265d433f87028f621ec9e144bda8723f49e5087c49673f606bfd0792e|
+|数据/十轮500组仿真汇总.csv|2683b728a73dbff82dcd6e6608313a13945f40ee4f285dd1d358c4e6215b7db4|
+|数据/复现冒烟_3场.json|7dd2ca2aca642edf131a88cb2966cac71f70c01f2fa4a9dfabd168873044cf69|
+|图像/十轮平均每源时间.png|2b5313468f9d262ffaba0fff414b43fe0ef4dadf3e87f572d983f9622515be5c|
+|图像/q3_revised_workflow.png|c4a113d116bb1c9a59682791c40b8e98516c239b084e03b9f8fefab5df1a2f72|
+|图像/q3_coverage.png|cc75ff6278e4bb42c909612193d882d2942827452d9f572f070de3260560b3b9|
+|图像/q3_localization_clear.png|3ac1cf9619fddedb8cb19dc615b148f01a3b9ca1447db9e0b7d00359ff1d56ca|
+|文档/方案思路阐述.md|1cbdfeca283ae070129875b0b029912e5340f7bb9dcb02eaebc805e0a0de84c8|
+|文档/仿真结果说明.md|dce4a77dedb32e9f5be926587b5b05a7d71bce1a62938a54fbccdc623e9dc060|
+|README.md|90edca9499efe8d9ea094194638ccfdd27d88bda09ebc25cdd6f844f2abcfe98|
