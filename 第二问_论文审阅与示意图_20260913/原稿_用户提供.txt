@@ -1,0 +1,91 @@
+\subsubsection{双站测向交会定位数学建模过程}
+
+本节将定位物理机制彻底数学化，分为两大核心推理阶段：第一阶段基于几何测度推导目标空间先验概率分布（确定期望泛函的积分权重）；第二阶段建立双站测向线束相交的代数解析方程，闭式求解定位误差多边形顶点及几何直径（构建优化目标函数的解析核）。
+
+\paragraph{第一阶段：目标空间先验分布的严格微元几何推导}
+由题意，目标在首站观测确定的扇形区域 $\Omega_1 = \{ (r_1, \theta_1) \mid r_{\min} \le r_1 \le r_{\max}, \; |\theta_1| \le \delta \}$ 内按物理面积严格均匀分布。如图~\ref{fig:prior_sector} 所示，建立以首站 $O_1(0,0)$ 为原点、首次测向视准轴为正 $x$ 轴的极坐标系。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.82\textwidth]{q2/fig_prior_sector.png}
+    \caption{目标空间先验分布与扇形微元几何测度推导示意图}
+    \label{fig:prior_sector}
+\end{figure}
+
+在极坐标系下，面积微元为 $dA = r_1 \, dr_1 \, d\theta_1$。对整个扇形区域进行二维积分，得到全域总几何面积 $S_{\Omega_1}$：
+\begin{equation}
+S_{\Omega_1} = \iint_{\Omega_1} dA = \int_{-\delta}^{\delta} d\theta_1 \int_{r_{\min}}^{r_{\max}} r_1 \, dr_1 = 2\delta \cdot \left[ \frac{1}{2} r_1^2 \right]_{r_{\min}}^{r_{\max}} = \delta (r_{\max}^2 - r_{\min}^2)
+\end{equation}
+根据等面积等概率假设，微元区域落入概率满足 $d P(r_1, \theta_1) = \frac{dA}{S_{\Omega_1}}$，由此导出先验空间位置的联合概率密度函数（Joint PDF）：
+\begin{equation}
+f_{r_1, \theta_1}(r_1, \theta_1) = \frac{r_1}{\delta (r_{\max}^2 - r_{\min}^2)}, \quad (r_1, \theta_1) \in \Omega_1
+\end{equation}
+对其分别沿径向与角向分离积分，得到各自独立的边缘分布函数：
+\begin{align}
+f_{r_1}(r_1) &= \int_{-\delta}^{\delta} f_{r_1, \theta_1}(r_1, \theta_1) \, d\theta_1 = \frac{2 r_1}{r_{\max}^2 - r_{\min}^2}, \quad r_1 \in [r_{\min}, r_{\max}] \\
+f_{\theta_1}(\theta_1) &= \int_{r_{\min}}^{r_{\max}} f_{r_1, \theta_1}(r_1, \theta_1) \, dr_1 = \frac{1}{2\delta}, \quad \theta_1 \in [-\delta, \delta]
+\end{align}
+上式表明：在面积均匀约束下，距离分量 $r_1$ 呈一阶线性增长加权（远端目标概率权重更大），而方位角分量 $\theta_1$ 呈标准连续均匀分布。
+
+\paragraph{第二阶段：双站测向线束空间交会与定位误差多边形代数解析}
+承接上述目标先验状态 $T(r_1 \cos\theta_1, \, r_1 \sin\theta_1)$，第二站位于 $O_2(x_2, y_2)$，基线位移为 $L = \sqrt{x_2^2 + y_2^2}$，位移航偏角为 $\theta_2$。如图~\ref{fig:geometry_intersection} 所示，第二站对目标的真实几何视线方位角 $\phi_2$ 严格定义为：
+\begin{equation}
+\phi_2(r_1, \theta_1; x_2, y_2) = \operatorname{atan2}(r_1 \sin\theta_1 - y_2, \; r_1 \cos\theta_1 - x_2)
+\end{equation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{q2/fig_geometry_intersection.png}
+    \caption{双站测向线束空间交会与定位误差多边形 $\mathcal{R}$ 拓扑解析示意图}
+    \label{fig:geometry_intersection}
+\end{figure}
+
+设两站的测向随机误差分别为 $\Delta\alpha_1, \Delta\alpha_2 \in [-\delta, \delta]$，中心观测读数为 $\hat{\alpha}_1 = \theta_1 + \Delta\alpha_1$ 与 $\hat{\alpha}_2 = \phi_2 + \Delta\alpha_2$。在 $\pm\delta$ 容差带下，双站发射的有效测向射线束区间分别为 $\alpha \in [\hat{\alpha}_1 - \delta, \, \hat{\alpha}_1 + \delta]$ 与 $\beta \in [\hat{\alpha}_2 - \delta, \, \hat{\alpha}_2 + \delta]$。
+
+取自 $O_1$ 发出的方向角为 $\alpha$ 的射线与自 $O_2$ 发出的方向角为 $\beta$ 的射线，其空间射线参数方程联立为：
+\begin{equation}
+\begin{cases}
+X = t \cos\alpha = x_2 + s \cos\beta \\
+Y = t \sin\alpha = y_2 + s \sin\beta
+\end{cases} (t > 0, \; s > 0)
+\end{equation}
+将空间坐标 $(X, Y)$ 整理为关于推进标量 $(t, s)$ 的非齐次线性代数方程组：
+\begin{equation}
+\begin{pmatrix}
+\cos\alpha & -\cos\beta \\
+\sin\alpha & -\sin\beta
+\end{pmatrix}
+\begin{pmatrix}
+t \\ s
+\end{pmatrix}
+=
+\begin{pmatrix}
+x_2 \\ y_2
+\end{pmatrix}
+\end{equation}
+其系数矩阵的雅可比行列式展开为三角正弦展开式：
+\begin{equation}
+D = \det \begin{pmatrix} \cos\alpha & -\cos\beta \\ \sin\alpha & -\sin\beta \end{pmatrix} = \sin\alpha \cos\beta - \cos\alpha \sin\beta = \sin(\alpha - \beta)
+\end{equation}
+当两测向线不平行（即交会角 $\alpha \ne \beta$）时，由克莱姆法则（Cramer's Rule），推进标量 $t$ 具有全局唯一显式解：
+\begin{equation}
+t = \frac{\det \begin{pmatrix} x_2 & -\cos\beta \\ y_2 & -\sin\beta \end{pmatrix}}{D} = \frac{y_2 \cos\beta - x_2 \sin\beta}{\sin(\alpha - \beta)}
+\end{equation}
+将 $t$ 代回 $O_1$ 射线参数方程，求出两测向线交点 $P(\alpha, \beta) = (X(\alpha, \beta), Y(\alpha, \beta))$ 的闭式坐标解：
+\begin{equation}
+X(\alpha, \beta) = \frac{y_2 \cos\beta - x_2 \sin\beta}{\sin(\alpha - \beta)} \cos\alpha, \qquad
+Y(\alpha, \beta) = \frac{y_2 \cos\beta - x_2 \sin\beta}{\sin(\alpha - \beta)} \sin\alpha \label{eq:intersect_closed_form}
+\end{equation}
+
+将两站射线区间的上、下边界代入式~(\ref{eq:intersect_closed_form})，即可确定构成定位不确定凸四边形 $\mathcal{R}$ 的四个空间极值顶点（如图~\ref{fig:geometry_intersection} 所示）：
+\begin{equation}
+\begin{aligned}
+P_{11} &= P(\hat{\alpha}_1 - \delta, \; \hat{\alpha}_2 - \delta), \quad &P_{12} &= P(\hat{\alpha}_1 - \delta, \; \hat{\alpha}_2 + \delta) \\
+P_{21} &= P(\hat{\alpha}_1 + \delta, \; \hat{\alpha}_2 - \delta), \quad &P_{22} &= P(\hat{\alpha}_1 + \delta, \; \hat{\alpha}_2 + \delta)
+\end{aligned}
+\end{equation}
+利用任意两点欧氏距离 $d(P_a, P_b) = \|P_a - P_b\|_2$，定位凸多边形 $\mathcal{R}$ 的空间几何直径由主对角线跨度的极大值严格确定：
+\begin{equation}
+\text{Diam}(\mathcal{R}) = \max \left\{ d(P_{11}, P_{22}), \; d(P_{12}, P_{21}) \right\}
+\end{equation}
+该闭式解彻底将几何拓扑转化为纯代数计算，构成了后续优化求解算法中数值求积的核心核函数。

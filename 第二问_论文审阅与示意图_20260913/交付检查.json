@@ -1,0 +1,15 @@
+{
+  "original_file_unchanged": true,
+  "figures": 4,
+  "renderers": [
+    "Matplotlib",
+    "TikZ / Tectonic 0.17.0"
+  ],
+  "pdf_page_count_each": 1,
+  "PNG_resolution_dpi": 300,
+  "figure_visual_review": "All four outputs reviewed; labels and bounds checked. Matplotlib PDFs independently rasterized.",
+  "replacement_latex": "Compiled in a standalone test document; formulas and figures resolved; 3 pages.",
+  "counterexample_checked_independently": true,
+  "source_figure_names_preserved": true,
+  "figure_style": "Geometry-only labels; removed explanatory text and derivation formulas; compacted layout."
+}

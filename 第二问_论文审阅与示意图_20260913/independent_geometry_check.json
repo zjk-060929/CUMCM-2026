@@ -1,0 +1,17 @@
+[
+  {
+    "source_radius_m": 1400.0,
+    "reference_diameter_m": 103.80602485416473,
+    "absolute_error_m": 0.0
+  },
+  {
+    "source_radius_m": 1495.0,
+    "reference_diameter_m": 32.88252518454443,
+    "absolute_error_m": 5.478055697949458e-08
+  },
+  {
+    "source_radius_m": 100.0,
+    "reference_diameter_m": 63.60611924422518,
+    "absolute_error_m": 8.526512829121202e-14
+  }
+]

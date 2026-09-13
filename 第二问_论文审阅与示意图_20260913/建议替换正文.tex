@@ -1,0 +1,106 @@
+% 片段所需宏包：amsmath, amssymb, graphicx；本稿用 [htbp] 浮动。
+% 将本交付目录中的 q2 文件夹复制到论文项目；可将 png 扩展名改为 pdf 使用矢量图。
+\subsubsection{双站测向的概率模型与第二检测点优化}
+
+本节在给定首次示向度的条件下建立目标位置先验，计算第二次观测后的完整可行区域，并以区域直径的期望及保守评价值选择第二检测点。以下先研究暂不计入目标区域 $1800\,\mathrm m$ 外边界的情形；若计入该边界，应在首站局部坐标系中增加相应圆域约束。
+
+\paragraph{首次观测后的条件先验}
+以首站 $O_1$ 为原点，将已获得的首次示向度方向旋转为 $x$ 轴正向，故 $\widehat\alpha_1=0$。为简记，下文用 $r,\theta$ 表示图中的 $r_1,\theta_1$。令 $\delta=\pi/180$，并取 $r_{\min}=5\,\mathrm m$、$r_{\max}=1500\,\mathrm m$。首次返回方向信息时，采用可行区域
+\begin{equation}
+\Omega_1=\{(r\cos\theta,r\sin\theta):r_{\min}<r\le r_{\max},\ |\theta|\le\delta\}.
+\end{equation}
+在缺乏更具体位置先验的情况下，假设目标在 $\Omega_1$ 内按面积均匀分布。该假设用于评价平均定位效果，不是由误差有界条件自动推出的结论。由极坐标面积微元 $dA=r\,dr\,d\theta$，有
+\begin{equation}
+A=|\Omega_1|=\delta(r_{\max}^2-r_{\min}^2),\qquad
+f_{r,\theta}(r,\theta)=\frac{r}{\delta(r_{\max}^2-r_{\min}^2)}.
+\end{equation}
+其边缘密度为
+\begin{equation}
+f_r(r)=\frac{2r}{r_{\max}^2-r_{\min}^2},\qquad
+f_\theta(\theta)=\frac1{2\delta}.
+\end{equation}
+由于联合密度等于两个边缘密度的乘积，$r$ 与 $\theta$ 在该模型中独立。角度均匀而半径不均匀；模拟时可取 $r=\sqrt{r_{\min}^2+U(r_{\max}^2-r_{\min}^2)}$，其中 $U\sim U(0,1)$。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.94\textwidth]{q2/fig_prior_sector.png}
+  \caption{首次可行区域的面积均匀先验及面积微元。主图夹角与内半径为便于阅读作了放大。}
+  \label{fig:prior_sector}
+\end{figure}
+
+\paragraph{第二次观测及完整可行区域}
+设第二点为 $p=O_2=(x_2,y_2)=L(\cos\gamma,\sin\gamma)$。给定目标 $g=(r\cos\theta,r\sin\theta)$，其关于第二点的真实方位为
+\begin{equation}
+\phi_p(g)=\operatorname{atan2}(r\sin\theta-y_2,r\cos\theta-x_2).
+\end{equation}
+对尚未观测的第二地点，采用误差模型 $\varepsilon\mid g,p\sim U[-\delta,\delta]$，第二读数为 $Y=\phi_p(g)+\varepsilon$，角度按模 $2\pi$ 处理。首次读数已经固定，故不再对第一次误差独立抽样；若保留该误差符号，则有 $\Delta\alpha_1=-\theta$。同一地点的实际误差固定，以上场景模型不意味着重复测量会重新抽取误差。
+
+记 $\operatorname{ang}(a)=\operatorname{atan2}(\sin a,\cos a)$，并定义观测楔形
+\begin{equation}
+W(p,y,\delta)=\{z\ne p:|\operatorname{ang}(\arg(z-p)-y)|\le\delta\}.
+\end{equation}
+当第二次返回方向读数 $y$ 时，剩余可行区域为
+\begin{equation}
+\mathcal F_p(y)=\Omega_1\cap W(p,y,\delta)\setminus B(p,5),\qquad
+D_p(y)=\sup_{u,v\in\mathcal F_p(y)}\|u-v\|_2,
+\label{eq:q2_full_feasible_set}
+\end{equation}
+其中 $B(p,5)$ 为以 $p$ 为中心、半径 $5\,\mathrm m$ 的闭圆盘，空集在后续积分中的贡献约定为零。若第二次返回近距离信息，则对应 $\mathcal N_p=\Omega_1\cap B(p,5)$，记其直径为 $D_N(p)$。距离圆弧参与裁剪时，$\mathcal F_p(y)$ 不一定是四边形。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.98\textwidth]{q2/fig_geometry_intersection.png}
+  \caption{双站几何、未触及距离边界的四边形特例与圆弧裁剪情形。首次读数固定为零，第二点移动偏转角记为 $\gamma$。}
+  \label{fig:geometry_intersection}
+\end{figure}
+
+\paragraph{边界交点及直径计算}
+对第一站边界角 $\alpha\in\{-\delta,\delta\}$ 和第二站边界角 $\beta\in\{y-\delta,y+\delta\}$，两条支撑直线满足
+\begin{equation}
+t(\cos\alpha,\sin\alpha)=(x_2,y_2)+s(\cos\beta,\sin\beta).
+\end{equation}
+当 $\Delta=\sin(\alpha-\beta)\ne0$ 时，其交点参数为
+\begin{equation}
+t=\frac{y_2\cos\beta-x_2\sin\beta}{\sin(\alpha-\beta)},\qquad
+s=\frac{y_2\cos\alpha-x_2\sin\alpha}{\sin(\alpha-\beta)},\qquad
+P=t(\cos\alpha,\sin\alpha).
+\label{eq:intersect_closed_form}
+\end{equation}
+仅保留满足 $t\ge0$、$s\ge0$ 以及全部角度、距离约束的交点；平行及重合边界另外处理。完整区域的计算还应包含直线与距离圆的交点以及必要的圆弧极值候选。
+
+在距离边界均不参与裁剪且四交点均有效的特例中，交集为凸四边形。一般地，若所得非空有界凸多边形的有效顶点为 $V_1,\ldots,V_m$，则
+\begin{equation}
+\operatorname{diam}(\mathcal R)=\max_{1\le i<j\le m}\|V_i-V_j\|_2.
+\end{equation}
+因此四顶点时可直接检查六个点对，不预设最长点对必为某一条对角线。含圆弧时应按式~\eqref{eq:q2_full_feasible_set} 计算完整区域的直径，不能直接把四个支撑直线交点的最大距离作为最终结果。
+
+\paragraph{平均与保守定位目标}
+在上述连续均匀误差模型下，方向读数的边缘密度为
+\begin{equation}
+f_Y(y\mid p)=\frac{|\mathcal F_p(y)|}{2\delta A}.
+\end{equation}
+该密度对应方向读数分支，其积分与近距离概率 $|\mathcal N_p|/A$ 之和为 1。因此期望直径为
+\begin{equation}
+J_{\mathrm{avg}}(p)=\frac1{2\delta A}\int D_p(y)|\mathcal F_p(y)|\,dy
++\frac{|\mathcal N_p|}{A}D_N(p).
+\label{eq:q2_mean_objective}
+\end{equation}
+这将对目标位置和第二误差的联合积分化为对第二读数的一维积分，且保留了不同读数出现概率的差别。
+
+保守评价对每个目标先取最坏误差，再对目标位置平均：
+\begin{equation}
+J_{\mathrm{cons}}(p)=\frac1A\int_{\Omega_1\setminus B(p,5)}
+\sup_{|e|\le\delta}D_p(\phi_p(g)+e)\,dg
++\frac{|\mathcal N_p|}{A}D_N(p).
+\label{eq:q2_conservative_objective}
+\end{equation}
+它仍对目标位置取平均，不是对所有目标位置的逐次最坏情形保证。
+
+在本次数值研究所用的充分安全候选域
+\begin{equation}
+\mathcal C=\left\{(x_2,y_2)\ne(0,0):x_2^2+y_2^2\le1000^2,\quad
+x_2^2+y_2^2\le2000(x_2\cos\delta-|y_2|\sin\delta)\right\}
+\end{equation}
+中，分别求解 $\min_{p\in\mathcal C}J_{\mathrm{avg}}(p)$ 与 $\min_{p\in\mathcal C}J_{\mathrm{cons}}(p)$。上述显式交点公式用于边界几何计算，目标函数通过数值积分评价，第二点通过数值搜索确定；局部交点可显式求解并不意味着整个优化问题具有闭式解或唯一全局最优点。
+
+% 若后续加入 0.01 度舍入：主文上述公式对应连续读数。
+% 舍入后应对每个量化区间积分求读数概率，支持半角扩为 1.005 度；
+% 不能把扩张后区域面积直接除以 2 delta A 当作离散读数概率。
